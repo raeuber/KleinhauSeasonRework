@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CustomShader version="3" classRequirement="">
+    <LodLevel startDistance="0">
+        <Parameters>
+            <Parameter name="waterDirection" target="waterDirection" type="float" />
+            <Parameter name="waterOffset" target="waterOffset" type="float" />
+        </Parameters>
+        <CodeInjections>
+            
+            <CodeInjection position="MATERIALINFO">
+                <![CDATA[
+                float waterDirection;
+                float waterOffset;
+                ]]>
+            </CodeInjection>  
+            
+			<CodeInjection position="POST_SET_TEXCOORDS_VS">
+				<![CDATA[
+				#if defined(ALBEDO_MAP) || defined(EMISSIVE_MAP)
+					float2 uv = getTexCoords(In, ALBEDOMAP_TEXCOORD);
+					uv.x += waterDirection * sin(time.y + waterOffset) / 6;
+					uv.y += waterDirection * sin(time.y / 2 + waterOffset) / 12;
+					setTexCoords(Out.texCoords[ALBEDOMAP_TEXCOORD/2], ALBEDOMAP_TEXCOORD, uv);
+				#endif
+				]]>
+        	</CodeInjection>
+     	  </CodeInjections>
+    </LodLevel>
+</CustomShader>

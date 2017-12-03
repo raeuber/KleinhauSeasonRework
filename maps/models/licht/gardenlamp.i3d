@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="../import/texturas/lampSet01_specular.dds" relativePath="true"/>
+    <File fileId="1" filename="../import/texturas/lampSet_diffuse.dds" relativePath="true"/>
+    <File fileId="2" filename="../import/texturas/lampSet_normal.dds" relativePath="true"/>
+    <File fileId="4" filename="../shaders/buildingShaderUS.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lampSet01_mat" materialId="433" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1" customShaderId="4" customShaderVariation="FORCE_GLOSS_SECONDUV">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="uvScale" value="30 30 2 2"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+    <Material name="lampLit_mat" materialId="534" diffuseColor="1 1 1 1" ambientColor="1 1 1" alphaBlending="true" customShaderId="4" customShaderVariation="FORCE_GLOSS_SECONDUV">
+      <Emissivemap fileId="1"/>
+      <CustomParameter name="uvScale" value="30 30 2 2"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="gardenlamp.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="gardenLamp01" translation="566.416 100.016 -914.19" static="true" clipDistance="100" nodeId="42643" materialIds="433" castsShadows="true" receiveShadows="true">
+      <TransformGroup name="light" visibility="false" clipDistance="75" nodeId="42644">
+        <Light name="pointLight" translation="-0.0399916 0.814205 0" nodeId="42645" type="point" color="1 0.95 0.85" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5"/>
+        <Shape shapeId="2" name="emissive" translation="-0.0135696 0 0" nodeId="42646" materialIds="534" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="42644">
+      <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

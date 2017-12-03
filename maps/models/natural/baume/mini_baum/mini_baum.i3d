@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="mapobjects/trees/birch1LOD_diffuse.png" relativePath="true"/>
+    <File fileId="5" filename="mapobjects/trees/birch1LOD_normal.png" relativePath="true"/>
+    <File fileId="1" filename="mapobjects/trees/birchBranch_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="mapobjects/trees/birchBranch_normal.png" relativePath="true"/>
+    <File fileId="6" filename="mapobjects/trees/treeBillboardShader.xml" relativePath="true"/>
+    <File fileId="3" filename="mapobjects/trees/treeBranchShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="birch1LOD_mat" materialId="608" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="birchBranch_mat" materialId="157" ambientColor="1 1 1" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="mini_baum.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="birch_stage1" translation="-35.8221 100.282 164.169" rotation="180 82.2127 180" clipDistance="200" nodeId="28204" lodDistance="0 60">
+      <Shape shapeId="1" name="LOD0" clipDistance="599" nodeId="28205" materialIds="157" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="LOD1" clipDistance="800" nodeId="28206" materialIds="608" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

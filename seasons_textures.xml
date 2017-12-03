@@ -1,0 +1,39 @@
+<!--------------------------------------------------------------------------------------------------
+-- TEXTURE REPLACEMENTS FOR FARMTOWN
+----------------------------------------------------------------------------------------------------
+-- Purpose:  New textures for visual seasons
+-- Authors:  Rahkiin
+--
+-- Copyright (c) Realismus Modding, 2017
+--------------------------------------------------------------------------------------------------->
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<textures materialHolder="resources/replacementTexturesMaterialHolder.i3d">
+    <seasons>
+        <spring>
+        <texture shapeName="hedge" secondaryNodeName="hedge" to="ssTr_Hedge_spring" />
+        <foliageLayer name="Grass03" to="foliage_grass3_diffuse_spring" />		
+        </spring>
+
+        <summer>
+        </summer>
+
+        <autumn>
+            <texture shapeName="hedge" secondaryNodeName="hedge" to="ssTr_Hedge_autumn" />
+        <foliageLayer name="Grass03" to="foliage_grass3_diffuse_autumn" />
+        </autumn>
+            
+        <winter>
+            <texture shapeName="hedge" secondaryNodeName="hedge" to="ssTr_Hedge_winter" />
+			<texture shapeName="hillSide" secondaryNodeName="hillSide" to="ssTr_hillside_winter" />
+			<texture shapeName="background" secondaryNodeName="background" to="ssTr_background_winter" />
+			
+        <foliageLayer name="Grass03" to="foliage_grass3_diffuse_winter" />	
+        <foliageLayer name="Grass02" to="foliage_grass2_diffuse_winter" />	
+		<foliageLayer name="Grass01" to="foliage_grass1_diffuse_winter" />
+		<foliageLayer name="Bush03" to="foliage_bush3_diffuse_winter" />
+		<foliageLayer name="Bush01" to="foliage_bush1_diffuse_winter" />
+		<foliageLayer name="Bush02" to="foliage_bush2_diffuse_winter" />
+        </winter>
+    </seasons>
+</textures>

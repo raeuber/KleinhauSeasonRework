@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="mapobjects/gcv/road_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="mapobjects/gcv/road_normal.png" relativePath="true"/>
+    <File fileId="3" filename="mapobjects/gcv/road_specular.png" relativePath="true"/>
+    <File fileId="5" filename="mapobjects/objects/stuff/customizeplace/textures/triggers/triggerIcons_diffuse.png" relativePath="true"/>
+    <File fileId="6" filename="../shaders/fxCircleShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="triggerIcons_mat" materialId="520" ambientColor="1 1 1" alphaBlending="true" customShaderId="6" customShaderVariation="PULSATING">
+      <Emissivemap fileId="5"/>
+      <CustomParameter name="scaleParameters" value="0.75 1 2.5 1"/>
+    </Material>
+    <Material name="gray_mat" materialId="159" diffuseColor="0.584314 0.584314 0.584314 1" ambientColor="0.588235 0.588235 0.588235">
+    </Material>
+    <Material name="road_mat" materialId="76" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="werkstatt.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="groundMarkerFarmWorksho" translation="-205.178 100.01 473.741" rotation="-1.33284e-05 90 -1.32866e-05" nodeId="40512">
+      <Shape shapeId="1" name="groundMarkerCorner1" translation="-4.434 0 -3" scale="1.5 1.5 1.5" clipDistance="300" nodeId="40513" materialIds="76" receiveShadows="true"/>
+      <Shape shapeId="2" name="groundMarkerCorner2" translation="-4.434 0 3" rotation="0 90 0" scale="1.5 1.5 1.5" clipDistance="300" nodeId="40514" materialIds="76" receiveShadows="true"/>
+      <Shape shapeId="1" name="groundMarkerCorner1" translation="8 0 3" rotation="0 180 0" scale="1.5 1.5 1.5" clipDistance="300" nodeId="40515" materialIds="76" receiveShadows="true"/>
+      <Shape shapeId="2" name="groundMarkerCorner2" translation="8 0 -3" rotation="0 270 0" scale="1.5 1.5 1.5" clipDistance="300" nodeId="40516" materialIds="76" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="WorkshopTriggerFarm1" translation="-205.432 99.9319 471.656" nodeId="30223">
+      <Shape shapeId="3" name="sellTrigger" translation="-6.1234 -0.0197296 -3.14653" static="true" trigger="true" collisionMask="3145728" nodeId="30224" materialIds="159" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="4" name="triggerIconSell" translation="0 1 0" scale="0.375129 0.375129 0.375129" clipDistance="300" nodeId="30225" materialIds="520" castsShadows="true" receiveShadows="true">
+          <Light name="light" nodeId="30226" type="point" color="0.75 0.75 0.75" emitDiffuse="true" emitSpecular="true" decayRate="4" range="2"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="5" name="sellAreaTrigger" scale="8 5 12" static="true" trigger="true" collisionMask="81797120" nodeId="30227" materialIds="159" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="30223">
+      <Attribute name="onCreate" type="scriptCallback" value="VehicleSellingPoint.onCreate"/>
+      <Attribute name="ownWorkshop" type="boolean" value="true"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

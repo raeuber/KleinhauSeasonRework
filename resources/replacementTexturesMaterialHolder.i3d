@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+
+Do not ever open and save this file in Giants editor, you will loose data and mess ut then file.
+
+It references textures in the game directory that the editor will not find and thus remove.
+
+/MrBear
+-->
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.0.5"/>
+  </Asset>
+
+  <Files>
+    <!-- Autumn -->
+	<File fileId="100000" filename="textures/autumn/Hedge.png" relativePath="true"/>
+	<!--Foliage-->
+	<File fileId="100021" filename="textures/autumn/grass3_diffuse_autumn.dds" relativePath="true"/>
+
+    <!-- Winter  -->
+    <File fileId="200000" filename="textures/winter/Hedge.png" relativePath="true"/>
+	<File fileId="200001" filename="textures/winter/hillside_winter.png" relativePath="true"/>
+	<File fileId="200002" filename="textures/winter/winterbackground.dds" relativePath="true"/>
+	<!--Foliage-->
+	<File fileId="200020" filename="textures/winter/grass3_diffuse_winter.dds" relativePath="true"/>
+    <File fileId="200021" filename="textures/winter/grass2_winter.dds" relativePath="true"/>
+	<File fileId="200022" filename="textures/winter/grass1_winter.dds" relativePath="true"/>
+	<File fileId="200023" filename="textures/winter/bush3_winter.dds" relativePath="true"/>
+	<File fileId="200024" filename="textures/winter/bush1_winter.dds" relativePath="true"/>
+	<File fileId="200025" filename="textures/winter/bush2_winter.dds" relativePath="true"/>
+ <!-- Spring -->
+    <File fileId="300000" filename="textures/spring/Hedge.png" relativePath="true"/>
+		<!--Foliage-->
+	<File fileId="300020" filename="textures/spring/grass3_diffuse_spring.dds" relativePath="true"/>
+	
+	
+	<File fileId="110000" filename="data/shaders/fruitGrowthFoliageShader.xml" relativePath="false"/>
+  </Files>
+  
+  
+  
+  <Materials>
+    <!-- Autumn -->
+    <Material name="material10" materialId="10000" ambientColor="1 1 1">
+      <Texture fileId="100000"/>
+    </Material>
+<Material name="foliagegrass3_mat" materialId="10020" ambientColor="1 1 1" customShaderId="110000">
+      <Texture fileId="100021"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+	
+    <!-- Winter -->
+     <Material name="material10" materialId="20000" ambientColor="1 1 1">
+      <Texture fileId="200000"/>
+	  </Material>
+	  <Material name="texture_003" materialId="20001" ambientColor="2.82843 2.82843 2.82843">
+      <Texture fileId="200001"/>
+	</Material>
+	    <Material name="lambert3" materialId="20002" ambientColor="3 3 3">
+      <Texture fileId="200002"/>
+	  </Material>
+<Material name="foliagegrass3_mat" materialId="20020" ambientColor="1 1 1" customShaderId="110000">
+      <Texture fileId="200020"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>	 
+    <Material name="foliagegrass2_mat" materialId="20021" ambientColor="1 1 1" customShaderId="110000">
+      <Texture fileId="200021"/>
+      <CustomParameter name="alphaBlendStartEnd" value="80 100 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>	
+	    <Material name="foliagegrass1_mat" materialId="20022" ambientColor="1 1 1" customShaderId="110000">
+      <Texture fileId="200022"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.05 0.05 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+		    <Material name="foliagebush3_mat" materialId="20023" ambientColor="1 1 1" customShaderId="110000">
+      <Texture fileId="200023"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+	    <Material name="foliagebush1_mat" materialId="20024" ambientColor="1 1 1" customShaderId="57">
+      <Texture fileId="200024"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+	    <Material name="foliagebush2_mat" materialId="20025" ambientColor="1 1 1" customShaderId="57">
+      <Texture fileId="200025"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <!-- Spring -->
+     <Material name="material10" materialId="30000" ambientColor="1 1 1">
+      <Texture fileId="300000"/>
+	  </Material>
+<Material name="foliagegrass3_mat" materialId="30020" ambientColor="1 1 1" customShaderId="110000">
+      <Texture fileId="300020"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>	  
+    </Material>
+	
+	</Materials>
+
+  <Shapes externalShapesFile="replacementTexturesMaterialHolder.i3d.shapes">
+  </Shapes>
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <!-- Autumn -->
+    <Shape shapeId="1" name="ssTr_Hedge_autumn" visibility="false" nodeId="1001" materialIds="10000" distanceBlending="false" />
+    <Shape shapeId="1" name="foliage_grass3_diffuse_autumn" visibility="false" nodeId="1002" materialIds="10020" distanceBlending="false" />
+
+    <!-- Winter -->
+     <Shape shapeId="1" name="ssTr_Hedge_winter" visibility="false" nodeId="2001" materialIds="20000" distanceBlending="false" /> 
+    <Shape shapeId="1" name="foliage_grass3_diffuse_winter" visibility="false" nodeId="2011" materialIds="20020" distanceBlending="false" />
+	<Shape shapeId="1" name="foliage_grass2_diffuse_winter" visibility="false" nodeId="2012" materialIds="20021" distanceBlending="false" />
+	<Shape shapeId="1" name="foliage_grass1_diffuse_winter" visibility="false" nodeId="2013" materialIds="20022" distanceBlending="false" />
+    <Shape shapeId="1" name="foliage_bush3_diffuse_winter" visibility="false" nodeId="2014" materialIds="20023" distanceBlending="false" />	
+	<Shape shapeId="1" name="foliage_bush1_diffuse_winter" visibility="false" nodeId="2015" materialIds="20024" distanceBlending="false" />
+	<Shape shapeId="1" name="foliage_bush2_diffuse_winter" visibility="false" nodeId="2016" materialIds="20025" distanceBlending="false" />
+	<Shape shapeId="1" name="ssTr_hillside_winter" visibility="false" nodeId="2002" materialIds="20001" distanceBlending="false" />
+	<Shape shapeId="1" name="ssTr_background_winter" visibility="false" nodeId="2003" materialIds="20002" distanceBlending="false" />
+    <!-- Spring -->
+    <Shape shapeId="1" name="ssTr_Hedge_spring" visibility="false" nodeId="3001" materialIds="30000" distanceBlending="false" />	
+    <Shape shapeId="1" name="foliage_grass3_diffuse_spring" visibility="false" nodeId="3002" materialIds="30020" distanceBlending="false" />
+  </Scene>
+</i3D>

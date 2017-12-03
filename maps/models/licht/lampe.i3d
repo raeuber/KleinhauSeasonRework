@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="mapobjects/objects/buildings/gdrgrainstore/Texture/light02_diffuse.dds" relativePath="true"/>
+    <File fileId="2" filename="mapobjects/objects/buildings/gdrgrainstore/Texture/lightswitch01_diffuse.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="switch_mat" materialId="666" ambientColor="1 1 1">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="neonlit_mat" materialId="831" diffuseColor="1 1 1 1" ambientColor="1 1 1">
+      <Emissivemap fileId="3"/>
+    </Material>
+    <Material name="wandleuchte_mat" materialId="804" ambientColor="1 1 1">
+      <Texture fileId="3"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="243" diffuseColor="1 1 1 1" ambientColor="1 1 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="lampe.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="LightsInside" translation="0 0 -1.5" nodeId="40983">
+      <Shape shapeId="1" name="playerTrigger" translation="0.0250902 1.44713 25.3928" static="true" trigger="true" nodeId="40984" materialIds="243" nonRenderable="true">
+        <Shape shapeId="1" name="playerTrigger" translation="0 0 -47.7973" static="true" trigger="true" nodeId="40985" materialIds="243" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="2" name="lightswitch02" translation="-0.048 1.6 26.1517" rotation="-180 90 -180" static="true" collision="false" clipDistance="75" nodeId="40986" materialIds="666" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="3" name="lever02" translation="0.0811536 0 0.003" kinematic="true" collision="false" nodeId="40987" materialIds="666" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="decals02" translation="0.066 0.0418327 0.0489719" rotation="0 -0 -90" static="true" collision="false" nodeId="40988" materialIds="666" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="5" name="Neonroehre" translation="-2.86361 5.70419 -8.478" rotation="-5 90 0" static="true" collision="false" clipDistance="75" nodeId="40989" materialIds="804" castsShadows="true" receiveShadows="true">
+        <TransformGroup name="light" nodeId="40990">
+          <Shape shapeId="6" name="emissive" nodeId="40991" materialIds="831" castsShadows="true" receiveShadows="true"/>
+          <Light name="pointLight" translation="0 -0.297076 0" rotation="-90 -0 0" nodeId="40992" type="point" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="12"/>
+          <TransformGroup name="light" translation="-19.957 0 0" nodeId="40993">
+            <Shape shapeId="6" name="emissive" nodeId="40994" materialIds="831" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight" translation="0 -0.297076 9.11495e-09" rotation="-90 -0 0" nodeId="40995" type="point" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="12"/>
+          </TransformGroup>
+          <TransformGroup name="light" translation="-19.961 -0.504 5.715" rotation="10 0 0" nodeId="40996">
+            <Shape shapeId="6" name="emissive" nodeId="40997" materialIds="831" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight" translation="0 -0.297076 9.11495e-09" rotation="-90 -0 0" nodeId="40998" type="point" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="12"/>
+          </TransformGroup>
+          <TransformGroup name="light" translation="-0.006 -0.504 5.715" rotation="10 0 0" nodeId="40999">
+            <Shape shapeId="6" name="emissive" nodeId="41000" materialIds="831" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight" translation="0 -0.297076 9.11495e-09" rotation="-90 -0 0" nodeId="41001" type="point" color="0.9 0.9 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="12"/>
+          </TransformGroup>
+        </TransformGroup>
+        <Shape shapeId="5" name="Neonroehre" translation="-19.957 0 0" static="true" collision="false" clipDistance="75" nodeId="41002" materialIds="804" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="Neonroehre" translation="-19.961 -0.504 5.715" rotation="10 0 0" static="true" collision="false" clipDistance="75" nodeId="41003" materialIds="804" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="Neonroehre" translation="-0.006 -0.504 5.715" rotation="10 -0 0" static="true" collision="false" clipDistance="75" nodeId="41004" materialIds="804" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="2" name="lightswitch02" translation="-0.048 1.6 -23.15" rotation="180 -90 -180" static="true" collision="false" clipDistance="75" nodeId="41005" materialIds="666" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="3" name="lever02" translation="0.0811536 0 0.003" kinematic="true" collision="false" nodeId="41006" materialIds="666" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="decals02" translation="0.066 0.0418327 0.0489719" rotation="0 -0 -90" static="true" collision="false" nodeId="41007" materialIds="666" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="40983">
+      <Attribute name="index" type="string" value="lightSwitch90Neg1"/>
+      <Attribute name="onCreate" type="scriptCallback" value="AnimatedObject.onCreate"/>
+      <Attribute name="xmlFilename" type="string" value="maps/animatedObjects.xml"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

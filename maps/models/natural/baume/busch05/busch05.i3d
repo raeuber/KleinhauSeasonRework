@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="mapobjects/gcv/treeBranch_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="../shaders/windShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="bushes_mat" materialId="641" ambientColor="1 1 1" customShaderId="2">
+      <Texture fileId="1"/>
+      <CustomParameter name="directionAndFrequency" value="0.06 0 0 1.2"/>
+      <CustomParameter name="speed" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="busch05.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="bush05" translation="-165.964 99.7792 309.779" rotation="180 72.001 -180" scale="2 2 2" clipDistance="105" nodeId="30722" materialIds="641" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

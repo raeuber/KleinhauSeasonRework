@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="37">
+    <author>BRUNO_MYXIN</author>
+    <version>2.0.0.0</version>
+    <title>
+        <en>Kleinhau_SEASON</en>
+        <de>Kleinhau_SEASON</de>
+    </title>
+	<description>
+        <en><![CDATA[Continue my Father's legacy on our old farm.
+		Update 1.2.1.0 
+		Recreated Navmesh and Ground collision maps]]></en>
+        <de><![CDATA[Setze das Erbe meines Vaters auf unserem ehemaligen Hof fort
+        Update 1.2.1.0
+        Erneute Navmesh- und Bodenkollisionskarten]]></de>
+        <fr><![CDATA[Continue my Father's legacy on our old farm.
+		Update 1.2.1.0 
+		Recreated Navmesh and Ground collision maps]]></fr>
+        <pl><![CDATA[Continue my Father's legacy on our old farm.
+		Update 1.2.1.0 
+		Recreated Navmesh and Ground collision maps]]></pl>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+    <map id="Kleinhau" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/map01.xml" defaultVehiclesXMLFilename="defaultVehicles.xml">
+	        <title>
+                <en>Kleinhau</en>
+                <de>Kleinhau</de>
+            </title>
+            <description>
+                <en>Continue my Father's legacy on our old farm.</en>
+                <de>Setze das Erbe meines Vaters auf unserem ehemaligen Hof fort.</de>
+            </description>
+    <iconFilename>maps/map01_preview.png</iconFilename>
+    </map>
+    </maps>
+	
+	<l10n>
+<!--Animated Objects-->
+<text name="input_ANIMATED_OBJECT_OPEN_DOOR">
+<en>Open door</en>
+<de>Tor öffnen</de>
+</text>
+<text name="input_ANIMATED_OBJECT_CLOSE_DOOR">
+<en>Close door</en>
+<de>Tor schließen</de>
+</text>
+
+<text name="input_LIGHTSWITCH_CLICK">
+<en>Light on/off</en>
+<de>Licht an/aus</de>
+</text>
+</l10n>
+
+	<extraSourceFiles>
+	
+	</extraSourceFiles>
+
+<!-- additional inputBindings -->
+<inputBindings>
+<input name="ANIMATED_OBJECT_OPEN_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+<input name="ANIMATED_OBJECT_CLOSE_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
+<input name="LIGHTSWITCH_CLICK" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+</inputBindings>
+
+
+	
+</modDesc>

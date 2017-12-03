@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CustomShader version="3">
+    <Parameters>
+        <Parameter name="bumpSpeedScale" target="bumpSpeedScale" type="float3" />
+        <Parameter name="underwaterFogColor" target="underwaterFogColor" type="float3" />
+    </Parameters>
+    <LodLevel startDistance="0" alphaForceMode="use">
+        <CodeInjections>
+		<CodeInjection position="NUM_TEXCOORDS">
+<![CDATA[
+#if !defined(DEPTH_VIS) && !defined(DEPTH_BLEND_MAP_RENDERING) && (defined(REFLECTION_MAP_2D) || defined(REFLECTION_MAP_CUBE)) && defined(NORMAL_MAP)
+#define WATER_RENDERING
+#endif
+]]>
+		</CodeInjection>
+        <CodeInjection position="MATERIALINFO">
+<![CDATA[
+#if defined(WATER_RENDERING)
+    uniform float4 bumpSpeedScale;
+    uniform float4 underwaterFogColor;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="VS_OUTPUT">
+<![CDATA[
+#if defined(WATER_RENDERING)
+float2 normalMapTexCoord0  : TEXCOORDn;
+float2 normalMapTexCoord1  : TEXCOORDn;
+float2 normalMapTexCoord2  : TEXCOORDn;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_SET_TEXCOORDS_VS">
+<![CDATA[
+#if defined(WATER_RENDERING)
+float textureScale = bumpSpeedScale.z;
+float2 bumpSpeed = bumpSpeedScale.xy*textureScale;
+
+float2 translation=float2(cTime_s*bumpSpeed.x, 0);
+float2 translation2=float2(translation.x, cTime_s*bumpSpeed.y);
+
+float2 texCoords=In.position.xz*textureScale;
+
+Out.normalMapTexCoord0 = texCoords.xy+translation;
+Out.normalMapTexCoord1 = texCoords.xy*2.0+translation*4.0;
+Out.normalMapTexCoord2 = texCoords.xy*4.0-translation2;
+
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_ALBEDO_FS">
+<![CDATA[
+#if defined(WATER_RENDERING)
+albedo = float4(0, 0, 0, 1);
+#endif
+]]>
+            </CodeInjection>            
+            <CodeInjection position="FINAL_POS_FS">
+<![CDATA[
+#if defined(WATER_RENDERING)
+oColor.w = 0.8;
+#endif
+]]>
+            </CodeInjection>
+
+
+            <CodeInjection position="GET_UNNORMALIZED_TANGENT_SPACE_NORMAL_FS">
+<![CDATA[
+#if defined(WATER_RENDERING)
+// sum normal maps
+// sample from 3 different points so no texture repetition is noticeable
+float3 t0 = tex2D(normalMap, In.vs.normalMapTexCoord0).xyz;
+float3 t1 = tex2D(normalMap, In.vs.normalMapTexCoord1).xyz;
+float3 t2 = tex2D(normalMap, In.vs.normalMapTexCoord2).xyz;
+return t0 + t1 + t2 - 1.5;
+#endif
+]]>
+            </CodeInjection>
+
+            <CodeInjection position="GET_REFLECTION_COLOR_FS">
+<![CDATA[
+#if defined(WATER_RENDERING)
+    float envScale = 0;
+    #if (NUM_DIRECTIONAL_LIGHTS > 0)
+        envScale = bufferFetch(clusterLightsBuffer, 1).y*1.2;
+    #endif
+
+    float3 finalCoord = reflect(-viewDir.xyz, normal.xyz*float3(0.4,0.4,1));
+    finalCoord = finalCoord.xzy * float3(1,1,-1);
+    res = texCUBE(reflectionMap, finalCoord).xyz;
+
+    res = lerp(underwaterFogColor.xyz, reflectionFactor, res*envScale );
+#endif
+]]>
+            </CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>
