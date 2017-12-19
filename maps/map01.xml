@@ -25,7 +25,11 @@
         <additionalFile filename="$data/particleSystems/cutterEffect_materialHolder.i3d" />
         <additionalFile filename="$data/particleSystems/cutterEffectMap01_materialHolder.i3d" />
         <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
-    </additionalFiles>
+        <additionalFile filename="maps/pSystem/particleSystems/particleMap_materialHolder.i3d" />
+		<additionalFile filename="maps/pSystem/particleSystems/effectMap_materialHolder.i3d" />
+		<additionalFile filename="maps/pSystem/particleSystems/cutterEffectMap.i3d" />
+		<additionalFile filename="maps/pSystem/fillPlanes/fillPlane_materialHolder.i3d" />
+	</additionalFiles>
 
     <tipTriggers>
 <!-- SILO -->
