@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="unloadingSilo" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="fx_grain_normal.png" relativePath="true"/>
+    <File fileId="1" filename="fx_soybean_diffuse.png" relativePath="true"/>
+    <File fileId="7" filename="../../../maps/pSystem/particleSystems/shaders/grainSmokeShader.xml" relativePath="true"/>
+    <File fileId="3" filename="../../../maps/pSystem/particleSystems/shaders/grainUnloadingShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="fx_wheat_mat" materialId="7" ambientColor="1 1 1" alphaBlending="true" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="fx_clouds01_mat" materialId="9" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1" alphaBlending="true" customShaderId="7">
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="0.75 0.1 -0.3 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 2.5"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="unloadingSilo.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="unloadingSilo" nodeId="13">
+      <TransformGroup name="shader" nodeId="14">
+        <Shape shapeId="1" name="grain" clipDistance="100" nodeId="15" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="smoke" clipDistance="100" nodeId="16" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

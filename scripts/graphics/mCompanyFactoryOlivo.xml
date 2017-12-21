@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<mCompanyGraphics>
+    <mCompanyGraphics_Element type="background" autoHeight="true" size="0.175 0.6" pos="0.8 0.1" r="0.0284" g="0.0284" b="0.0284" alpha="1" uvName="g_colorBgUVs">
+		<mCompanyGraphics_Element type="text" pos="0.81 0.2" text="$l10n_Olivos" textHeight="0.028" bold="true" margin="0 0 0.02 0.01"/>
+		
+		<mCompanyGraphics_Element type="text" pos="0.81 0.2" text="$l10n_inputTrigger" textHeight="0.025" bold="false" margin="0 0 0.02 0.01"/>
+		
+			<mCompanyGraphics_Element type="text" name="abono" pos="0.82 0.2" textHeight="0.02" margin="0 0 0.007 0.007" onSet="onSetTextName_Input"/>
+			<mCompanyGraphics_Element type="text" name="abono" pos="0.82 0.2" textHeight="0.02" margin="0 0 0.007 0.007" onSet="onSetTextLevel_Input"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="abono" onSet="onSetBarLevel_Input" pos="0.82 0.2" size="0.1 0.02" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.34766" g="0.47266" b="0.03906" Text_r="1" Text_g="1" Text_b="1" Background_r="0.02" Background_g="0.02" Background_b="0.02" margin="0 0 0.007 0.007"/> 
+			
+			<mCompanyGraphics_Element type="text" name="water" pos="0.82 0.2" textHeight="0.02" margin="0 0 0.007 0.007" onSet="onSetTextName_Input"/>
+			<mCompanyGraphics_Element type="text" name="water" pos="0.82 0.2" textHeight="0.02" margin="0 0 0.007 0.007" onSet="onSetTextLevel_Input"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="water" onSet="onSetBarLevel_Input" pos="0.82 0.2" size="0.1 0.02" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.34766" g="0.47266" b="0.03906" Text_r="1" Text_g="1" Text_b="1" Background_r="0.02" Background_g="0.02" Background_b="0.02" margin="0 0 0.007 0.007"/> 
+			
+		<mCompanyGraphics_Element type="text" pos="0.81 0.2" text="$l10n_outputTrigger" textHeight="0.025" bold="false" margin="0 0 0.02 0.01"/>
+			
+			<mCompanyGraphics_Element type="text" name="olive" pos="0.82 0.2" textHeight="0.02" margin="0 0 0.007 0.007" onSet="onSetTextName_Output"/>
+			<mCompanyGraphics_Element type="text" name="olive" pos="0.82 0.2" textHeight="0.02" margin="0 0 0.007 0.007" onSet="onSetTextLevel_Output"/>
+			<mCompanyGraphics_Element type="loadingBar" modus="value" showPercentsRight="true" loadingWhenOpen="true" name="olive" onSet="onSetBarLevel_Output" pos="0.82 0.2" size="0.1 0.02" uvName="g_colorBgUVs" uvNameBackground="g_colorBgUVs" r="0.34766" g="0.47266" b="0.03906" Text_r="1" Text_g="1" Text_b="1"  Background_r="0.02" Background_g="0.02" Background_b="0.02" margin="0 0 0.007 0.007"/> 
+			
+	</mCompanyGraphics_Element>
+</mCompanyGraphics>

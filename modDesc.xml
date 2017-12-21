@@ -57,26 +57,234 @@
     <de>Hirse</de>
 </text>
 
-<!-- Allgemein -->
-		<text name="leer"> <en>empty</en> <de><![CDATA[leer]]></de> </text>
-		<text name="voll"> <en>full</en> <de><![CDATA[voll]]></de> </text>
-		<text name="ERROR"> <en>Info: </en> <de><![CDATA[Info: ]]></de> </text>
-		<text name="Rohstoffe"> <en>resources: </en> <de><![CDATA[Rohstoffe: ]]></de> </text>
-		<text name="Produkte"> <en>products: </en> <de><![CDATA[Produkte: ]]></de> </text>
 
-<!-- Moonshin -->
-		<text name="Moonshin"> <en>Moonshin</en> <de>Moonshin</de> </text>
-		<text name="Wasser"> <en>water</en> <de>Wasser</de> </text>
-		<text name="maize"> <en>maize</en> <de>mais</de> </text>
-		
-				
    </l10n>	
+	
+	<!-- icons  -->
+		<text name="BioDiesel">        <en>BioDiesel</en>           <de>BioDiesel</de>					<es>BioDiesel</es>		<fr>Raffinerie</fr>  <pl>Biopaliwo</pl> 			 </text>
+			
+	<!-- additionalMapTypes.lua / regFillTypes.lua -->
+		<text name="compost">         <en>Compost</en>       <de>Kompost</de>			<es>Compost</es>       <fr>Compost</fr> <pl>Kompost</pl> </text>
+	
+	<!-- animatedObjects.xml -->
+			<text name="input_GATE_MOVE">            				<en>Gate Open/Close</en>            <de>Tor öffnen/schließen</de>			<es>Abrir/Cerrar</es>        <fr>Ouverture/fermeture de la porte</fr>   <pl>Otwórz/zamknij bramę</pl>	   </text>
+			<text name="input_ANIMATED_OBJECT_OPEN_DOOR">            <en>Open door</en>            <de>Tür öffnen</de>							<es>Abrir Puerta</es>       	<fr>Ouvrir</fr>   <pl>Otwórz drzwi</pl>	 </text>
+			<text name="input_ANIMATED_OBJECT_CLOSE_DOOR">            <en>Close door</en>            <de>Tür schließen</de>						<es>Cerrar Puerta</es>       <fr>Fermer</fr> <pl>Zamknij drzwi</pl> </text>
+			<text name="input_ANIMATED_OBJECT_OPEN_GATE">            <en>Open gate</en>            <de>Tor öffnen</de>							<es>Abrir Valla</es>       <fr>Ouvrir</fr>    <pl>Otwórz bramę</pl>	   </text>
+			<text name="input_ANIMATED_OBJECT_CLOSE_GATE">            <en>Close gate</en>            <de>Tor schließen</de>						<es>Cerrar Valla</es>      	<fr>Fermer</fr>    <pl>Zamknij bramę</pl>	     </text>
+			<text name="input_ANIMATED_OBJECT_OPEN_PORTON">            <en>Open gate</en>            <de>Tor öffnen</de>						<es>Bajar Portón</es>      <fr>Ouvrir</fr>     <pl>Otwórz bramę</pl>	    </text>
+			<text name="input_ANIMATED_OBJECT_CLOSE_PORTON">            <en>Close gate</en>            <de>Tor schließen</de>					<es>Subir Portón</es>       	<fr>Fermer</fr>  <pl>Zamknij bramę</pl>	      </text>
+			<text name="input_ANIMATED_OBJECT_OPEN_PERSIANA">            <en>Open gate</en>            <de>Tor öffnen</de>						<es>Bajar Persiana</es>      <fr>Ouvrir</fr>      <pl>Otwóz bramę</pl>   </text>
+			<text name="input_ANIMATED_OBJECT_CLOSE_PERSIANA">            <en>Close gate</en>            <de>Tor schließen</de>					<es>Subir Persiana</es>      	<fr>Fermer</fr>   <pl>Zamknij bramę</pl>	      </text>
+			<text name="input_LIGHTSWITCH_CLICK">            <en>Lightswitch on/off</en>            <de>Lichtschalter an/aus</de>				<es>Encender/Apagar luces</es>      <fr>Allumer/éteindre les lumières</fr>   <pl>Włączanie/wyłączanie świateł</pl>  </text>
+			<text name="input_LIGHTSWITCH_CLICK_FS_Saegewerk"> <en>Light on/out</en> <de>Licht an/aus</de> 										<es>Luz On/Off</es>   	<fr>Lumière On/Off</fr>  <pl>Włącz/wyłącz światło</pl>	  </text>
+	
+	<!-- additionalMapTypes.lua / regFillTypes.lua -->	
+			<text name="oat">            <en>Oat</en>            <de>Hafer</de>				<es>Avena</es>        <fr>Avoine</fr>      <pl>Owies</pl>		</text>
+			<text name="oat_windrow">    <en>Oat windrow</en>    <de>Haferstroh</de>		<es>Paja de Avena</es>       <fr>Paille d'avoine</fr>   <pl>Pokos Owsu</pl>	 </text>	
+			<text name="rye">            <en>Rye</en>            <de>Roggen</de>			<es>Centeno</es>        <fr>Seigle</fr>     <pl>Ryż</pl> </text>
+			<text name="lime">            <en>Lime</en>          <de>Kalk</de>				<es>Cal</es>       <fr>Chaux</fr>       <pl>Limonka</pl>	  </text>
+			<text name="compost">         <en>Compost</en>       <de>Kompost</de>			<es>Compost</es>       <fr>Compost</fr> <pl>Kompost</pl> </text>
+			<text name="seeds2">          <en>Seeds 2</en>       <de>Saatgut geb.</de>		<es>Semillas 2</es>       <fr>Graines</fr>    <pl>Nasiona 2</pl>		   </text>
+			<text name="sand">            <en>Sand</en>			 <de>Arena</de>				<es>Arena</es>        <fr>Sable</fr>    <pl>Piasek</pl>	  </text>
+			<text name="spelt">            <en>Spelt</en>        <de>Dinkel</de>			<es>Espelta</es>        <fr>Epeautre</fr> <pl>Orkisz</pl>		 </text>
+			<text name="triticale">         <en>Triticale</en>   <de>Misch Getr.</de>		<es>Triticale</es>       <fr>Triticale</fr>  <pl>Pszenżyto</pl>	 </text>
+			<text name="millet">            <en>Millet</en>      <de>Hirse</de>				<es>Mijo</es>        <fr>Millet</fr>  <pl>Proso</pl>	     </text>		
+			<text name="hops"> 				<en>Hops</en> 		 <de>Hopfen</de> 			<es>Lúpulo</es>		 <fr>Houblon</fr> <pl>Chmiel</pl>	</text>
+			<text name="food">            	<en>Foods</en>       <de>Lebensmittel</de>	  <fr>Nourriture</fr> 	<es>Alimentos</es>      <pl>Jedzenie</pl>		  </text>		
+			<text name="paletCerveza">      <en>Beer pallet</en>            				<es>Palet de Cerveza</es>         <fr>Palette de bière</fr>    <pl>Paleta piwa</pl>		 </text>	
+			<text name="paletLacteos">      <en>Dairy pallet</en>            				<es>Palet de lácteos</es>       <fr>Palette de produits laitiers</fr> 	<pl>Paleta mleka</pl> </text>		
+			<text name="paletTablones">     <en>Planks pallet</en>            				<es>Palet de Tablones</es>         <fr>Palette de planches</fr>  <pl>Deski na palety</pl>  </text>	
+			<text name="paletComida">     <en>Food pallet</en>            					<es>Palet de Alimentos</es>      <fr>Palette de Nourriture</fr>  <pl>Paleta jedzenia</pl> </text>
+			<text name="paletAceite">     <en>Oil pallet</en>            					<es>Palet de Aceite</es>      <fr>Palette d'huile</fr> <pl>Paleta oliwy</pl>	 </text>
+			<text name="paletAzucar">     <en>Suggar pallet</en>           					<es>Palet de Azucar</es>        <fr>Palette de Sucre</fr>    <pl>Paleta cukru</pl>	</text>
+			<text name="paletLicor">     <en>Licor pallet</en>           					<es>Palet de Licor</es>        <fr>Palette de Liqueur</fr>   	<pl>Paleta likieru</pl>		 </text>
+			<text name="paletCarne">	<de>meat pallet</de>		<en>meat pallet</en>	<es>Palet de Carne</es>    <fr>Palette de Viande</fr> <pl>Paleta mięsa</pl>	 </text>
+			<text name="paletAceiteOliva">     <en>Olive Oil pallet</en>            		<es>Palet de Aceite Oliva</es>      <fr>Palette d'Huile d'olive</fr>      <pl>Paleta Oliwy z Oliwek</pl>	 </text>
+			<text name="paletJamonFresco"><de>Palet frisch Hams</de><en>Palet of fresh hams</en><es>Palet de Jamones frescos</es>   <fr>Palette de jambon frais</fr> 	<pl>Paleta świezej szynki</pl>	   </text>
+			<text name="paletJamonCurado"><de>Palet kurierte Hams</de><en>Cured ham pallet</en><es>Palet de Jamones curados</es>   <fr>Palette de jambon cuit</fr>  <pl>Paleta z szynką peklowaną</pl>	</text>
+			
+			<text name="paletVacio">        <en>Empty pallet</en>  <de>Leere Palette</de>	<es>Palet Vacío</es>      <fr>Palette vide</fr>      <pl>Pusta paleta</pl>	</text>
+			<text name="industry">          <en>Industry</en>   <de>Industrie</de>			<es>Industria</es>        <fr>Industrie</fr><pl>Przemysł</pl> </text>
+			<text name="fatteningFeed">     <en>Fattening feed</en>          				<es>Alimentación de engorde</es><fr>Aliment d'engraissement</fr> <pl>Pasza dla tuczu</pl></text>
+			<text name="tomato">			<de>tomato</de>			<en>tomato</en>			<es>Tomates</es> <fr>Tomates</fr>      <pl>Pomidory</pl>	 </text>
+			<text name="lettuce">			<de>lettuce</de>		<en>lettuce</en>		<es>Lechuga</es> <fr>Laitue</fr> <pl>Sałata</pl>		</text>
+			<text name="cauliflower">		<de>cauliflower</de>	<en>caulir</en>			<es>Coliflor</es> <fr>Chou-fleur</fr>   <pl>Kalafior</pl>	</text>
+			<text name="redCabbage">		<de>redCabbage</de>		<en>redCabbage</en>		<es>Repollo </es> <fr>Chou</fr>  <pl>Czerwona kapusta</pl> </text>
+			<text name="strawberry">		<de>strawberry</de>		<en>strawberry</en>		<es>Fresas</es> 	<fr>Fraise</fr> <pl>Truskawki</pl>	 </text>
+			<text name="raspberry">			<de>raspberry</de>		<en>raspberry</en>		<es>Frambuesas</es> <fr>Framboise</fr><pl>Malina</pl>	</text>
+			
+			<text name="abono"><de>Dünger oder Kompost</de>		<en>Manure or Compost</en>				<es>Estiercol o Compost</es> <fr>Fumier ou compost</fr>		<pl>Obornik lub kompost</pl>	</text>
+			<text name="Estiercol o Compost"><de>Dünger oder Kompost</de><en>Manure or Compost</en>		<es>Estiercol o Compost</es> <fr>Fumier ou compost</fr>		<pl>Obornik lub kompost</pl>	</text>
+			<text name="Patata - Manzana"><de>Kartoffel oder Apfel</de>	<en>Potato or apple</en>		<es>Patata - Manzana</es> <fr>P.de terre ou pomme</fr>  <pl>Ziemniaki lub jabłko</pl></text>
+			<text name="Girasol Colza">	<de>Sunflower Raps</de>	<en>Sunflower Rape</en>					<es>Girasol o Colza</es> <fr>Tournesol ou Colza</fr>	<pl>Słoneczniki lub rzepak</pl>	</text>
+			<text name="Cereales"><de>Getreide</de>	<en>Cereals</en>									<es>Cereales</es> <fr>Cereales</fr>	<pl>Zboża</pl></text>
+			<text name="Fertilizante"><de>Dünger</de>		<en>Fertilizer</en>							<es>Fertilizante</es> <fr>Engrais</fr><pl>Nawóz</pl>	</text>
+			<text name="chaff">	<de>Spreu</de>		<en>Chaff</en>										<es>Picado</es> <fr>Paille hachée</fr>	<pl>Plewy</pl></text>
+			<text name="milk"><de>Milch</de>		<en>Milk</en>										<es>Leche</es> 	<fr>Lait</fr>	<pl>Mleko</pl>	</text>
+			<text name="water"><de>Trinkwasser</de>		<en>Drinking water</en>							<es>Agua Potable</es> <fr>Eau potable</fr>	<pl>Pitna woda</pl>	</text>
+			<text name="waterSal"><en>Saltwater</en>	<de>Salz</de>										<es>Agua Salada</es> <fr>Eau salée</fr>	<pl>Słona woda</pl>	</text>
+			<text name="Sal"><de>Salt</de>		<en>Salt</en>											<es>Sal</es> 	<fr>Sel</fr> <pl>Sól</pl>	</text>
+						
+			<text name="sugarBeet">			<de>Zuckerrübe </de>		<en>Sugar Beet</en>				<es>Remolacha Azucarera</es> 	<fr>Betterave à sucre</fr>	<pl>Burak cukrowy</pl>	</text>
+			<text name="animales">			<de>pig cow sheep </de>		<en>pig cow sheep</en>			<es>Cerdos, Vacas u Ovejas</es> <fr>Cochon,Mouton,Vache</fr> <pl>Świnie, krowy i owce</pl></text>
+			
+			<text name="straw"> <en>Straw</en> <de>Stroh</de> <es>Paja</es> <fr>Paille</fr>	<pl>Słoma</pl></text>			
+		
+			<text name="mCompanyFactory_AddOn_waterSal"><de>Salzwassertank</de><en>Salty Water Depot</en>	<es>Depósito de Agua Salada</es> <fr>Dépôt d'eau salée</fr> <pl>Zbiornik na słoną wodę</pl>		</text>
+			<text name="mCompanyFactory_AddOn_waterSal_start"><de>Salz abladen</de><en>unload Saltwater</en><es>Descargar Agua Salada</es> <fr>Décharger l'eau salée</fr> <pl>Nalewanie słonej wody</pl>		</text>
+			<text name="mCompanyFactory_AddOn_waterSal_stop"><de>Salz stoppen</de><en>stop Saltwater</en>	<es>Parar llenado de Agua Salada</es> <fr>Arrêter l'eau salée</fr> <pl>Zatrzymanie nalewania słonej wody</pl></text>
+			
+			<text name="waterSal_start"><de>Salz abladen</de><en>unload Saltwater</en><es>Descargar Agua Salada</es> <fr>Décharger l'eau salée</fr>	</text>
+			<text name="waterSal_stop"><de>Salz stoppen</de><en>stop Saltwater</en>	<es>Parar llenado de Agua Salada</es> <fr>Arrêter l'eau salée</fr></text>
+	
+	<!-- AdditionalTrigger -->
+			<text name="mCompanyFactory_AddOn_helpBoxTextInfo"><en>Info: Get out for set automatic charging!</en>	<es>Info: ¡Salga para la carga automática del sistema!</es> <fr>Info: Sortez pour le réglage de la charge automatique!</fr>	<pl>Info: Wyjdz, żeby ustawić automatyczne ładowanie!</pl>	</text>
+			<text name="mCompanyFactory_AddOn_helpBoxTextAuto"><en>Aktual settings: automatic charging</en>			<es>Ajustes: carga automática</es> <fr>Paramètres: chargement automatique</fr>		<pl>Aktualne ustawienia: automatyczne ładowanie</pl></text>
+			<text name="mCompanyFactory_AddOn_helpBoxTextManual"><en>Aktual settings: manual charging</en>			<es>Ajustes: carga manual</es> <fr>Paramètres: chargement manuel</fr>	<pl>Aktualne ustawienia: manualne ładowanie</pl>	</text>
+	
+	<!-- Biodiesel -->
+			<text name="mCompanyFactory_AddOn_automaticFill_RS">	<de>Aktivieren Automatisch Füllung</de>		<en>Activate Automatic Filling</en>     	<fr>Activer le remplissage automatique</fr>        	<es>Activar llenado Automático</es>			</text>
+			<text name="mCompanyFactory_AddOn_manualFill_RS">		<de>Aktivieren Handbuch Füllung</de>		<en>Activate Manual Filling</en>         	<fr>Activer le remplissage manuel</fr>       	 	<es>Activar llenado Manual</es>				</text>
+			<text name="mCompanyFactory_AddOn_RSLM_start">			<de>Load Biodiesel</de>						<en>Load fuel</en>            				<fr>Charger du Fuel</fr>        					<es>Rellenar Diesel</es>					</text>
+			<text name="mCompanyFactory_AddOn_RSLM_stop">			<de>Stop Loading Biodiesel</de>				<en>Stop Loading fuel</en>            		<fr>Arrêter de charger du Fuel</fr>        			<es>Parar Llenado</es>						</text>
+			<text name="mCompanyFactory_AddOn_startFill_RS">		<de>Load Kompost</de>						<en>Load compost</en>            			<fr>Charger compost</fr>        					<es>Rellenar compost</es>					</text>
+			<text name="mCompanyFactory_AddOn_stopFill_RS">			<de>Stop Loading Kompost</de>				<en>Stop Loading compost</en>            	<fr>Arrêter compost</fr>        					<es>Parar Llenado</es>						</text>
+			<text name="RS_compost">							<de>Kompost</de>							<en>compost</en>							<fr>compost</fr> 									<es>Parar Llenado</es>						</text>
+			<text name="RM_Output">								<de>Biodiesel</de>							<en>fuel</en>								<fr>BIO-Diesel</fr> 								<es>Parar Llenado</es>						</text>
+			<text name="Tip_RS">								<de>rape sunflower soybean</de>				<en>rape sunflower soybean</en>			    <fr>Colza,Soja,tournesol</fr> 						<es>Colza, Girasol, Habas de soja</es>		</text>
+	
+<!-- Compostera -->
+			<text name="inputTrigger_Compostera"><en>Resource: </en> <de>Rohstoffe: </de>             <es>Recursos</es> <it>Mezzi: </it>	<fr>Vols</fr></text>
+			<text name="outputTrigger_Compostera"><en>Products: </en> <de><![CDATA[Produkte: ]]></de><es>Productos:</es> <it>Risorse: </it>	<fr>Produits</fr></text>
+			<text name="COstraw"> <en>Straw</en> <de>Stroh</de> <es>Paja</es> <fr>Paille</fr>	</text>			
+			<text name="COwater"><de>Trinkwasser</de>		<en>Drinking water</en>							<es>Agua Potable</es> <fr>Eau potable</fr>	</text>
+			<text name="COcompost">         <en>Compost</en>       <de>Kompost</de>			<es>Compost</es>       <fr>Compost</fr>   </text>	
+	
+	
+	
+	
+	<!-- Company -->
+			<text name="Rohstoffe"> <en>resources: </en> <de><![CDATA[Rohstoffe: ]]></de>						<es>Recursos:</es> 	</text>
+			<text name="Produkte"> <en>products: </en> <de><![CDATA[Produkte: ]]></de> 							<es>Productos:</es>	<fr>produits</fr></text>
+			<text name="leer"> <en>empty</en> <de><![CDATA[leer]]></de> 										<es>Vacío</es> <fr>Vide</fr>		</text>
+			<text name="voll"> <en>full</en> <de><![CDATA[voll]]></de> 											<es>Lleno</es> <fr>plein</fr>		</text>
+			<text name="ERROR"> <en>Info: </en> <de><![CDATA[Info: ]]></de>										<es>Info:</es> 	<fr>Info:</fr>	</text>
+			<text name="EdineroRROR"> <en>Money: </en> <de>Money</de>										<es>Dinero</es> 	<fr>L'argent</fr>	</text>
+			<text name="Geld"> <en>Money: </en> <de>Money</de>										<es>Dinero</es> 	<fr>L'argent</fr>	</text>
+			<text name="money"> <en>Money: </en> <de>Money</de>										<es>Dinero</es> 	<fr>L'argent</fr>	</text>
+			
+			<text name="inputTrigger"> <en>resources: </en> <de><![CDATA[Inputs: ]]></de> 						<es>Recursos:</es> <fr>Ressources:</fr>	</text>
+			<text name="outputTrigger"> <en>products: </en> <de><![CDATA[Outputs : ]]></de>						<es>Productos:</es> <fr>Produits:</fr>		</text>
+		
+			<text name="unit_money"> <en>€</en> <de>€</de> <es>€</es><it>€</it></text>
+			<text name="Lager"> <en>Filllevel storage: </en> <de>Füllstand Lager: </de><es>Nivel llenado</es> <it>Capacità: </it></text>
+			
+			<text name="mCompanyFactory_AddOn_startFillHS"><de>Befüllvorgang starten</de><en>start filling</en>		<es>Rellenar </es> <fr>Remplir</fr>	</text>
+			<text name="mCompanyFactory_AddOn_stopFillHS"><de>Befüllvorgang stoppen</de><en>stop filling</en>		<es>Parar Llenado</es> <fr>Arrêter de remplir</fr>		</text>
+			<text name="mCompanyFactory_AddOn_automaticFillHS"><de>auto</de><en>to automatic filling</en>			<es>Activar llenado Automático</es> <fr>Activer le remplissage automatique</fr>	</text>
+			<text name="mCompanyFactory_AddOn_manualFillHS"><de>zu manuellem </de><en>to manual filling</en>		<es>Activar llenado Manual</es> <fr>Activer le remplissage manuel</fr>	</text>
+			<text name="mCompanyFactory_AddOn_moneyInput"> <en>Pay Money</en> <de>Geld einzahlen</de><es>PAGAR</es><it>Deposita denaro</it></text>
+	
+			<text name="mCompanyBuyable"> <en>Pay money</en> <de>Geld einzahlen</de><es>Precio</es><it>Costo</it></text>
+			<text name="buyable_btn"> <en>Pay</en> <de>Einzahlen</de><es>COMPRAR</es><it>Deposita denaro</it></text>
+			<text name="buyable_empty"> <en><![CDATA[ ]]></en></text>
+			<text name="buyable_buyInfo1"> <en>Paid-Up / Costs</en> <de>Einbezahlt / Kosten</de><es>Pagado / Precio</es><it>Costo</it></text>
+			<text name="buyable_buyInfo2"> <en>Press 'R' to pay</en> <de>Drücke 'R' zum Einzahlen!</de><es>Presiona 'R' para depositar una cantidad</es><it>Premi R per depositare il denaro</it></text>
+			
+			<text name="buyable_header1"> <en>Buy BioDiesel Factory</en> <de>Kaufen BioDiesel Factory</de><es>Comprar Fábrica de BioDiesel</es><fr>Acheter l'usine BioDiesel</fr></text>
+			<text name="buyable_header2"> <en>Buy Wine Factory</en> <de>Kaufen Wine Factory</de><es>Comprar Fábrica de Vino</es><fr>Acheter une usine de vin</fr></text>
+			<text name="buyable_header3"> <en>Buy Beer Factory</en> <de>Kaufen Beer Factory</de><es>Comprar Fábrica de Cerveza</es><fr>Acheter de l'usine de bière</fr></text>
+			<text name="buyable_header4"> <en>Buy solar for placeables</en> <de>Kaufen Sie Solar für Platzhalter</de><es>Comprar solar para colocables</es><fr>Acheter de l'énergie solaire pour les places</fr></text>
+			<text name="buyable_header5"> <en>Buy Dairy Factory</en> <de>Kaufen Dairy Factory</de><es>Comprar Fábrica de Lácteos</es><fr>Acheter de l'usine de laitiers</fr></text>
+			<text name="buyable_header6"> <en>Buy Sugar Factory</en> <de>Kaufen Sie Sugar Factory</de><es>Comprar Fábrica de Azucar</es><fr>Acheter de l'usine de sucre</fr></text>
+			<text name="buyable_header7"> <en>Buy Vineyard</en> <de>Kaufen Weinberg</de><es>Comprar Viñedo</es><fr>Acheter Vineyard</fr></text>
+			<text name="buyable_header8"> <en>Buy Sawmill</en> <de>Kaufen Sägewerk</de><es>Comprar Aserradero</es><fr>Acheter Scierie</fr></text>
+			<text name="buyable_header9"> <en>Buy Slaughterhouse</en> <de>Kaufen Schlachthof</de><es>Comprar Matadero</es><fr>Acheter Abattoir</fr></text>
+			<text name="buyable_header10"> <en>Buy Oil Factory</en> <de>Kaufen Ölfabrik</de><es>Comprar Fábrica de Aceite</es><fr>Acheter de l'usine de huile</fr></text>
+			<text name="buyable_header11"> <en>Enlarge Factory - Olive Oil</en> <de>Vergrößern Fabrik - Olivenöl</de><es>Ampliar Fábrica - Aceite de Oliva</es><fr>Agrandir l'usine - Huile d'olive</fr></text>
+			<text name="buyable_header12"> <en>Buy Desalination plant</en> <de>Kaufen Entsalzungsanlage</de><es>Comprar Desalinizadora</es><fr>Acheter une usine de dessalement</fr></text>
+			<text name="buyable_header14"> <en>Buy Apple Field</en> <de>Kaufen Apple Field</de><es>Comprar Campo de Manzanos</es><fr>Achetez Apple Field</fr></text>
+			<text name="buyable_header15"> <en>Buy Food Factory</en> <de>Kaufen Lebensmittelfabrik</de><es>Comprar Fábrica de Comida</es><fr>Acheter de l'usine alimentaire</fr></text>
+			<text name="buyable_header16"> <en>Buy Soy Factory</en> <de>Kaufen Soja-Fabrik</de><es>Comprar Fábrica de Soja</es><fr>Acheter de l'usine de soja</fr></text>
+			<text name="buyable_header17"> <en>Buy Greenhouses</en> <de>Kaufen Gewächshäuser</de><es>Comprar Invernaderos</es><fr>Acheter Serres</fr></text>
+			<text name="buyable_header18"> <en>Buy Hams dryers</en> <de>Kaufen Hams Trockner</de><es>Comprar Curadero de Jamones</es><fr>Acheter des séchoirs aux jambons</fr></text>
+			<text name="buyable_header19"> <en>Buy olive tree field</en> <de>Kaufen Olivenfeld</de><es>Comprar campo de olivos</es><fr>Acheter du terrain d'olivier</fr></text>
+			<text name="buyable_header20"> <en>Buy Liquor Factory</en> <de>Kaufen Liquor Factory</de><es>Comprar Fábrica de Licor</es><fr>Acheter Liquor Factory</fr></text>
+			<text name="buyable_header21"> <en>Buy Pallets Factory</en> <de>Kaufen Pallets Factory</de><es>Comprar Fábrica de Palets</es><fr>Acheter Pallets Factory</fr></text>
+			
+			<text name="buyable_BioDiesel1"> <en>You can make BioDiesel from Rape, Sunflower or </en> <de>Sie können BioDiesel machen von Rape, Sonnenblume </de><es>Puedes fabricar BioDiesel a partir de Colza, Girasol </es><fr>Vous pouvez faire du BioDiesel de colza, tournesol ou</fr></text>
+			<text name="buyable_BioDiesel2"> <en>Soybeans. also produces compost</en> <de>oder Sojabohnen. auch produziert kompost</de><es>o Habas de soja, tambien produce compost</es><fr>le soja. aussi produit du compost</fr></text>
+			
+			<text name="buyable_FabUva1"> <en>You can make Wine and Must.</en> <de>Du kannst Wein und Must machen.</de><es>Puedes fabricar Vino y Mosto. </es><fr>Vous pouvez faire Wine and Must.</fr></text>
+			<text name="buyable_FabUva2"> <en>Bring water, pallets and grapes</en> <de>Bringen Sie Wasser, Paletten und Trauben</de><es>Trae agua, palets y uvas</es><fr>Apportez de l'eau, des palettes et des raisins</fr></text>
+			
+			<text name="buyable_Cerveza1"> <en>You can make Beer and fine straw.</en> <de>Du kannst Bier und feines Stroh machen.</de><es>Puedes fabricar Cerveza y paja fina. </es><fr>Vous pouvez faire de la bière et de la paille fine.</fr></text>
+			<text name="buyable_Cerveza2"> <en>Bring diesel, empty pallets,</en> <de>Bringen Sie Diesel, leere Paletten, </de><es>Trae diesel, palets vacíos</es><fr>Apportez du diesel, des palettes vides, </fr></text>
+			<text name="buyable_Cerveza3"> <en> hop pallet and cereal</en> <de>Hopfenpalette und Müsli</de><es>palet de lúpulo y cereales</es><fr>une palette de houblon et des céréales</fr></text>
+		
+			<text name="buyable_Colocables1"> <en>Put your placeables here</en> <de>Setzen Sie Ihre Plätze hierher</de><es>Pon aqui tus placeables</es><fr>Mettez vos placeables ici</fr></text>
+		
+			<text name="buyable_Lacteos1"> <en>You can make dairy. </en> <de>Du kannst Milch machen. </de><es>Puedes fabricar lácteos. Trae leche </es><fr>Vous pouvez fabriquer des produits laitiers. </fr></text>
+			<text name="buyable_Lacteos2"> <en>Bring milk and empty pallets. </en> <de>Bringen Sie Milch und leere Paletten. </de><es>y pallets vacíos. Tambien puedes</es><fr>Apportez du lait et des palettes vides. Vous </fr></text>
+			<text name="buyable_Lacteos3"> <en>You can also sell milk directly</en> <de>Sie können auch Milch direkt verkaufen</de><es> vender leche directamente</es><fr>pouvez également vendre du lait directement</fr></text>
+			
+			<text name="buyable_Azucar1"> <en>You can make dairy. </en> <de>Du kannst Milch machen. </de><es>Puedes fabricar lácteos. Trae leche </es><fr>Vous pouvez fabriquer des produits laitiers. </fr></text>
+			<text name="buyable_Azucar2"> <en>Bring milk and empty pallets. </en> <de>Bringen Sie Milch und leere Paletten. </de><es>y pallets vacíos. Tambien puedes</es><fr>Apportez du lait et des palettes vides. Vous </fr></text>
+			<text name="buyable_Azucar3"> <en>You can also sell milk directly</en> <de>Sie können auch Milch direkt verkaufen</de><es> vender leche directamente</es><fr>pouvez également vendre du lait directement</fr></text>
+			
+			<text name="buyable_Vinedo1"> <en>Produces grapes, brings water,</en> <de>Erzeugt Trauben, bringt Wasser,</de><es>Puedes producir uvas. Trae agua potable, </es><fr>Produit des raisins, apporte de l'eau, </fr></text>
+			<text name="buyable_Vinedo2"> <en> compost/manure and solid fertilizer</en> <de>Kompost/Dünger und Massivdünger</de><es>compost/estiercol y fertilizante solido</es><fr>du compost/fumier et des engrais solides </fr></text>
+			
+			<text name="buyable_Aserradero1"> <en>You can produce planks. Bring straw as fuel </en> <de>Sie können Bretter produzieren. Bringen Sie Stroh</de><es>Puedes producir tablones. Trae paja como combustible y</es><fr>Vous pouvez produire des planches. Apportez de la paille comme bûches </fr></text>
+			<text name="buyable_Aserradero2"> <en>and wood logs. The pallets spawn on the rack</en> <de>als Brennstoff und Holzstämme. Die Paletten kommen auf das Regal</de><es>troncos de madera. Los pallets salen en la estanteria</es><fr>de bois et de bois. Les palettes sortent sur l'étagère</fr></text>
+	
+			<text name="buyable_Matadero1"> <en>You can produce fresh meat and hams</en> <de>Sie können frisches Fleisch und Schinken produzieren</de><es>Puedes producir carne y jamones frescos</es><fr>Vous pouvez produire des viandes fraîches et des jambons</fr></text>
+			<text name="buyable_Matadero2"> <en>You need empty animals and pallets</en> <de>Du brauchst leere Tiere und Paletten</de><es>Necesitas animales y palets vacios</es><fr>Vous avez besoin d'animaux vides et de palettes</fr></text>
+	
+			<text name="buyable_Aceite1"> <en>You can produce oil pallets. You need </en> <de>Sie können Ölpaletten produzieren. </de><es>Puedes producir palets de aceite</es><fr>Vous pouvez produire des palettes d'huile. </fr></text>
+			<text name="buyable_Aceite2"> <en>empty pallets, gas oil and Rape/Sunflower</en> <de>Du brauchst leere Paletten, Gasöl und Rape/Sonnenblume</de><es>Necesitas palets vacios, gasoil y Colza/Girasol</es><fr>Vous avez besoin de palettes vides, de gazole et de Colza / Tournesol</fr></text>
+	
+			<text name="buyable_AceiteOliva1"> <en>You can produce olive oil</en> <de>Sie können Olivenöl produzieren</de><es>Puedes producir aceite de oliva</es><fr>Vous pouvez produire de l'huile d'olive.</fr></text>
+			<text name="buyable_AceiteOliva2"> <en>You need empty pallets, water and olives</en> <de>Du brauchst leere Paletten, Wasser und Oliven</de><es>Necesitas palets vacios, agua y Olivas</es><fr>Vous avez besoin de palettes vides, d'eau et d'olives</fr></text>
+	
+			<text name="buyable_Desali1"> <en>Bring the salt water you collect in the sea</en> <de>Bringen Sie das Salzwasser, das Sie im Meer sammeln</de><es>Trae el agua salada que recogas en el mar</es><fr>Apportez l'eau salée que vous collectez dans la mer</fr></text>
+			<text name="buyable_Desali2"> <en>Produces drinking water and salt</en> <de>Erzeugt Trinkwasser und Salz</de><es>Produce agua potable y sal</es><fr>Produces drinking water and salt</fr></text>
+
+			<text name="buyable_Manzanos1"> <en>A large field of apple trees, includes water deposit</en> <de>Ein großes Feld von Apfelbäumen, enthält Wasser Ablagerung</de><es>Un gran campo de manzanos, incluye deposito de agua</es><fr>Un vaste champ de pommiers comprend un dépôt d'eau</fr></text>
+			<text name="buyable_Manzanos2"> <en>Need potable water and compost / manure</en> <de>Brauchen Sie Trinkwasser und Kompost / Dünger</de><es>Necesitan agua potable y compost/estiercol</es><fr>Besoin d'eau potable et de compost / engrais</fr></text>
+
+			<text name="buyable_Comida1"> <en>You can produce food pallets.</en> <de>Sie können Lebensmittelpaletten produzieren</de><es>Puedes producir palets de comida</es><fr>Vous pouvez produire des palettes alimentaires</fr></text>
+			<text name="buyable_Comida2"> <en>You need empty pallets, salt, milk and cereals</en> <de>Sie brauchen leere Paletten, Salz, Milch und Getreide</de><es>Necesitas palets vacios, sal, leche y Cereales</es><fr>Vous avez besoin de palettes vides, de sel, de lait et de céréales</fr></text>
+	
+			<text name="buyable_LecheSoja1"> <en>Produces milk, pig food and liquid manure</en> <de>Erzeugt Milch, Schweinefutter und Gülle</de><es>Produce leche, comida de cerdos y estiercol liquido</es><fr>Produit du lait, du porc et du fumier liquide</fr></text>
+			<text name="buyable_LecheSoja2"> <en>You need soybeans, water and diesel</en> <de>Du brauchst Sojabohnen, Wasser und Diesel</de><es>Necesitas Habas de soja, agua y gasoil</es><fr>Vous avez besoin de soja, d'eau et de diesel</fr></text>
+	
+			<text name="buyable_Invernaderos1"> <en>Produces 6 types of vegetables. </en> <de>Erzeugt 6 Arten von Gemüse. </de><es>Produce 6 tipos de hortalizas</es><fr>Produit 6 types de légumes. </fr></text>
+			<text name="buyable_Invernaderos2"> <en>You need water, compost and empty pallets</en> <de>Du brauchst Wasser, Kompost und leere Paletten</de><es>Necesitas agua, compost y palets vacios</es><fr>Vous avez besoin d'eau, de compost et de palettes vides</fr></text>
+	
+			<text name="buyable_Curadero1"> <en>Increase the value of your hams</en> <de>Erhöhe den Wert deiner Schinken</de><es>Aumenta el valor de tus jamones</es><fr>Augmenter la valeur de vos jambons</fr></text>
+			<text name="buyable_Curadero2"> <en>You need salt, raw hams and empty pallets.</en> <de>Sie brauchen Salz, rohe Schinken und leere Paletten.</de><es>Necesitas sal, jamones crudos y palets vacios</es><fr>Vous avez besoin de jambons salés, crus et de palettes vides.</fr></text>
+	
+			<text name="buyable_Olivar1"> <en>A large field of olive groves, includes water deposit</en> <de>Ein großes Feld von Olivenhainen, inklusive Wasserdepot</de><es>Un gran campo de olivares, incluye deposito de agua</es><fr>Un vaste champ d'oliviers comprend un dépôt d'eau</fr></text>
+			<text name="buyable_Olivar2"> <en>Need potable water and compost / manure</en> <de>Brauchen Sie Trinkwasser und Kompost / Dünger</de><es>Necesitan agua potable y compost/estiercol</es><fr>Besoin d'eau potable et de compost / engrais</fr></text>
+
+			<text name="buyable_Licores1"> <en>You can make liqueurs. Bring sugar pallets,</en> 	<de>Sie können Liköre machen. Bringen Sie Zuckerpaletten,</de>			<es>Puedes fabricar licores. Trae palets de azucar, </es><fr>Vous pouvez fabriquer des liqueurs. Apportez des palettes de sucre, </fr></text>
+			<text name="buyable_Licores2"> <en>empty pallets, potato/apple and hop pallets</en> <de> leere Paletten, Kartoffel-/Apfel- und Hopfenpaletten</de>	<es>palets vacios, patata/manzana y palets de lúpulo</es><fr>des palettes vides, des palettes de pommes de terre/pommes et de houblon</fr></text>
+			
+			<text name="buyable_Palets1"> <en>You can make pallets. You'll need them!</en> 	<de>Sie können Paletten machen. Du brauchst sie!</de>	<es>Puedes fabricar palets. ¡Los vas a necesitar!</es><fr>Vous pouvez faire des palettes. Vous en aurez besoin!</fr></text>
+			<text name="buyable_Palets2"> <en>Brings planks and chips</en> <de>Bringt Bretter und Chips</de>	<es>Trae tablones y virutas</es><fr>Apporte des planches et des frites</fr></text>
+			
+	
+	
+	
 	
 	<extraSourceFiles>
 		<sourceFile filename="additionalMapTypes.lua"/>
-	
-		<sourceFile filename="scripts/FabrikScript.lua" />	
-		<sourceFile filename="scripts/AdditionalTriggers.lua" />
+	    <sourceFile filename="scripts/DigitalStorageAmountMover.lua" /> 
+		<sourceFile filename="scripts/mCompanyFactory.lua" />
+		<sourceFile filename="scripts/mCompanyGraphics/mCompanyGraphics.lua" />
+		<sourceFile filename="scripts/mCompanyFactory_AddOn.lua" />
 	</extraSourceFiles>
 
 <!-- additional inputBindings -->
@@ -100,6 +308,14 @@
 	  
 	
 	  <fruitType name="millet" needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="720" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" preparedHaulm="millet_haulm" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="250" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawStandard="true" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageHarvester forageWagon fork trainWagon augerWagon" toFruitGroups="true" fruitTypeGroups="sowingmachine grainHeader directCutter" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="false" convertType="chaff" conversionFactor="4" windrowConversionFactor="1" hasBale="false" baleTypeName="millet_windrow" hasSquareBale="false" hasRoundBale="false" forageWagonConversion="wheat" />
+	  <fillType name="compost" 			pricePerLiter="0.4"  showOnPriceTable="true" litersPerSecond="0.3244" massPerLiter="0.0008" useForSpray="true" sprayerCategorys="manureSpreader" toCategorys="true" fillTypeCategorys="bulk forageWagon fork trainWagon augerWagon" hasMaterials="true" hasParticles="true" useHeap="true" />
+		
+	  
+	  
+	  
+	  
+	  
+	  
 	  
 	  <!--<addFruitcategory name="wheat" toCategory="maizeheader" />  Examples for add Giants Fruits to new FruitType Categorys -->
 	  <!--<addFillcategory name="fertilizer" toCategory="trainWagon" />  Examples for add Giants Fruits to new FillType Categorys -->

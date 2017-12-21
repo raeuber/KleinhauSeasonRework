@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="7.0.5"/>
+    </Asset>
+    <Files>
+        <File fileId="1" filename="waterSplashParticle.dds" relativePath="true"/>
+        <File fileId="2" filename="particleSystemShader.xml" relativePath="true"/>
+    </Files>
+    <Materials>
+        <Material name="waterSplashParticle_mat" materialId="66806" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+            <Texture fileId="1"/>
+        </Material>
+        <Material name="lambert1" materialId="50" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1"/>
+    </Materials>
+    <Shapes externalShapesFile="waterParticle.i3d.shapes"/>
+    <Dynamics>
+        <ParticleSystem name="waterfallParticleSystem_emitter1Ref" dynamicId="1" type="sprite" rate="0.03" lifespan="450" maxCount="100" speed="0.01" speedRandom="0" tangentSpeed="0.1" normalSpeed="1" spriteScaleX="1" spriteScaleY="1" spriteScaleXGain="0.002" spriteScaleYGain="0.002" blendFactor="1" blendInFactor="0.1" blendOutFactor="0.75" randomInitRotation="true" textureAtlasSizeX="8">
+            <Gravity force="0 -40 0"/>
+        </ParticleSystem>
+    </Dynamics>
+    <Scene>
+        <Dynamic dynamicId="1" emitterShapeNodeId="66813" name="waterfallParticleSystem_emitter1" scale="1 0.1 0.1" clipDistance="200" nodeId="66812" materialIds="66806" distanceBlending="false">
+            <Shape shapeId="2" name="waterfallParticleSystemAreaShape" rotation="0 -0 90" scale="1 0.1 0.1" nodeId="66813" materialIds="50" nonRenderable="true"/>
+        </Dynamic>
+    </Scene>
+</i3D>

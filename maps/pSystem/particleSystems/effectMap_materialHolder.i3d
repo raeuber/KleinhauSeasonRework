@@ -2,79 +2,79 @@
 
 <i3D name="effect_materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
-    <Export program="GIANTS Editor 64bit" version="7.0.5"/>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
   </Asset>
 
   <Files>
-    <File fileId="13" filename="fillPlanes/compost_diffuse.png" relativePath="true"/>
-    <File fileId="14" filename="fillPlanes/compost_normal.png" relativePath="true"/>
-    <File fileId="9" filename="fillPlanes/lime_diffuse.png" relativePath="true"/>
-    <File fileId="10" filename="fillPlanes/lime_normal.png" relativePath="true"/>
-    <File fileId="16" filename="fillPlanes/millet_diffuse.png" relativePath="true"/>
-    <File fileId="33" filename="fillPlanes/millet_normal.png" relativePath="true"/>
-    <File fileId="1" filename="fillPlanes/oat_diffuse.png" relativePath="true"/>
-    <File fileId="29" filename="fillPlanes/oat_normal.png" relativePath="true"/>
-    <File fileId="6" filename="fillPlanes/rye_diffuse.png" relativePath="true"/>
-    <File fileId="31" filename="fillPlanes/rye_normal.png" relativePath="true"/>
-    <File fileId="7" filename="fillPlanes/sand_diffuse.png" relativePath="true"/>
-    <File fileId="8" filename="fillPlanes/sand_normal.png" relativePath="true"/>
-    <File fileId="11" filename="fillPlanes/seeds2_diffuse.png" relativePath="true"/>
-    <File fileId="12" filename="fillPlanes/seeds2_normal.png" relativePath="true"/>
-    <File fileId="15" filename="fillPlanes/spelt_diffuse.png" relativePath="true"/>
-    <File fileId="32" filename="fillPlanes/spelt_normal.png" relativePath="true"/>
-    <File fileId="20" filename="fillPlanes/straw_diffuse.png" relativePath="true"/>
-    <File fileId="21" filename="fillPlanes/straw_normal.png" relativePath="true"/>
-    <File fileId="17" filename="fillPlanes/triticale_diffuse.png" relativePath="true"/>
-    <File fileId="34" filename="fillPlanes/triticale_normal.png" relativePath="true"/>
-    <File fileId="26" filename="fx_compost_diffuse.png" relativePath="true"/>
+    <File fileId="16" filename="../fillPlanes/apple_diffuse.png" relativePath="true"/>
+    <File fileId="17" filename="../fillPlanes/apple_normal.png" relativePath="true"/>
+    <File fileId="7" filename="../fillPlanes/compost_diffuse.png" relativePath="true"/>
+    <File fileId="8" filename="../fillPlanes/compost_normal.png" relativePath="true"/>
+    <File fileId="12" filename="../fillPlanes/grape_diffuse.png" relativePath="true"/>
+    <File fileId="13" filename="../fillPlanes/grape_normal.png" relativePath="true"/>
+    <File fileId="20" filename="../fillPlanes/hops_diffuse.dds" relativePath="true"/>
+    <File fileId="21" filename="../fillPlanes/hops_normal.dds" relativePath="true"/>
+    <File fileId="10" filename="../fillPlanes/millet_diffuse.png" relativePath="true"/>
+    <File fileId="38" filename="../fillPlanes/millet_normal.png" relativePath="true"/>
+    <File fileId="1" filename="../fillPlanes/oat_diffuse.png" relativePath="true"/>
+    <File fileId="34" filename="../fillPlanes/oat_normal.png" relativePath="true"/>
+    <File fileId="14" filename="../fillPlanes/olive_diffuse.png" relativePath="true"/>
+    <File fileId="15" filename="../fillPlanes/olive_normal.png" relativePath="true"/>
+    <File fileId="6" filename="../fillPlanes/rye_diffuse.png" relativePath="true"/>
+    <File fileId="36" filename="../fillPlanes/rye_normal.png" relativePath="true"/>
+    <File fileId="18" filename="../fillPlanes/sal_diffuse.png" relativePath="true"/>
+    <File fileId="19" filename="../fillPlanes/sal_normal.png" relativePath="true"/>
+    <File fileId="9" filename="../fillPlanes/spelt_diffuse.png" relativePath="true"/>
+    <File fileId="37" filename="../fillPlanes/spelt_normal.png" relativePath="true"/>
+    <File fileId="27" filename="../fillPlanes/straw_diffuse.dds" relativePath="true"/>
+    <File fileId="24" filename="../fillPlanes/straw_diffuse.png" relativePath="true"/>
+    <File fileId="28" filename="../fillPlanes/straw_normal.dds" relativePath="true"/>
+    <File fileId="25" filename="../fillPlanes/straw_normal.png" relativePath="true"/>
+    <File fileId="11" filename="../fillPlanes/triticale_diffuse.png" relativePath="true"/>
+    <File fileId="39" filename="../fillPlanes/triticale_normal.png" relativePath="true"/>
+    <File fileId="32" filename="fx_compost_diffuse.dds" relativePath="true"/>
     <File fileId="2" filename="fx_grain_normal.png" relativePath="true"/>
-    <File fileId="23" filename="fx_soil_diffuse.png" relativePath="true"/>
-    <File fileId="24" filename="fx_soil_normal.png" relativePath="true"/>
-    <File fileId="27" filename="fx_wheatWindrow_normal.png" relativePath="true"/>
-    <File fileId="25" filename="shaders/cultivatorSoilShader.xml" relativePath="true"/>
-    <File fileId="19" filename="shaders/grainSmokeShader.xml" relativePath="true"/>
+    <File fileId="29" filename="fx_soil_diffuse.png" relativePath="true"/>
+    <File fileId="30" filename="fx_soil_normal.png" relativePath="true"/>
+    <File fileId="33" filename="fx_wheatWindrow_normal.png" relativePath="true"/>
+    <File fileId="31" filename="shaders/cultivatorSoilShader.xml" relativePath="true"/>
+    <File fileId="23" filename="shaders/grainSmokeShader.xml" relativePath="true"/>
     <File fileId="3" filename="shaders/grainUnloadingShader.xml" relativePath="true"/>
-    <File fileId="35" filename="shaders/morphTargetShader.xml" relativePath="true"/>
-    <File fileId="30" filename="shaders/pipeUnloadingShader.xml" relativePath="true"/>
-    <File fileId="22" filename="shaders/windrowUnloadingShader.xml" relativePath="true"/>
-    <File fileId="28" filename="slurryTanker01_diffuse.png" relativePath="true"/>
+    <File fileId="40" filename="shaders/morphTargetShader.xml" relativePath="true"/>
+    <File fileId="35" filename="shaders/pipeUnloadingShader.xml" relativePath="true"/>
+    <File fileId="26" filename="shaders/windrowUnloadingShader.xml" relativePath="true"/>
   </Files>
 
 
   <Materials>
-    <Material name="sand_mat72" materialId="7" ambientColor="1 1 1" customShaderId="35" customShaderVariation="ALPHA_DISABLE">
+    <Material name="compost_mat" materialId="7" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
       <Texture fileId="7"/>
       <Normalmap fileId="8"/>
-      <CustomParameter name="morphPosition" value="0 1 1 2"/>
-      <CustomParameter name="offsetUV" value="0 0 0 0"/>
-      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
-      <CustomParameter name="uvScale" value="2 2 1 1"/>
-      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
-    </Material>
-    <Material name="rye_mat128" materialId="11" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="6"/>
-      <Normalmap fileId="2"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="smoke_rape" materialId="9" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1" alphaBlending="true" customShaderId="19">
+    <Material name="compost_mat21" materialId="8" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="0.75 0.1 -0.3 0"/>
-      <CustomParameter name="ColorAlpha" value="0.439 0.409 0.398 2"/>
+      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="compost_mat22" materialId="12" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="13"/>
-      <Normalmap fileId="14"/>
+    <Material name="compost_mat22" materialId="9" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
       <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
       <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="sand_mat" materialId="14" ambientColor="1 1 1" customShaderId="30">
+    <Material name="compost_mat23" materialId="11" ambientColor="1 1 1" customShaderId="35">
       <Texture fileId="7"/>
       <Normalmap fileId="8"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
@@ -83,207 +83,104 @@
       <CustomParameter name="controlPoint" value="10 0 0 0"/>
       <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
     </Material>
-    <Material name="compost_mat21" materialId="17" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="13"/>
-      <Normalmap fileId="14"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="lime_mat66" materialId="16" ambientColor="1 1 1" alphaBlending="true" customShaderId="25" customShaderVariation="LEVELER">
-      <Texture fileId="9"/>
-      <Normalmap fileId="10"/>
+    <Material name="compost_mat25" materialId="13" ambientColor="1 1 1" alphaBlending="true" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
       <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
     </Material>
-    <Material name="millet_mat130" materialId="18" ambientColor="1 1 1" customShaderId="30">
-      <Texture fileId="16"/>
-      <Normalmap fileId="33"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0.1"/>
-      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
-      <CustomParameter name="controlPoint" value="10 0.25 0 0"/>
-      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
+    <Material name="compost_mat24" materialId="15" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <CustomParameter name="morphPosition" value="0 1 1 2"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+      <CustomParameter name="uvScale" value="2 2 1 1"/>
+      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
     </Material>
-    <Material name="fx_soil_mat" materialId="19" ambientColor="1 1 1" customShaderId="25">
-      <Texture fileId="23"/>
-      <Normalmap fileId="24"/>
+    <Material name="spelt_mat138" materialId="16" ambientColor="1 1 1" alphaBlending="true" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="9"/>
+      <Normalmap fileId="37"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    </Material>
+    <Material name="olive_matLeveler" materialId="41" ambientColor="1 1 1" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    </Material>
+    <Material name="fx_soil_mat" materialId="42" ambientColor="1 1 1" customShaderId="31">
+      <Texture fileId="29"/>
+      <Normalmap fileId="30"/>
       <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-6 1 0 1.5"/>
     </Material>
-    <Material name="lime_mat62" materialId="20" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="9"/>
-      <Normalmap fileId="10"/>
+    <Material name="millet_mat128" materialId="43" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="10"/>
+      <Normalmap fileId="2"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="seeds2_mat60" materialId="41" ambientColor="1 1 1" alphaBlending="true" customShaderId="25" customShaderVariation="LEVELER">
-      <Texture fileId="11"/>
-      <Normalmap fileId="12"/>
-      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
-    </Material>
-    <Material name="sand_mat70" materialId="43" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="7"/>
-      <Normalmap fileId="8"/>
+    <Material name="rye_mat129" materialId="44" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="6"/>
+      <Normalmap fileId="2"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
       <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="rye_mat131" materialId="23" ambientColor="1 1 1" customShaderId="35" customShaderVariation="ALPHA_DISABLE">
-      <Texture fileId="6"/>
-      <Normalmap fileId="31"/>
+    <Material name="hops_matLeveler" materialId="45" ambientColor="1 1 1" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    </Material>
+    <Material name="hops_matBelt" materialId="46" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
       <CustomParameter name="morphPosition" value="0 1 1 2"/>
       <CustomParameter name="offsetUV" value="0 0 0 0"/>
       <CustomParameter name="alphaRemap" value="0 1 0 0"/>
       <CustomParameter name="uvScale" value="2 2 1 1"/>
       <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
     </Material>
-    <Material name="rye_mat130" materialId="32" ambientColor="1 1 1" customShaderId="30">
-      <Texture fileId="6"/>
-      <Normalmap fileId="31"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0.1"/>
-      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
-      <CustomParameter name="controlPoint" value="10 0.25 0 0"/>
-      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
-    </Material>
-    <Material name="seeds2_mat56" materialId="38" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="11"/>
-      <Normalmap fileId="12"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="oat_mat135" materialId="24" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="1"/>
-      <Normalmap fileId="2"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="rye_mat" materialId="39" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="6"/>
-      <Normalmap fileId="2"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="compost_mat23" materialId="28" ambientColor="1 1 1" customShaderId="30">
-      <Texture fileId="13"/>
-      <Normalmap fileId="14"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.25 6 3 0"/>
-      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
-      <CustomParameter name="controlPoint" value="10 0 0 0"/>
-      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
-    </Material>
-    <Material name="triticale_mat" materialId="37" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="17"/>
-      <Normalmap fileId="2"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="seeds2_mat" materialId="21" ambientColor="1 1 1" customShaderId="30">
-      <Texture fileId="11"/>
-      <Normalmap fileId="12"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0"/>
-      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
-      <CustomParameter name="controlPoint" value="10 0 0 0"/>
-      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
-    </Material>
-    <Material name="straw_mat375" materialId="40" ambientColor="1 1 1" customShaderId="22" customShaderVariation="WINDROW_CENTER">
-      <Texture fileId="20"/>
-      <Normalmap fileId="21"/>
+    <Material name="straw_mat375" materialId="47" ambientColor="1 1 1" customShaderId="26" customShaderVariation="WINDROW_CENTER">
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
       <CustomParameter name="UVScaleSpeed" value="4 -2 1 1"/>
       <CustomParameter name="MaskChannels" value="0.5 1 0.25 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
       <CustomParameter name="alphaRemap" value="0.46 0.53 0 0"/>
     </Material>
-    <Material name="spelt_mat138" materialId="42" ambientColor="1 1 1" alphaBlending="true" customShaderId="25" customShaderVariation="LEVELER">
-      <Texture fileId="15"/>
-      <Normalmap fileId="32"/>
-      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
-    </Material>
-    <Material name="spelt_mat136" materialId="27" ambientColor="1 1 1" customShaderId="30">
-      <Texture fileId="15"/>
-      <Normalmap fileId="32"/>
+    <Material name="spelt_mat136" materialId="48" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="9"/>
+      <Normalmap fileId="37"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
       <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0.1"/>
       <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
       <CustomParameter name="controlPoint" value="10 0.25 0 0"/>
       <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
     </Material>
-    <Material name="millet_mat128" materialId="22" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="16"/>
-      <Normalmap fileId="2"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="millet_mat" materialId="29" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="16"/>
-      <Normalmap fileId="2"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="straw_mat" materialId="36" ambientColor="1 1 1" alphaBlending="true" customShaderId="22" customShaderVariation="WINDROW_SIDE">
-      <Texture fileId="20"/>
+    <Material name="straw_mat" materialId="49" ambientColor="1 1 1" alphaBlending="true" customShaderId="26" customShaderVariation="WINDROW_SIDE">
+      <Texture fileId="27"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
       <CustomParameter name="UVScaleSpeed" value="1 -3 1 1"/>
       <CustomParameter name="MaskChannels" value="0.5 1 0.25 0"/>
       <CustomParameter name="ColorAlpha" value="0.499 0.468 0.361 2"/>
       <CustomParameter name="alphaRemap" value="0 1 0 0"/>
     </Material>
-    <Material name="oat_mat137" materialId="26" ambientColor="1 1 1" customShaderId="35" customShaderVariation="ALPHA_DISABLE">
-      <Texture fileId="1"/>
-      <Normalmap fileId="29"/>
-      <CustomParameter name="morphPosition" value="0 1 1 2"/>
-      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+    <Material name="olive_matPipe" materialId="50" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1 1 5 0.05"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 0 0"/>
+      <CustomParameter name="controlPoint" value="10 0.25 1 0"/>
       <CustomParameter name="alphaRemap" value="0 1 0 0"/>
-      <CustomParameter name="uvScale" value="2 2 1 1"/>
-      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
     </Material>
-    <Material name="triticale_mat136" materialId="25" ambientColor="1 1 1" customShaderId="30">
-      <Texture fileId="17"/>
-      <Normalmap fileId="34"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0.1"/>
-      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
-      <CustomParameter name="controlPoint" value="10 0.25 0 0"/>
-      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
-    </Material>
-    <Material name="compost_mat" materialId="30" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="13"/>
-      <Normalmap fileId="14"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="spelt_mat135" materialId="33" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="15"/>
+    <Material name="oat_mat135" materialId="51" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
       <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
@@ -291,22 +188,130 @@
       <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="millet_mat132" materialId="67" ambientColor="1 1 1" alphaBlending="true" customShaderId="25" customShaderVariation="LEVELER">
-      <Texture fileId="16"/>
-      <Normalmap fileId="33"/>
-      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
-    </Material>
-    <Material name="lime_mat64" materialId="31" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="9"/>
-      <Normalmap fileId="10"/>
+    <Material name="grape_matUnloading" materialId="52" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.18"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="olive_matUnloading" materialId="53" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.18"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="apple_matUnloading" materialId="54" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="16"/>
+      <Normalmap fileId="17"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.18"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="hops_matUnloading2" materialId="56" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
       <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="triticale_mat134" materialId="34" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="17"/>
+    <Material name="hops_matUnloading3" materialId="57" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
+    </Material>
+    <Material name="hops_matPipe" materialId="58" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1 1 5 0.05"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 0 0"/>
+      <CustomParameter name="controlPoint" value="10 0.25 1 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+    </Material>
+    <Material name="sal_matLeveler" materialId="59" ambientColor="1 1 1" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    </Material>
+    <Material name="sal_matPipe" materialId="60" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1 1 5 0.05"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 0 0"/>
+      <CustomParameter name="controlPoint" value="10 0.25 1 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+    </Material>
+    <Material name="sal_matBelt" materialId="61" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <CustomParameter name="morphPosition" value="0 1 1 2"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+      <CustomParameter name="uvScale" value="2 2 1 1"/>
+      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
+    </Material>
+    <Material name="sal_matUnloading" materialId="62" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.18"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="triticale_mat" materialId="63" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="11"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
+    </Material>
+    <Material name="spelt_mat135" materialId="64" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="9"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
+    </Material>
+    <Material name="spelt_mat" materialId="17" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="9"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
+    </Material>
+    <Material name="spelt_mat137" materialId="18" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="9"/>
+      <Normalmap fileId="37"/>
+      <CustomParameter name="morphPosition" value="0 1 1 2"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+      <CustomParameter name="uvScale" value="2 2 1 1"/>
+      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
+    </Material>
+    <Material name="spelt_mat134" materialId="19" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="9"/>
       <Normalmap fileId="2"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
       <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
@@ -314,53 +319,139 @@
       <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="triticale_mat138" materialId="45" ambientColor="1 1 1" alphaBlending="true" customShaderId="25" customShaderVariation="LEVELER">
-      <Texture fileId="17"/>
+    <Material name="rye_mat130" materialId="20" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="6"/>
+      <Normalmap fileId="36"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0.1"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
+      <CustomParameter name="controlPoint" value="10 0.25 0 0"/>
+      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
+    </Material>
+    <Material name="triticale_mat134" materialId="21" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="11"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
+    </Material>
+    <Material name="straw_mat" materialId="23" ambientColor="1 1 1" alphaBlending="true" customShaderId="26" customShaderVariation="WINDROW_SIDE">
+      <Texture fileId="24"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="1 -3 1 1"/>
+      <CustomParameter name="MaskChannels" value="0.5 1 0.25 0"/>
+      <CustomParameter name="ColorAlpha" value="0.499 0.468 0.361 2"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+    </Material>
+    <Material name="rye_mat132" materialId="24" ambientColor="1 1 1" alphaBlending="true" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="6"/>
+      <Normalmap fileId="36"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    </Material>
+    <Material name="millet_mat132" materialId="25" ambientColor="1 1 1" alphaBlending="true" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="10"/>
+      <Normalmap fileId="38"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    </Material>
+    <Material name="oat_mat138" materialId="26" ambientColor="1 1 1" alphaBlending="true" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="1"/>
       <Normalmap fileId="34"/>
       <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
     </Material>
-    <Material name="sand_mat71" materialId="56" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="7"/>
-      <Normalmap fileId="8"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="seeds2_mat58" materialId="63" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="11"/>
-      <Normalmap fileId="12"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="lime_mat65" materialId="64" ambientColor="1 1 1" customShaderId="35" customShaderVariation="ALPHA_DISABLE">
-      <Texture fileId="9"/>
-      <Normalmap fileId="10"/>
+    <Material name="millet_mat131" materialId="27" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="10"/>
+      <Normalmap fileId="38"/>
       <CustomParameter name="morphPosition" value="0 1 1 2"/>
       <CustomParameter name="offsetUV" value="0 0 0 0"/>
       <CustomParameter name="alphaRemap" value="0 1 0 0"/>
       <CustomParameter name="uvScale" value="2 2 1 1"/>
       <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
     </Material>
-    <Material name="sand_mat69" materialId="49" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="7"/>
-      <Normalmap fileId="8"/>
+    <Material name="millet_mat129" materialId="28" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="10"/>
+      <Normalmap fileId="2"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
+    </Material>
+    <Material name="rye_mat131" materialId="29" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="6"/>
+      <Normalmap fileId="36"/>
+      <CustomParameter name="morphPosition" value="0 1 1 2"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+      <CustomParameter name="uvScale" value="2 2 1 1"/>
+      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
+    </Material>
+    <Material name="triticale_mat135" materialId="30" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="11"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
+    </Material>
+    <Material name="triticale_mat138" materialId="31" ambientColor="1 1 1" alphaBlending="true" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="11"/>
+      <Normalmap fileId="39"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    </Material>
+    <Material name="straw_mat375" materialId="32" ambientColor="1 1 1" customShaderId="26" customShaderVariation="WINDROW_CENTER">
+      <Texture fileId="24"/>
+      <Normalmap fileId="25"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4 -2 1 1"/>
+      <CustomParameter name="MaskChannels" value="0.5 1 0.25 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="alphaRemap" value="0.46 0.53 0 0"/>
+    </Material>
+    <Material name="triticale_mat136" materialId="33" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="11"/>
+      <Normalmap fileId="39"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0.1"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
+      <CustomParameter name="controlPoint" value="10 0.25 0 0"/>
+      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
+    </Material>
+    <Material name="rye_mat" materialId="34" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="6"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
       <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="rye_mat132" materialId="62" ambientColor="1 1 1" alphaBlending="true" customShaderId="25" customShaderVariation="LEVELER">
-      <Texture fileId="6"/>
-      <Normalmap fileId="31"/>
-      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    <Material name="triticale_mat137" materialId="35" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="11"/>
+      <Normalmap fileId="39"/>
+      <CustomParameter name="morphPosition" value="0 1 1 2"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+      <CustomParameter name="uvScale" value="2 2 1 1"/>
+      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
     </Material>
-    <Material name="oat_mat" materialId="65" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+    <Material name="smoke_oat" materialId="37" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1" alphaBlending="true" customShaderId="23">
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="0.75 0.1 -0.3 0"/>
+      <CustomParameter name="ColorAlpha" value="0.904 0.752 0.489 2"/>
+    </Material>
+    <Material name="oat_mat134" materialId="38" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
+    </Material>
+    <Material name="oat_mat" materialId="39" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
@@ -369,90 +460,86 @@
       <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="fx_compost_mat" materialId="52" ambientColor="1 1 1" alphaBlending="true" customShaderId="22" customShaderVariation="WINDROW_CENTER">
-      <Texture fileId="26"/>
-      <Normalmap fileId="27"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3 -1 1 1"/>
-      <CustomParameter name="MaskChannels" value="0 0.7 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 3"/>
-      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
-    </Material>
-    <Material name="straw_mat373" materialId="44" ambientColor="1 1 1" alphaBlending="true" customShaderId="22" customShaderVariation="WINDROW_CENTER">
-      <Texture fileId="20"/>
-      <Normalmap fileId="21"/>
+    <Material name="straw_mat373" materialId="40" ambientColor="1 1 1" alphaBlending="true" customShaderId="26" customShaderVariation="WINDROW_CENTER">
+      <Texture fileId="24"/>
+      <Normalmap fileId="25"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
       <CustomParameter name="UVScaleSpeed" value="4 -2 1 1"/>
       <CustomParameter name="MaskChannels" value="0.5 1 0.25 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
       <CustomParameter name="alphaRemap" value="0 1 0 0"/>
     </Material>
-    <Material name="spelt_mat137" materialId="55" ambientColor="1 1 1" customShaderId="35" customShaderVariation="ALPHA_DISABLE">
-      <Texture fileId="15"/>
-      <Normalmap fileId="32"/>
-      <CustomParameter name="morphPosition" value="0 1 1 2"/>
-      <CustomParameter name="offsetUV" value="0 0 0 0"/>
-      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
-      <CustomParameter name="uvScale" value="2 2 1 1"/>
-      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
-    </Material>
-    <Material name="oat_mat134" materialId="54" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="1"/>
-      <Normalmap fileId="2"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="lime_mat" materialId="50" ambientColor="1 1 1" customShaderId="30">
-      <Texture fileId="9"/>
-      <Normalmap fileId="10"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.25 6 3 0"/>
-      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
-      <CustomParameter name="controlPoint" value="10 0 0 0"/>
-      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
-    </Material>
-    <Material name="smoke_chaff" materialId="57" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1" alphaBlending="true" customShaderId="19">
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="0.75 0.1 -0.3 0"/>
-      <CustomParameter name="ColorAlpha" value="0.467 0.502 0.327 2"/>
-    </Material>
-    <Material name="spelt_mat" materialId="47" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="15"/>
-      <Normalmap fileId="2"/>
+    <Material name="hops_matUnloading1" materialId="55" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
       <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
       <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="lime_mat63" materialId="59" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="9"/>
-      <Normalmap fileId="10"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="compost_mat25" materialId="58" ambientColor="1 1 1" alphaBlending="true" customShaderId="25" customShaderVariation="LEVELER">
-      <Texture fileId="13"/>
-      <Normalmap fileId="14"/>
-      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
-    </Material>
-    <Material name="compost_mat24" materialId="60" ambientColor="1 1 1" customShaderId="35" customShaderVariation="ALPHA_DISABLE">
-      <Texture fileId="13"/>
-      <Normalmap fileId="14"/>
+    <Material name="grape_matBelt" materialId="65" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
       <CustomParameter name="morphPosition" value="0 1 1 2"/>
       <CustomParameter name="offsetUV" value="0 0 0 0"/>
       <CustomParameter name="alphaRemap" value="0 1 0 0"/>
       <CustomParameter name="uvScale" value="2 2 1 1"/>
       <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
     </Material>
-    <Material name="spelt_mat134" materialId="61" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="15"/>
+    <Material name="olive_matBelt" materialId="66" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <CustomParameter name="morphPosition" value="0 1 1 2"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+      <CustomParameter name="uvScale" value="2 2 1 1"/>
+      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
+    </Material>
+    <Material name="apple_matBelt" materialId="67" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="16"/>
+      <Normalmap fileId="17"/>
+      <CustomParameter name="morphPosition" value="0 1 1 2"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+      <CustomParameter name="uvScale" value="2 2 1 1"/>
+      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
+    </Material>
+    <Material name="grape_matLeveler" materialId="68" ambientColor="1 1 1" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    </Material>
+    <Material name="grape_matPipe" materialId="69" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1 1 5 0.05"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 0 0"/>
+      <CustomParameter name="controlPoint" value="10 0.25 1 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+    </Material>
+    <Material name="apple_matLeveler" materialId="70" ambientColor="1 1 1" customShaderId="31" customShaderVariation="LEVELER">
+      <Texture fileId="16"/>
+      <Normalmap fileId="17"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
+    </Material>
+    <Material name="apple_matPipe" materialId="71" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="16"/>
+      <Normalmap fileId="17"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1 1 5 0.05"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 0 0"/>
+      <CustomParameter name="controlPoint" value="10 0.25 1 0"/>
+      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+    </Material>
+    <Material name="smoke_rape" materialId="72" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1" alphaBlending="true" customShaderId="23">
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="0.75 0.1 -0.3 0"/>
+      <CustomParameter name="ColorAlpha" value="0.439 0.409 0.398 2"/>
+    </Material>
+    <Material name="rye_mat128" materialId="73" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="6"/>
       <Normalmap fileId="2"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
       <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
@@ -460,16 +547,26 @@
       <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="slurryTanker02x_mat" materialId="66" ambientColor="1 1 1" alphaBlending="true" customShaderId="22" customShaderVariation="FERTILIZER">
-      <Texture fileId="28"/>
+    <Material name="millet_mat130" materialId="74" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="10"/>
+      <Normalmap fileId="38"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="2 -3 1 1"/>
-      <CustomParameter name="MaskChannels" value="0.5 1 0.25 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 2"/>
-      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0.1"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
+      <CustomParameter name="controlPoint" value="10 0.25 0 0"/>
+      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
     </Material>
-    <Material name="triticale_mat137" materialId="46" ambientColor="1 1 1" customShaderId="35" customShaderVariation="ALPHA_DISABLE">
-      <Texture fileId="17"/>
+    <Material name="oat_mat136" materialId="75" ambientColor="1 1 1" customShaderId="35">
+      <Texture fileId="1"/>
+      <Normalmap fileId="34"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0.1"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
+      <CustomParameter name="controlPoint" value="10 0.25 0 0"/>
+      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
+    </Material>
+    <Material name="oat_mat137" materialId="76" ambientColor="1 1 1" customShaderId="40" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="1"/>
       <Normalmap fileId="34"/>
       <CustomParameter name="morphPosition" value="0 1 1 2"/>
       <CustomParameter name="offsetUV" value="0 0 0 0"/>
@@ -477,83 +574,23 @@
       <CustomParameter name="uvScale" value="2 2 1 1"/>
       <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
     </Material>
-    <Material name="smoke_oat" materialId="48" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1" alphaBlending="true" customShaderId="19">
+    <Material name="millet_mat" materialId="77" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="10"/>
+      <Normalmap fileId="2"/>
       <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="0.75 0.1 -0.3 0"/>
-      <CustomParameter name="ColorAlpha" value="0.904 0.752 0.489 2"/>
-    </Material>
-    <Material name="oat_mat136" materialId="51" ambientColor="1 1 1" customShaderId="30">
-      <Texture fileId="1"/>
-      <Normalmap fileId="29"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.5 6 3 0.1"/>
-      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
-      <CustomParameter name="controlPoint" value="10 0.25 0 0"/>
-      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
-    </Material>
-    <Material name="seeds2_mat57" materialId="53" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="11"/>
-      <Normalmap fileId="12"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="3.5 -2 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
       <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
       <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
-    <Material name="millet_mat131" materialId="70" ambientColor="1 1 1" customShaderId="35" customShaderVariation="ALPHA_DISABLE">
-      <Texture fileId="16"/>
+    <Material name="fx_compost_mat" materialId="78" ambientColor="1 1 1" alphaBlending="true" customShaderId="26" customShaderVariation="WINDROW_CENTER">
+      <Texture fileId="32"/>
       <Normalmap fileId="33"/>
-      <CustomParameter name="morphPosition" value="0 1 1 2"/>
-      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="3 -1 1 1"/>
+      <CustomParameter name="MaskChannels" value="0 0.7 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 3"/>
       <CustomParameter name="alphaRemap" value="0 1 0 0"/>
-      <CustomParameter name="uvScale" value="2 2 1 1"/>
-      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
-    </Material>
-    <Material name="rye_mat129" materialId="74" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="6"/>
-      <Normalmap fileId="2"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="oat_mat138" materialId="69" ambientColor="1 1 1" alphaBlending="true" customShaderId="25" customShaderVariation="LEVELER">
-      <Texture fileId="1"/>
-      <Normalmap fileId="29"/>
-      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
-    </Material>
-    <Material name="millet_mat129" materialId="71" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="16"/>
-      <Normalmap fileId="2"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
-    </Material>
-    <Material name="sand_mat73" materialId="68" ambientColor="1 1 1" alphaBlending="true" customShaderId="25" customShaderVariation="LEVELER">
-      <Texture fileId="7"/>
-      <Normalmap fileId="8"/>
-      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 6"/>
-    </Material>
-    <Material name="seeds2_mat59" materialId="72" ambientColor="1 1 1" customShaderId="35" customShaderVariation="ALPHA_DISABLE">
-      <Texture fileId="11"/>
-      <Normalmap fileId="12"/>
-      <CustomParameter name="morphPosition" value="0 1 1 2"/>
-      <CustomParameter name="offsetUV" value="0 0 0 0"/>
-      <CustomParameter name="alphaRemap" value="0 1 0 0"/>
-      <CustomParameter name="uvScale" value="2 2 1 1"/>
-      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
-    </Material>
-    <Material name="triticale_mat135" materialId="73" ambientColor="1 1 1" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
-      <Texture fileId="17"/>
-      <Normalmap fileId="2"/>
-      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
-      <CustomParameter name="UVScaleSpeed" value="4.5 -2.5 0 0"/>
-      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
-      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
-      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.001 0.01"/>
     </Material>
   </Materials>
 
@@ -566,637 +603,729 @@
   </Dynamics>
 
   <Scene>
-    <TransformGroup name="unloading" clipDistance="10" nodeId="83">
-      <TransformGroup name="oat" clipDistance="10" nodeId="84">
-        <Shape shapeId="1" name="oat0_025_materialHolder" clipDistance="10" nodeId="85" materialIds="65" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="oat0_05_materialHolder" clipDistance="10" nodeId="86" materialIds="24" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="oat0_15_materialHolder" clipDistance="10" nodeId="87" materialIds="54" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="unloading" clipDistance="10" nodeId="89">
+      <TransformGroup name="oat" clipDistance="10" nodeId="90">
+        <Shape shapeId="1" name="oat0_025_materialHolder" clipDistance="10" nodeId="91" materialIds="39" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="oat0_05_materialHolder" clipDistance="10" nodeId="92" materialIds="51" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="oat0_15_materialHolder" clipDistance="10" nodeId="93" materialIds="38" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="rye" clipDistance="10" nodeId="88">
-        <Shape shapeId="1" name="rye0_025_materialHolder" clipDistance="10" nodeId="89" materialIds="39" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="rye0_05_materialHolder" clipDistance="10" nodeId="90" materialIds="74" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="rye0_15_materialHolder" clipDistance="10" nodeId="91" materialIds="11" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="rye" clipDistance="10" nodeId="94">
+        <Shape shapeId="1" name="rye0_025_materialHolder" clipDistance="10" nodeId="95" materialIds="34" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="rye0_05_materialHolder" clipDistance="10" nodeId="96" materialIds="44" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="rye0_15_materialHolder" clipDistance="10" nodeId="97" materialIds="73" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="sand" clipDistance="10" nodeId="92">
-        <Shape shapeId="1" name="sand0_025_materialHolder" clipDistance="10" nodeId="93" materialIds="49" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="sand0_05_materialHolder" clipDistance="10" nodeId="94" materialIds="43" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="sand0_15_materialHolder" clipDistance="10" nodeId="95" materialIds="56" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="compost" clipDistance="10" nodeId="98">
+        <Shape shapeId="1" name="compost0_025_materialHolder" clipDistance="10" nodeId="99" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="compost0_05_materialHolder" clipDistance="10" nodeId="100" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="compost0_15_materialHolder" clipDistance="10" nodeId="101" materialIds="9" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="lime" clipDistance="10" nodeId="96">
-        <Shape shapeId="1" name="lime0_025_materialHolder" clipDistance="10" nodeId="97" materialIds="20" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="lime0_05_materialHolder" clipDistance="10" nodeId="98" materialIds="59" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="lime0_15_materialHolder" clipDistance="10" nodeId="99" materialIds="31" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="spelt" clipDistance="10" nodeId="102">
+        <Shape shapeId="1" name="spelt0_025_materialHolder" clipDistance="10" nodeId="103" materialIds="17" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="spelt0_05_materialHolder" clipDistance="10" nodeId="104" materialIds="64" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="spelt0_15_materialHolder" clipDistance="10" nodeId="105" materialIds="19" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="seeds2" clipDistance="10" nodeId="100">
-        <Shape shapeId="1" name="seeds0_025_materialHolder" clipDistance="10" nodeId="101" materialIds="38" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="seeds0_05_materialHolder" clipDistance="10" nodeId="102" materialIds="53" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="seeds0_15_materialHolder" clipDistance="10" nodeId="103" materialIds="63" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="millet" clipDistance="10" nodeId="106">
+        <Shape shapeId="1" name="millet0_025_materialHolder" clipDistance="10" nodeId="107" materialIds="77" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="millet0_05_materialHolder" clipDistance="10" nodeId="108" materialIds="28" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="millet0_15_materialHolder" clipDistance="10" nodeId="109" materialIds="43" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="compost" clipDistance="10" nodeId="104">
-        <Shape shapeId="1" name="compost0_025_materialHolder" clipDistance="10" nodeId="105" materialIds="30" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="compost0_05_materialHolder" clipDistance="10" nodeId="106" materialIds="17" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="compost0_15_materialHolder" clipDistance="10" nodeId="107" materialIds="12" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="triticale" clipDistance="10" nodeId="110">
+        <Shape shapeId="1" name="triticale0_025_materialHolder" clipDistance="10" nodeId="111" materialIds="63" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="triticale0_05_materialHolder" clipDistance="10" nodeId="112" materialIds="30" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="triticale0_15_materialHolder" clipDistance="10" nodeId="113" materialIds="21" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="spelt" clipDistance="10" nodeId="108">
-        <Shape shapeId="1" name="spelt0_025_materialHolder" clipDistance="10" nodeId="109" materialIds="47" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="spelt0_05_materialHolder" clipDistance="10" nodeId="110" materialIds="33" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="spelt0_15_materialHolder" clipDistance="10" nodeId="111" materialIds="61" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="grape" clipDistance="10" nodeId="114">
+        <Shape shapeId="1" name="grape0_025_materialHolder" clipDistance="10" nodeId="115" materialIds="52" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="grape0_05_materialHolder" clipDistance="10" nodeId="116" materialIds="52" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="grape0_15_materialHolder" clipDistance="10" nodeId="117" materialIds="52" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="millet" clipDistance="10" nodeId="112">
-        <Shape shapeId="1" name="millet0_025_materialHolder" clipDistance="10" nodeId="113" materialIds="29" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="millet0_05_materialHolder" clipDistance="10" nodeId="114" materialIds="71" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="millet0_15_materialHolder" clipDistance="10" nodeId="115" materialIds="22" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="olive" clipDistance="10" nodeId="118">
+        <Shape shapeId="1" name="olive0_025_materialHolder" clipDistance="10" nodeId="119" materialIds="53" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="olive0_05_materialHolder" clipDistance="10" nodeId="120" materialIds="53" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="olive0_15_materialHolder" clipDistance="10" nodeId="121" materialIds="53" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="triticale" clipDistance="10" nodeId="116">
-        <Shape shapeId="1" name="triticale0_025_materialHolder" clipDistance="10" nodeId="117" materialIds="37" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="triticale0_05_materialHolder" clipDistance="10" nodeId="118" materialIds="73" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="1" name="triticale0_15_materialHolder" clipDistance="10" nodeId="119" materialIds="34" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="apple" clipDistance="10" nodeId="122">
+        <Shape shapeId="1" name="apple0_025_materialHolder" clipDistance="10" nodeId="123" materialIds="54" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="apple0_05_materialHolder" clipDistance="10" nodeId="124" materialIds="54" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="apple0_15_materialHolder" clipDistance="10" nodeId="125" materialIds="54" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-    </TransformGroup>
-    <TransformGroup name="smoke" clipDistance="10" nodeId="120">
-      <TransformGroup name="oat" clipDistance="10" nodeId="121">
-        <Shape shapeId="2" name="oat_materialHolder" clipDistance="10" nodeId="122" materialIds="48" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="sal" clipDistance="10" nodeId="126">
+        <Shape shapeId="1" name="sal0_025_materialHolder" clipDistance="10" nodeId="127" materialIds="62" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="sal0_05_materialHolder" clipDistance="10" nodeId="128" materialIds="62" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="sal0_15_materialHolder" clipDistance="10" nodeId="129" materialIds="62" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="rye" clipDistance="10" nodeId="123">
-        <Shape shapeId="2" name="rye_materialHolder" clipDistance="10" nodeId="124" materialIds="48" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="sand" clipDistance="10" nodeId="125">
-        <Shape shapeId="2" name="sand_materialHolder" clipDistance="10" nodeId="126" materialIds="57" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="lime" clipDistance="10" nodeId="127">
-        <Shape shapeId="2" name="lime_materialHolder" clipDistance="10" nodeId="128" materialIds="48" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="seeds2" clipDistance="10" nodeId="129">
-        <Shape shapeId="2" name="seeds2_materialHolder" clipDistance="10" nodeId="130" materialIds="48" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="compost" clipDistance="10" nodeId="131">
-        <Shape shapeId="2" name="compost_materialHolder" clipDistance="10" nodeId="132" materialIds="9" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="spelt" clipDistance="10" nodeId="133">
-        <Shape shapeId="2" name="spelt_materialHolder" clipDistance="10" nodeId="134" materialIds="48" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="millet" clipDistance="10" nodeId="135">
-        <Shape shapeId="2" name="millet_materialHolder" clipDistance="10" nodeId="136" materialIds="48" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="triticale" clipDistance="10" nodeId="137">
-        <Shape shapeId="2" name="triticale_materialHolder" clipDistance="10" nodeId="138" materialIds="48" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="hops" clipDistance="10" nodeId="130">
+        <Shape shapeId="2" name="hops0_025_materialHolder" clipDistance="10" nodeId="131" materialIds="55" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="hops0_05_materialHolder" clipDistance="10" nodeId="132" materialIds="57" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="hops0_15_materialHolder" clipDistance="10" nodeId="133" materialIds="56" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
     </TransformGroup>
-    <TransformGroup name="straw" clipDistance="10" nodeId="139">
-      <TransformGroup name="oat" clipDistance="10" nodeId="140">
-        <Shape shapeId="3" name="oat_materialHolder" clipDistance="10" nodeId="141" materialIds="40" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="smoke" clipDistance="10" nodeId="134">
+      <TransformGroup name="oat" clipDistance="10" nodeId="135">
+        <Shape shapeId="3" name="oat_materialHolder" clipDistance="10" nodeId="136" materialIds="37" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="rye" clipDistance="10" nodeId="142">
-        <Shape shapeId="3" name="rye_materialHolder" clipDistance="10" nodeId="143" materialIds="44" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="rye" clipDistance="10" nodeId="137">
+        <Shape shapeId="3" name="rye_materialHolder" clipDistance="10" nodeId="138" materialIds="37" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="spelt" clipDistance="10" nodeId="144">
-        <Shape shapeId="3" name="spelt_materialHolder" clipDistance="10" nodeId="145" materialIds="40" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="compost" clipDistance="10" nodeId="139">
+        <Shape shapeId="3" name="compost_materialHolder" clipDistance="10" nodeId="140" materialIds="72" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="millet" clipDistance="10" nodeId="146">
-        <Shape shapeId="3" name="millet_materialHolder" clipDistance="10" nodeId="147" materialIds="44" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="spelt" clipDistance="10" nodeId="141">
+        <Shape shapeId="3" name="spelt_materialHolder" clipDistance="10" nodeId="142" materialIds="37" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="triticale" clipDistance="10" nodeId="148">
-        <Shape shapeId="3" name="triticale_materialHolder" clipDistance="10" nodeId="149" materialIds="40" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="millet" clipDistance="10" nodeId="143">
+        <Shape shapeId="3" name="millet_materialHolder" clipDistance="10" nodeId="144" materialIds="37" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-    </TransformGroup>
-    <TransformGroup name="chopper" clipDistance="10" nodeId="150">
-      <TransformGroup name="oat" clipDistance="10" nodeId="151">
-        <Shape shapeId="2" name="oat_materialHolder" clipDistance="10" nodeId="152" materialIds="36" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="triticale" clipDistance="10" nodeId="145">
+        <Shape shapeId="3" name="triticale_materialHolder" clipDistance="10" nodeId="146" materialIds="37" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="rye" clipDistance="10" nodeId="153">
-        <Shape shapeId="2" name="rye_materialHolder" clipDistance="10" nodeId="154" materialIds="36" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="sal" clipDistance="10" nodeId="147">
+        <Shape shapeId="3" name="sal_materialHolder" clipDistance="10" nodeId="148" materialIds="72" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="spelt" clipDistance="10" nodeId="155">
-        <Shape shapeId="2" name="spelt_materialHolder" clipDistance="10" nodeId="156" materialIds="36" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="millet" clipDistance="10" nodeId="157">
-        <Shape shapeId="2" name="millet_materialHolder" clipDistance="10" nodeId="158" materialIds="36" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="triticale" clipDistance="10" nodeId="159">
-        <Shape shapeId="2" name="triticale_materialHolder" clipDistance="10" nodeId="160" materialIds="36" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="hops" clipDistance="10" nodeId="149">
+        <Shape shapeId="3" name="hops_materialHolder" clipDistance="10" nodeId="150" materialIds="37" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
     </TransformGroup>
-    <TransformGroup name="soil" clipDistance="10" nodeId="161">
-      <Shape shapeId="1" name="soil_materialHolder" clipDistance="10" nodeId="162" materialIds="19" castsShadows="true" receiveShadows="true"/>
-    </TransformGroup>
-    <TransformGroup name="sprayer" clipDistance="10" nodeId="163"/>
-    <TransformGroup name="spreader" clipDistance="10" nodeId="164">
-      <TransformGroup name="compost" clipDistance="10" nodeId="165">
-        <Shape shapeId="1" name="compost_materialHolder" clipDistance="10" nodeId="166" materialIds="52" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="straw" clipDistance="10" nodeId="151">
+      <TransformGroup name="oat" clipDistance="10" nodeId="152">
+        <Shape shapeId="4" name="oat_materialHolder" clipDistance="10" nodeId="153" materialIds="32" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="lime" clipDistance="10" nodeId="167">
-        <Shape shapeId="4" name="lime1_materialHolder" clipDistance="10" nodeId="168" materialIds="66" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="rye" clipDistance="10" nodeId="154">
+        <Shape shapeId="4" name="rye_materialHolder" clipDistance="10" nodeId="155" materialIds="40" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-    </TransformGroup>
-    <TransformGroup name="pipe" clipDistance="10" nodeId="169">
-      <Shape shapeId="5" name="oat" clipDistance="10" nodeId="170" materialIds="51" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="rye" clipDistance="10" nodeId="171" materialIds="32" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="sand" clipDistance="10" nodeId="172" materialIds="14" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="lime" clipDistance="10" nodeId="173" materialIds="50" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="seeds2" clipDistance="10" nodeId="174" materialIds="21" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="compost" clipDistance="10" nodeId="175" materialIds="28" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="spelt" clipDistance="10" nodeId="176" materialIds="27" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="millet" clipDistance="10" nodeId="177" materialIds="18" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="triticale" clipDistance="10" nodeId="178" materialIds="25" castsShadows="true" receiveShadows="true"/>
-    </TransformGroup>
-    <TransformGroup name="mower" clipDistance="10" nodeId="179"/>
-    <TransformGroup name="belt" clipDistance="10" nodeId="180">
-      <TransformGroup name="oat" clipDistance="10" nodeId="181">
-        <Shape shapeId="6" name="oat0_materialHolder" clipDistance="10" nodeId="182" materialIds="26" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="spelt" clipDistance="10" nodeId="156">
+        <Shape shapeId="4" name="spelt_materialHolder" clipDistance="10" nodeId="157" materialIds="32" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="rye" clipDistance="10" nodeId="183">
-        <Shape shapeId="7" name="rye0_materialHolder" clipDistance="10" nodeId="184" materialIds="23" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="millet" clipDistance="10" nodeId="158">
+        <Shape shapeId="4" name="millet_materialHolder" clipDistance="10" nodeId="159" materialIds="40" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="sand" clipDistance="10" nodeId="185">
-        <Shape shapeId="6" name="sand0_materialHolder" clipDistance="10" nodeId="186" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="triticale" clipDistance="10" nodeId="160">
+        <Shape shapeId="4" name="triticale_materialHolder" clipDistance="10" nodeId="161" materialIds="32" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
-      <TransformGroup name="lime" clipDistance="10" nodeId="187">
-        <Shape shapeId="6" name="lime0_materialHolder" clipDistance="10" nodeId="188" materialIds="64" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="seeds2" clipDistance="10" nodeId="189">
-        <Shape shapeId="6" name="seeds20_materialHolder" clipDistance="10" nodeId="190" materialIds="72" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="compost" clipDistance="10" nodeId="191">
-        <Shape shapeId="6" name="compost0_materialHolder" clipDistance="10" nodeId="192" materialIds="60" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="spelt" clipDistance="10" nodeId="193">
-        <Shape shapeId="6" name="spelt0_materialHolder" clipDistance="10" nodeId="194" materialIds="55" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="millet" clipDistance="10" nodeId="195">
-        <Shape shapeId="7" name="millet0_materialHolder" clipDistance="10" nodeId="196" materialIds="70" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="triticale" clipDistance="10" nodeId="197">
-        <Shape shapeId="6" name="triticale0_materialHolder" clipDistance="10" nodeId="198" materialIds="46" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="hops" clipDistance="10" nodeId="162">
+        <Shape shapeId="3" name="hops_materialHolder" clipDistance="10" nodeId="163" materialIds="47" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
     </TransformGroup>
-    <TransformGroup name="leveler" nodeId="199">
-      <Shape shapeId="5" name="oat" clipDistance="10" nodeId="200" materialIds="69" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="rye" clipDistance="10" nodeId="201" materialIds="62" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="sand" clipDistance="10" nodeId="202" materialIds="68" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="lime" clipDistance="10" nodeId="203" materialIds="16" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="seeds2" clipDistance="10" nodeId="204" materialIds="41" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="compost" clipDistance="10" nodeId="205" materialIds="58" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="spelt" clipDistance="10" nodeId="206" materialIds="42" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="millet" clipDistance="10" nodeId="207" materialIds="67" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="triticale" clipDistance="10" nodeId="208" materialIds="45" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="chopper" clipDistance="10" nodeId="164">
+      <TransformGroup name="oat" clipDistance="10" nodeId="165">
+        <Shape shapeId="3" name="oat_materialHolder" clipDistance="10" nodeId="166" materialIds="23" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="rye" clipDistance="10" nodeId="167">
+        <Shape shapeId="3" name="rye_materialHolder" clipDistance="10" nodeId="168" materialIds="23" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="millet" clipDistance="10" nodeId="169">
+        <Shape shapeId="3" name="millet_materialHolder" clipDistance="10" nodeId="170" materialIds="23" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="triticale" clipDistance="10" nodeId="171">
+        <Shape shapeId="3" name="triticale_materialHolder" clipDistance="10" nodeId="172" materialIds="23" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="spelt" clipDistance="10" nodeId="173">
+        <Shape shapeId="3" name="spelt_materialHolder" clipDistance="10" nodeId="174" materialIds="23" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="hops" clipDistance="10" nodeId="175">
+        <Shape shapeId="3" name="hops_materialHolder" clipDistance="10" nodeId="176" materialIds="49" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
     </TransformGroup>
-    <TransformGroup name="washer" nodeId="209"/>
-    <TransformGroup name="pickup" clipDistance="10" nodeId="210"/>
+    <TransformGroup name="soil" clipDistance="10" nodeId="177">
+      <Shape shapeId="1" name="soil_materialHolder" clipDistance="10" nodeId="178" materialIds="42" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="sprayer" clipDistance="10" nodeId="179"/>
+    <TransformGroup name="spreader" clipDistance="10" nodeId="180">
+      <TransformGroup name="compost" clipDistance="10" nodeId="181">
+        <Shape shapeId="1" name="compost_materialHolder" clipDistance="10" nodeId="182" materialIds="78" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="pipe" clipDistance="10" nodeId="183">
+      <Shape shapeId="5" name="oat" clipDistance="10" nodeId="184" materialIds="75" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="rye" clipDistance="10" nodeId="185" materialIds="20" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="compost" clipDistance="10" nodeId="186" materialIds="11" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="spelt" clipDistance="10" nodeId="187" materialIds="48" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="millet" clipDistance="10" nodeId="188" materialIds="74" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="triticale" clipDistance="10" nodeId="189" materialIds="33" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="grape" clipDistance="10" nodeId="190" materialIds="69" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="olive" clipDistance="10" nodeId="191" materialIds="50" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="apple" clipDistance="10" nodeId="192" materialIds="71" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="sal" clipDistance="10" nodeId="193" materialIds="60" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="6" name="hops" clipDistance="10" nodeId="194" materialIds="58" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="mower" clipDistance="10" nodeId="195"/>
+    <TransformGroup name="belt" clipDistance="10" nodeId="196">
+      <TransformGroup name="oat" clipDistance="10" nodeId="197">
+        <Shape shapeId="7" name="oat0_materialHolder" clipDistance="10" nodeId="198" materialIds="76" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="rye" clipDistance="10" nodeId="199">
+        <Shape shapeId="8" name="rye0_materialHolder" clipDistance="10" nodeId="200" materialIds="29" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="compost" clipDistance="10" nodeId="201">
+        <Shape shapeId="7" name="compost0_materialHolder" clipDistance="10" nodeId="202" materialIds="15" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="spelt" clipDistance="10" nodeId="203">
+        <Shape shapeId="7" name="spelt0_materialHolder" clipDistance="10" nodeId="204" materialIds="18" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="millet" clipDistance="10" nodeId="205">
+        <Shape shapeId="8" name="millet0_materialHolder" clipDistance="10" nodeId="206" materialIds="27" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="triticale" clipDistance="10" nodeId="207">
+        <Shape shapeId="7" name="triticale0_materialHolder" clipDistance="10" nodeId="208" materialIds="35" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="grape" clipDistance="10" nodeId="209">
+        <Shape shapeId="7" name="grape0_materialHolder" clipDistance="10" nodeId="210" materialIds="65" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="olive" clipDistance="10" nodeId="211">
+        <Shape shapeId="7" name="olive0_materialHolder" clipDistance="10" nodeId="212" materialIds="66" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="apple" clipDistance="10" nodeId="213">
+        <Shape shapeId="7" name="apple0_materialHolder" clipDistance="10" nodeId="214" materialIds="67" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="sal" clipDistance="10" nodeId="215">
+        <Shape shapeId="7" name="sal0_materialHolder" clipDistance="10" nodeId="216" materialIds="61" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="hops" clipDistance="10" nodeId="217">
+        <Shape shapeId="9" name="hops0_materialHolder" clipDistance="10" nodeId="218" materialIds="46" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="leveler" nodeId="219">
+      <Shape shapeId="5" name="oat" clipDistance="10" nodeId="220" materialIds="26" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="rye" clipDistance="10" nodeId="221" materialIds="24" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="compost" clipDistance="10" nodeId="222" materialIds="13" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="spelt" clipDistance="10" nodeId="223" materialIds="16" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="millet" clipDistance="10" nodeId="224" materialIds="25" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="triticale" clipDistance="10" nodeId="225" materialIds="31" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="grape" clipDistance="10" nodeId="226" materialIds="68" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="olive" clipDistance="10" nodeId="227" materialIds="41" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="apple" clipDistance="10" nodeId="228" materialIds="70" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="sal" clipDistance="10" nodeId="229" materialIds="59" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="6" name="hops" clipDistance="10" nodeId="230" materialIds="45" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="washer" nodeId="231"/>
+    <TransformGroup name="pickup" clipDistance="10" nodeId="232"/>
   </Scene>
 
   <UserAttributes>
-    <UserAttribute nodeId="85">
-      <Attribute name="fillType" type="string" value="oat"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="86">
-      <Attribute name="fillType" type="string" value="oat"/>
-      <Attribute name="materialId" type="string" value="2"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="87">
-      <Attribute name="fillType" type="string" value="oat"/>
-      <Attribute name="materialId" type="string" value="3"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="89">
-      <Attribute name="fillType" type="string" value="rye"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="90">
-      <Attribute name="fillType" type="string" value="rye"/>
-      <Attribute name="materialId" type="string" value="2"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
     <UserAttribute nodeId="91">
-      <Attribute name="fillType" type="string" value="rye"/>
-      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="fillType" type="string" value="oat"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="92">
+      <Attribute name="fillType" type="string" value="oat"/>
+      <Attribute name="materialId" type="string" value="2"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="93">
-      <Attribute name="fillType" type="string" value="sand"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="94">
-      <Attribute name="fillType" type="string" value="sand"/>
-      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="fillType" type="string" value="oat"/>
+      <Attribute name="materialId" type="string" value="3"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="95">
-      <Attribute name="fillType" type="string" value="sand"/>
-      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="fillType" type="string" value="rye"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="96">
+      <Attribute name="fillType" type="string" value="rye"/>
+      <Attribute name="materialId" type="string" value="2"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="97">
-      <Attribute name="fillType" type="string" value="lime"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="98">
-      <Attribute name="fillType" type="string" value="lime"/>
-      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="fillType" type="string" value="rye"/>
+      <Attribute name="materialId" type="string" value="3"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="99">
-      <Attribute name="fillType" type="string" value="lime"/>
-      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="fillType" type="string" value="compost"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="100">
+      <Attribute name="fillType" type="string" value="compost"/>
+      <Attribute name="materialId" type="string" value="2"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="101">
-      <Attribute name="fillType" type="string" value="seeds2"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="102">
-      <Attribute name="fillType" type="string" value="seeds2"/>
-      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="fillType" type="string" value="compost"/>
+      <Attribute name="materialId" type="string" value="3"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="103">
-      <Attribute name="fillType" type="string" value="seeds2"/>
-      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="fillType" type="string" value="spelt"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="104">
+      <Attribute name="fillType" type="string" value="spelt"/>
+      <Attribute name="materialId" type="string" value="2"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="105">
-      <Attribute name="fillType" type="string" value="compost"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="106">
-      <Attribute name="fillType" type="string" value="compost"/>
-      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="fillType" type="string" value="spelt"/>
+      <Attribute name="materialId" type="string" value="3"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="107">
-      <Attribute name="fillType" type="string" value="compost"/>
-      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="fillType" type="string" value="millet"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="108">
+      <Attribute name="fillType" type="string" value="millet"/>
+      <Attribute name="materialId" type="string" value="2"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="109">
-      <Attribute name="fillType" type="string" value="spelt"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="110">
-      <Attribute name="fillType" type="string" value="spelt"/>
-      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="fillType" type="string" value="millet"/>
+      <Attribute name="materialId" type="string" value="3"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="111">
-      <Attribute name="fillType" type="string" value="spelt"/>
-      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="fillType" type="string" value="triticale"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="112">
+      <Attribute name="fillType" type="string" value="triticale"/>
+      <Attribute name="materialId" type="string" value="2"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="113">
-      <Attribute name="fillType" type="string" value="millet"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="114">
-      <Attribute name="fillType" type="string" value="millet"/>
-      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="fillType" type="string" value="triticale"/>
+      <Attribute name="materialId" type="string" value="3"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="115">
-      <Attribute name="fillType" type="string" value="millet"/>
-      <Attribute name="materialId" type="string" value="3"/>
-      <Attribute name="materialType" type="string" value="unloading"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="117">
-      <Attribute name="fillType" type="string" value="triticale"/>
+      <Attribute name="fillType" type="string" value="grape"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="118">
-      <Attribute name="fillType" type="string" value="triticale"/>
+    <UserAttribute nodeId="116">
+      <Attribute name="fillType" type="string" value="grape"/>
       <Attribute name="materialId" type="string" value="2"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="119">
-      <Attribute name="fillType" type="string" value="triticale"/>
+    <UserAttribute nodeId="117">
+      <Attribute name="fillType" type="string" value="grape"/>
       <Attribute name="materialId" type="string" value="3"/>
       <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="122">
-      <Attribute name="fillType" type="string" value="oat"/>
+    <UserAttribute nodeId="119">
+      <Attribute name="fillType" type="string" value="olive"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="120">
+      <Attribute name="fillType" type="string" value="olive"/>
+      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="121">
+      <Attribute name="fillType" type="string" value="olive"/>
+      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="123">
+      <Attribute name="fillType" type="string" value="apple"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="124">
-      <Attribute name="fillType" type="string" value="rye"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="fillType" type="string" value="apple"/>
+      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="126">
-      <Attribute name="fillType" type="string" value="sand"/>
+    <UserAttribute nodeId="125">
+      <Attribute name="fillType" type="string" value="apple"/>
+      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="127">
+      <Attribute name="fillType" type="string" value="sal"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="128">
-      <Attribute name="fillType" type="string" value="lime"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="fillType" type="string" value="sal"/>
+      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="130">
-      <Attribute name="fillType" type="string" value="seeds2"/>
+    <UserAttribute nodeId="129">
+      <Attribute name="fillType" type="string" value="sal"/>
+      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="131">
+      <Attribute name="fillType" type="string" value="hops"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="132">
-      <Attribute name="fillType" type="string" value="compost"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="fillType" type="string" value="hops"/>
+      <Attribute name="materialId" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="134">
-      <Attribute name="fillType" type="string" value="spelt"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="smoke"/>
+    <UserAttribute nodeId="133">
+      <Attribute name="fillType" type="string" value="hops"/>
+      <Attribute name="materialId" type="string" value="3"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="136">
-      <Attribute name="fillType" type="string" value="millet"/>
+      <Attribute name="fillType" type="string" value="oat"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="smoke"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="138">
+      <Attribute name="fillType" type="string" value="rye"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="140">
+      <Attribute name="fillType" type="string" value="compost"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="142">
+      <Attribute name="fillType" type="string" value="spelt"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="144">
+      <Attribute name="fillType" type="string" value="millet"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="146">
       <Attribute name="fillType" type="string" value="triticale"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="smoke"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="141">
+    <UserAttribute nodeId="148">
+      <Attribute name="fillType" type="string" value="sal"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="150">
+      <Attribute name="fillType" type="string" value="hops"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="153">
       <Attribute name="fillType" type="string" value="oat"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="straw"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="143">
+    <UserAttribute nodeId="155">
       <Attribute name="fillType" type="string" value="rye"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="straw"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="145">
+    <UserAttribute nodeId="157">
       <Attribute name="fillType" type="string" value="spelt"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="straw"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="147">
+    <UserAttribute nodeId="159">
       <Attribute name="fillType" type="string" value="millet"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="straw"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="149">
+    <UserAttribute nodeId="161">
       <Attribute name="fillType" type="string" value="triticale"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="straw"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="152">
+    <UserAttribute nodeId="163">
+      <Attribute name="fillType" type="string" value="hops"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="straw"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="166">
       <Attribute name="fillType" type="string" value="oat"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="chopper"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="154">
+    <UserAttribute nodeId="168">
       <Attribute name="fillType" type="string" value="rye"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="chopper"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="156">
-      <Attribute name="fillType" type="string" value="spelt"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="chopper"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="158">
+    <UserAttribute nodeId="170">
       <Attribute name="fillType" type="string" value="millet"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="chopper"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="160">
+    <UserAttribute nodeId="172">
       <Attribute name="fillType" type="string" value="triticale"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="chopper"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="162">
+    <UserAttribute nodeId="174">
+      <Attribute name="fillType" type="string" value="spelt"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="chopper"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="176">
+      <Attribute name="fillType" type="string" value="hops"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="chopper"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="178">
       <Attribute name="fillType" type="string" value="unknown"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="SOIL"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="166">
-      <Attribute name="fillType" type="string" value="compost"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="spreader"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="168">
-      <Attribute name="fillType" type="string" value="lime"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="spreader"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="170">
-      <Attribute name="fillType" type="string" value="oat"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="PIPE"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="171">
-      <Attribute name="fillType" type="string" value="rye"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="PIPE"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="172">
-      <Attribute name="fillType" type="string" value="sand"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="PIPE"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="173">
-      <Attribute name="fillType" type="string" value="lime"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="PIPE"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="174">
-      <Attribute name="fillType" type="string" value="seeds2"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="PIPE"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="175">
-      <Attribute name="fillType" type="string" value="compost"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="PIPE"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="176">
-      <Attribute name="fillType" type="string" value="spelt"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="PIPE"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="177">
-      <Attribute name="fillType" type="string" value="millet"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="PIPE"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="178">
-      <Attribute name="fillType" type="string" value="triticale"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="PIPE"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
     <UserAttribute nodeId="182">
-      <Attribute name="fillType" type="string" value="oat"/>
+      <Attribute name="fillType" type="string" value="compost"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="materialType" type="string" value="spreader"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="184">
+      <Attribute name="fillType" type="string" value="oat"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="185">
       <Attribute name="fillType" type="string" value="rye"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="186">
-      <Attribute name="fillType" type="string" value="sand"/>
+      <Attribute name="fillType" type="string" value="compost"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="187">
+      <Attribute name="fillType" type="string" value="spelt"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="188">
-      <Attribute name="fillType" type="string" value="lime"/>
+      <Attribute name="fillType" type="string" value="millet"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="189">
+      <Attribute name="fillType" type="string" value="triticale"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="190">
-      <Attribute name="fillType" type="string" value="seeds2"/>
+      <Attribute name="fillType" type="string" value="grape"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="191">
+      <Attribute name="fillType" type="string" value="olive"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="192">
-      <Attribute name="fillType" type="string" value="compost"/>
+      <Attribute name="fillType" type="string" value="apple"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="193">
+      <Attribute name="fillType" type="string" value="sal"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="194">
-      <Attribute name="fillType" type="string" value="spelt"/>
+      <Attribute name="fillType" type="string" value="hops"/>
       <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="belt"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="196">
-      <Attribute name="fillType" type="string" value="millet"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="198">
-      <Attribute name="fillType" type="string" value="triticale"/>
+      <Attribute name="fillType" type="string" value="oat"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="belt"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
     <UserAttribute nodeId="200">
+      <Attribute name="fillType" type="string" value="rye"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="202">
+      <Attribute name="fillType" type="string" value="compost"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="204">
+      <Attribute name="fillType" type="string" value="spelt"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="206">
+      <Attribute name="fillType" type="string" value="millet"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="208">
+      <Attribute name="fillType" type="string" value="triticale"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="210">
+      <Attribute name="fillType" type="string" value="grape"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="212">
+      <Attribute name="fillType" type="string" value="olive"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="214">
+      <Attribute name="fillType" type="string" value="apple"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="216">
+      <Attribute name="fillType" type="string" value="sal"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="218">
+      <Attribute name="fillType" type="string" value="hops"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="220">
       <Attribute name="fillType" type="string" value="oat"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="LEVELER"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="201">
+    <UserAttribute nodeId="221">
       <Attribute name="fillType" type="string" value="rye"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="LEVELER"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="202">
-      <Attribute name="fillType" type="string" value="sand"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="LEVELER"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="203">
-      <Attribute name="fillType" type="string" value="lime"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="LEVELER"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="204">
-      <Attribute name="fillType" type="string" value="seeds2"/>
-      <Attribute name="materialId" type="string" value="1"/>
-      <Attribute name="materialType" type="string" value="LEVELER"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
-    </UserAttribute>
-    <UserAttribute nodeId="205">
+    <UserAttribute nodeId="222">
       <Attribute name="fillType" type="string" value="compost"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="LEVELER"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="206">
+    <UserAttribute nodeId="223">
       <Attribute name="fillType" type="string" value="spelt"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="LEVELER"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="207">
+    <UserAttribute nodeId="224">
       <Attribute name="fillType" type="string" value="millet"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="LEVELER"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
     </UserAttribute>
-    <UserAttribute nodeId="208">
+    <UserAttribute nodeId="225">
       <Attribute name="fillType" type="string" value="triticale"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="LEVELER"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="226">
+      <Attribute name="fillType" type="string" value="grape"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="LEVELER"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="227">
+      <Attribute name="fillType" type="string" value="olive"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="LEVELER"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="228">
+      <Attribute name="fillType" type="string" value="apple"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="LEVELER"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="229">
+      <Attribute name="fillType" type="string" value="sal"/>
+      <Attribute name="materialId" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="LEVELER"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="230">
+      <Attribute name="fillType" type="string" value="hops"/>
       <Attribute name="materialId" type="string" value="1"/>
       <Attribute name="materialType" type="string" value="LEVELER"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
