@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="31">
+    <author>upsideDown</author>
+    <version>2.1</version>
+    <title>
+        <de>manuelles Schnell-'Vorspulen'</de>
+		<en>manual fast Forward</en>
+    </title>
+    <description>
+        <de>
+<![CDATA[manuelles Schnell-'Vorspulen']]>
+        </de>
+	<en>
+<![CDATA[manual fast Forward]]>
+	</en>
+    </description>
+
+	<iconFilename>store.dds</iconFilename>
+	<l10n>
+		<text name="input_fastForward"><de>Zeitbeschleunigung</de><en>Time fast forward</en></text>
+		<text name="fastForward"><de>Zeitbeschleunigung</de><en>Time fast forward</en></text>
+	</l10n>
+	
+    <multiplayer supported="true"/>
+     <extraSourceFiles>
+        <sourceFile filename="fastForward.lua"/>
+    </extraSourceFiles>
+	<inputBindings>
+        <input name="fastForward" key1="KEY_lctrl KEY_r" button="" />
+    </inputBindings>	
+</modDesc>
