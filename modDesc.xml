@@ -58,7 +58,7 @@
 </text>
 
 
-   </l10n>	
+  
 	
 	<!-- icons  -->
 		<text name="BioDiesel">        <en>BioDiesel</en>           <de>BioDiesel</de>					<es>BioDiesel</es>		<fr>Raffinerie</fr>  <pl>Biopaliwo</pl> 			 </text>
@@ -277,7 +277,7 @@
 			
 	
 	
-	
+	 </l10n>	
 	
 	<extraSourceFiles>
 		<sourceFile filename="additionalMapTypes.lua"/>
