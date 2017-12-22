@@ -62,7 +62,9 @@
 	
 	<!-- icons  -->
 		<text name="BioDiesel">        <en>BioDiesel</en>           <de>BioDiesel</de>					<es>BioDiesel</es>		<fr>Raffinerie</fr>  <pl>Biopaliwo</pl> 			 </text>
-			
+		<text name="Manzanos">         <en>Apple Trees</en>         <de>Apfelbäume</de>					<es>Manzanos</es>		<fr>Pommiers</fr>   <pl>Jabłka</pl>			</text>
+
+		
 	<!-- additionalMapTypes.lua / regFillTypes.lua -->
 		<text name="compost">         <en>Compost</en>       <de>Kompost</de>			<es>Compost</es>       <fr>Compost</fr> <pl>Kompost</pl> </text>
 	
@@ -307,9 +309,10 @@
 	  <!--<newFillCategory name="industry" />  Examples for Register New FillType Categorys -->
 	  
 	
-	  <fruitType name="millet" needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="720" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" preparedHaulm="millet_haulm" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="250" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawStandard="true" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageHarvester forageWagon fork trainWagon augerWagon" toFruitGroups="true" fruitTypeGroups="sowingmachine grainHeader directCutter" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="false" convertType="chaff" conversionFactor="4" windrowConversionFactor="1" hasBale="false" baleTypeName="millet_windrow" hasSquareBale="false" hasRoundBale="false" forageWagonConversion="wheat" />
+	  <fruitType name="millet" 			needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="720" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" preparedHaulm="millet_haulm" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="250" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawStandard="true" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageHarvester forageWagon fork trainWagon augerWagon" toFruitGroups="true" fruitTypeGroups="sowingmachine grainHeader directCutter" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="false" convertType="chaff" conversionFactor="4" windrowConversionFactor="1" hasBale="false" baleTypeName="millet_windrow" hasSquareBale="false" hasRoundBale="false" forageWagonConversion="wheat" />
 	  <fillType name="compost" 			pricePerLiter="0.4"  showOnPriceTable="true" litersPerSecond="0.3244" massPerLiter="0.0008" useForSpray="true" sprayerCategorys="manureSpreader" toCategorys="true" fillTypeCategorys="bulk forageWagon fork trainWagon augerWagon" hasMaterials="true" hasParticles="true" useHeap="true" />
-		
+	  <fillType name="apple" 			pricePerLiter="0.8"  showOnPriceTable="true" massPerLiter="0.0006" useForSpray="false" 	toCategorys="true" fillTypeCategorys="bulk forageWagon augerWagon" 	hasFill="true"   hasMaterials="true" hasParticles="false" useHeap="true" maxPhysicalSurfaceAngle="20"  maxSurfaceAngle="30" isCowGrass="false" isCowBasefeed="true"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="true"/>		 
+				
 	  
 	  
 	  
