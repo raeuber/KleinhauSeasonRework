@@ -52,22 +52,99 @@
 <de>Licht an/aus</de>
 </text>
 
-<text name="millet">
-    <en>Millet</en>
-    <de>Hirse</de>
-</text>
-
-
   
 	
 	<!-- icons  -->
-		<text name="BioDiesel">        <en>BioDiesel</en>           <de>BioDiesel</de>					<es>BioDiesel</es>		<fr>Raffinerie</fr>  <pl>Biopaliwo</pl> 			 </text>
-		<text name="Manzanos">         <en>Apple Trees</en>         <de>Apfelbäume</de>					<es>Manzanos</es>		<fr>Pommiers</fr>   <pl>Jabłka</pl>			</text>
-
+		<text name="Fuente">           <en>Fountain</en>            <de>Brunnen</de>					<es>Fuente</es>			<fr>Fontaine</fr> 	<pl>Fontanna</pl> 		</text>
+			<text name="station_farmSilo"> <en>Farm</en>            	<de>Bauernhof</de>					<es>Granja</es>			<fr>Ferme</fr>  	<pl>Farma</pl> 			</text>
+			<text name="Almacen_2">        <en>Warehouse 2</en>         <de>Lager 2</de>					<es>Almacen 2</es>		<fr>Silo 2</fr>     <pl>Magazyn 2</pl>		</text>
+			<text name="Viñedo">           <en>Vineyard</en>            <de>Weinberg </de>					<es>Viñedo</es>			<fr>Vignoble</fr>   <pl>Winnica</pl> 	</text>
+			<text name="Manzanos">         <en>Apple Trees</en>         <de>Apfelbäume</de>					<es>Manzanos</es>		<fr>Pommiers</fr>   <pl>Jabłka</pl>			</text>
+			<text name="Olivos">           <en>Olive Trees</en>         <de>Olivenbäume</de>				<es>Olivos</es>			<fr>Oliviers</fr>  	<pl>Oliwki</pl> 	</text>
+			<text name="Agroma">           <en>Agro Shop</en>           <de>Agroma Geschäft</de>			<es>Agroma</es>			<fr>Agroma</fr> 	<pl>Agro sklep</pl> 	</text>
+			<text name="Fab.Comida">       <en>Food factory</en>        <de>Nahrungsmittelfabrik</de>		<es>Fab.Comida</es>		<fr>Usine alimentaire</fr>   <pl>Fabryka żywności</pl> </text>
+			<text name="Fab.Soja">         <en>Soja factory</en>        <de>Soja-Fabrik</de>				<es>Fab.Soja</es>		<fr>Usine de Soja</fr>  <pl>Przetwórnia soji</pl> 	</text>
+			<text name="Fab.Pallets">      <en>Pallets factory</en>     <de>Palettenfabrik</de>				<es>Fab.Pallets</es>	<fr>Usine de palettes</fr> <pl>Fabryka palet</pl> 		   </text>
+			<text name="Fab.Aceite">       <en>Oil factory</en>         <de>Ölfabrik</de>					<es>Fab.Aceite</es>		<fr>Usine d'huile</fr>    <pl>Tłocznia oliwy</pl> 	 </text>
+			<text name="Fab.Lacteos">      <en>Dairy factory</en>       <de>Neueste Fabrik</de>				<es>Fab.Lacteos</es>	<fr>Laiterie</fr>       <pl>Mleczarnia</pl> 	</text>
+			<text name="Fab.Cerveza">      <en>Beer factory</en>        <de>Bierfabrik</de>					<es>Fab.Cerveza</es>	<fr>Brasserie</fr>   <pl>Warzelnia piwa</pl> 	</text>
+			<text name="Fab.Licor">        <en>Liqueur factory</en>     <de>Likörfabrik</de>				<es>Fab.Licor</es>		<fr>Usine de liqueur</fr> <pl>Fabyrka likieru</pl>  </text>
+			<text name="Fab.Uva">          <en>Grape factory</en>       <de>Traubenfabrik</de>				<es>Fab.Vino</es>		<fr>Usine de vin</fr>   <pl>Przetwórnia winogron</pl> </text>
+			<text name="Fab.Azucar">       <en>Sugar factory</en>       <de>Zuckerfabrik</de>				<es>Fab.Azucar</es>		<fr>Usine de sucre</fr> <pl>Fabryka cukru</pl> 		 </text>
+			<text name="Fab.Tablones">     <en>Planks factory</en>      <de>Bretter Fabrik</de>				<es>Fab.Tablones</es>	<fr>Usine de planches</fr>   <pl>Stolarnia</pl>	 </text>
+			<text name="Invernaderos">     <en>Greenhouses</en>         <de>Gewächshäuser</de>				<es>Invernaderos</es>	<fr>Serres</fr>    <pl>Szklarnia</pl>		  </text>
+			<text name="BioDiesel">        <en>BioDiesel</en>           <de>BioDiesel</de>					<es>BioDiesel</es>		<fr>Raffinerie</fr>  <pl>Biopaliwo</pl> 			 </text>
+			<text name="Colocables">       <en>Placeables</en>          <de>Platzierbar</de>				<es>Colocables</es>		<fr>Plaçable</fr>  <pl>Plac</pl> 	 </text>
+			<text name="Taller">           <en>Workshop</en>            <de>Workshop</de>					<es>Taller</es>			<fr>Atelier</fr>    <pl>Warsztat</pl> </text>
+			<text name="DepAgua">          <en>Water Storage</en>       <de>Wasser Lager</de>				<es>Dep.Agua</es>		<fr>Stockage de l'eau</fr>   <pl>Magazyn Wody</pl> 	 </text>
+			<text name="Desali">           <en>Desalination plant</en>  <de>Entsalzung</de>					<es>Desalinizadora</es>	<fr>Usine de dessalement</fr>   <pl>Destylarnia wody</pl> 	 </text>
+			<text name="Matadero">         <en>Slaughterhouse</en>  	<de>Schlachthaus</de>				<es>Matadero</es>		<fr>Abattoir</fr>   	<pl>Rzeźnia</pl> 		 </text>
+			<text name="Curadero">         <en>Dryer</en>  				<de>Trockenanlage</de>				<es>Curadero</es>		<fr>Séchoir</fr>  <pl>Suszarnia</pl> 		 </text>
+			<text name="Compostadora">     <en>Compost</en>  			<de>Compost</de>					<es>Compostadora</es>	<fr>Compost</fr>   <pl>Kompost</pl> 		 </text>
+			
 		
 	<!-- additionalMapTypes.lua / regFillTypes.lua -->
-		<text name="compost">         <en>Compost</en>       <de>Kompost</de>			<es>Compost</es>       <fr>Compost</fr> <pl>Kompost</pl> </text>
-	
+		<text name="oat">            <en>Oat</en>            <de>Hafer</de>				<es>Avena</es>        <fr>Avoine</fr>      <pl>Owies</pl>		</text>
+			<text name="oat_windrow">    <en>Oat windrow</en>    <de>Haferstroh</de>		<es>Paja de Avena</es>       <fr>Paille d'avoine</fr>   <pl>Pokos Owsu</pl>	 </text>	
+			<text name="rye">            <en>Rye</en>            <de>Roggen</de>			<es>Centeno</es>        <fr>Seigle</fr>     <pl>Ryż</pl> </text>
+			<text name="lime">            <en>Lime</en>          <de>Kalk</de>				<es>Cal</es>       <fr>Chaux</fr>       <pl>Limonka</pl>	  </text>
+			<text name="compost">         <en>Compost</en>       <de>Kompost</de>			<es>Compost</es>       <fr>Compost</fr> <pl>Kompost</pl> </text>
+			<text name="seeds2">          <en>Seeds 2</en>       <de>Saatgut geb.</de>		<es>Semillas 2</es>       <fr>Graines</fr>    <pl>Nasiona 2</pl>		   </text>
+			<text name="sand">            <en>Sand</en>			 <de>Arena</de>				<es>Arena</es>        <fr>Sable</fr>    <pl>Piasek</pl>	  </text>
+			<text name="spelt">            <en>Spelt</en>        <de>Dinkel</de>			<es>Espelta</es>        <fr>Epeautre</fr> <pl>Orkisz</pl>		 </text>
+			<text name="triticale">         <en>Triticale</en>   <de>Misch Getr.</de>		<es>Triticale</es>       <fr>Triticale</fr>  <pl>Pszenżyto</pl>	 </text>
+			<text name="millet">            <en>Millet</en>      <de>Hirse</de>				<es>Mijo</es>        <fr>Millet</fr>  <pl>Proso</pl>	     </text>		
+			<text name="hops"> 				<en>Hops</en> 		 <de>Hopfen</de> 			<es>Lúpulo</es>		 <fr>Houblon</fr> <pl>Chmiel</pl>	</text>
+			<text name="food">            	<en>Foods</en>       <de>Lebensmittel</de>	  <fr>Nourriture</fr> 	<es>Alimentos</es>      <pl>Jedzenie</pl>		  </text>		
+			<text name="paletCerveza">      <en>Beer pallet</en>            				<es>Palet de Cerveza</es>         <fr>Palette de bière</fr>    <pl>Paleta piwa</pl>		 </text>	
+			<text name="paletLacteos">      <en>Dairy pallet</en>            				<es>Palet de lácteos</es>       <fr>Palette de produits laitiers</fr> 	<pl>Paleta mleka</pl> </text>		
+			<text name="paletTablones">     <en>Planks pallet</en>            				<es>Palet de Tablones</es>         <fr>Palette de planches</fr>  <pl>Deski na palety</pl>  </text>	
+			<text name="paletComida">     <en>Food pallet</en>            					<es>Palet de Alimentos</es>      <fr>Palette de Nourriture</fr>  <pl>Paleta jedzenia</pl> </text>
+			<text name="paletAceite">     <en>Oil pallet</en>            					<es>Palet de Aceite</es>      <fr>Palette d'huile</fr> <pl>Paleta oliwy</pl>	 </text>
+			<text name="paletAzucar">     <en>Suggar pallet</en>           					<es>Palet de Azucar</es>        <fr>Palette de Sucre</fr>    <pl>Paleta cukru</pl>	</text>
+			<text name="paletLicor">     <en>Licor pallet</en>           					<es>Palet de Licor</es>        <fr>Palette de Liqueur</fr>   	<pl>Paleta likieru</pl>		 </text>
+			<text name="paletCarne">	<de>meat pallet</de>		<en>meat pallet</en>	<es>Palet de Carne</es>    <fr>Palette de Viande</fr> <pl>Paleta mięsa</pl>	 </text>
+			<text name="paletAceiteOliva">     <en>Olive Oil pallet</en>            		<es>Palet de Aceite Oliva</es>      <fr>Palette d'Huile d'olive</fr>      <pl>Paleta Oliwy z Oliwek</pl>	 </text>
+			<text name="paletJamonFresco"><de>Palet frisch Hams</de><en>Palet of fresh hams</en><es>Palet de Jamones frescos</es>   <fr>Palette de jambon frais</fr> 	<pl>Paleta świezej szynki</pl>	   </text>
+			<text name="paletJamonCurado"><de>Palet kurierte Hams</de><en>Cured ham pallet</en><es>Palet de Jamones curados</es>   <fr>Palette de jambon cuit</fr>  <pl>Paleta z szynką peklowaną</pl>	</text>
+			
+			<text name="paletVacio">        <en>Empty pallet</en>  <de>Leere Palette</de>	<es>Palet Vacío</es>      <fr>Palette vide</fr>      <pl>Pusta paleta</pl>	</text>
+			<text name="industry">          <en>Industry</en>   <de>Industrie</de>			<es>Industria</es>        <fr>Industrie</fr><pl>Przemysł</pl> </text>
+			<text name="fatteningFeed">     <en>Fattening feed</en>          				<es>Alimentación de engorde</es><fr>Aliment d'engraissement</fr> <pl>Pasza dla tuczu</pl></text>
+			<text name="tomato">			<de>tomato</de>			<en>tomato</en>			<es>Tomates</es> <fr>Tomates</fr>      <pl>Pomidory</pl>	 </text>
+			<text name="lettuce">			<de>lettuce</de>		<en>lettuce</en>		<es>Lechuga</es> <fr>Laitue</fr> <pl>Sałata</pl>		</text>
+			<text name="cauliflower">		<de>cauliflower</de>	<en>caulir</en>			<es>Coliflor</es> <fr>Chou-fleur</fr>   <pl>Kalafior</pl>	</text>
+			<text name="redCabbage">		<de>redCabbage</de>		<en>redCabbage</en>		<es>Repollo </es> <fr>Chou</fr>  <pl>Czerwona kapusta</pl> </text>
+			<text name="strawberry">		<de>strawberry</de>		<en>strawberry</en>		<es>Fresas</es> 	<fr>Fraise</fr> <pl>Truskawki</pl>	 </text>
+			<text name="raspberry">			<de>raspberry</de>		<en>raspberry</en>		<es>Frambuesas</es> <fr>Framboise</fr><pl>Malina</pl>	</text>
+			
+			<text name="abono"><de>Dünger oder Kompost</de>		<en>Manure or Compost</en>				<es>Estiercol o Compost</es> <fr>Fumier ou compost</fr>		<pl>Obornik lub kompost</pl>	</text>
+			<text name="Estiercol o Compost"><de>Dünger oder Kompost</de><en>Manure or Compost</en>		<es>Estiercol o Compost</es> <fr>Fumier ou compost</fr>		<pl>Obornik lub kompost</pl>	</text>
+			<text name="Patata - Manzana"><de>Kartoffel oder Apfel</de>	<en>Potato or apple</en>		<es>Patata - Manzana</es> <fr>P.de terre ou pomme</fr>  <pl>Ziemniaki lub jabłko</pl></text>
+			<text name="Girasol Colza">	<de>Sunflower Raps</de>	<en>Sunflower Rape</en>					<es>Girasol o Colza</es> <fr>Tournesol ou Colza</fr>	<pl>Słoneczniki lub rzepak</pl>	</text>
+			<text name="Cereales"><de>Getreide</de>	<en>Cereals</en>									<es>Cereales</es> <fr>Cereales</fr>	<pl>Zboża</pl></text>
+			<text name="Fertilizante"><de>Dünger</de>		<en>Fertilizer</en>							<es>Fertilizante</es> <fr>Engrais</fr><pl>Nawóz</pl>	</text>
+			<text name="chaff">	<de>Spreu</de>		<en>Chaff</en>										<es>Picado</es> <fr>Paille hachée</fr>	<pl>Plewy</pl></text>
+			<text name="milk"><de>Milch</de>		<en>Milk</en>										<es>Leche</es> 	<fr>Lait</fr>	<pl>Mleko</pl>	</text>
+			<text name="water"><de>Trinkwasser</de>		<en>Drinking water</en>							<es>Agua Potable</es> <fr>Eau potable</fr>	<pl>Pitna woda</pl>	</text>
+			<text name="waterSal"><en>Saltwater</en>	<de>Salz</de>										<es>Agua Salada</es> <fr>Eau salée</fr>	<pl>Słona woda</pl>	</text>
+			<text name="Sal"><de>Salt</de>		<en>Salt</en>											<es>Sal</es> 	<fr>Sel</fr> <pl>Sól</pl>	</text>
+						
+			<text name="sugarBeet">			<de>Zuckerrübe </de>		<en>Sugar Beet</en>				<es>Remolacha Azucarera</es> 	<fr>Betterave à sucre</fr>	<pl>Burak cukrowy</pl>	</text>
+			<text name="animales">			<de>pig cow sheep </de>		<en>pig cow sheep</en>			<es>Cerdos, Vacas u Ovejas</es> <fr>Cochon,Mouton,Vache</fr> <pl>Świnie, krowy i owce</pl></text>
+			
+			<text name="straw"> <en>Straw</en> <de>Stroh</de> <es>Paja</es> <fr>Paille</fr>	<pl>Słoma</pl></text>			
+		
+			<text name="mCompanyFactory_AddOn_waterSal"><de>Salzwassertank</de><en>Salty Water Depot</en>	<es>Depósito de Agua Salada</es> <fr>Dépôt d'eau salée</fr> <pl>Zbiornik na słoną wodę</pl>		</text>
+			<text name="mCompanyFactory_AddOn_waterSal_start"><de>Salz abladen</de><en>unload Saltwater</en><es>Descargar Agua Salada</es> <fr>Décharger l'eau salée</fr> <pl>Nalewanie słonej wody</pl>		</text>
+			<text name="mCompanyFactory_AddOn_waterSal_stop"><de>Salz stoppen</de><en>stop Saltwater</en>	<es>Parar llenado de Agua Salada</es> <fr>Arrêter l'eau salée</fr> <pl>Zatrzymanie nalewania słonej wody</pl></text>
+			
+			<text name="waterSal_start"><de>Salz abladen</de><en>unload Saltwater</en><es>Descargar Agua Salada</es> <fr>Décharger l'eau salée</fr>	</text>
+			<text name="waterSal_stop"><de>Salz stoppen</de><en>stop Saltwater</en>	<es>Parar llenado de Agua Salada</es> <fr>Arrêter l'eau salée</fr></text>
+			
+		
+		
+		
 	<!-- animatedObjects.xml -->
 			<text name="input_GATE_MOVE">            				<en>Gate Open/Close</en>            <de>Tor öffnen/schließen</de>			<es>Abrir/Cerrar</es>        <fr>Ouverture/fermeture de la porte</fr>   <pl>Otwórz/zamknij bramę</pl>	   </text>
 			<text name="input_ANIMATED_OBJECT_OPEN_DOOR">            <en>Open door</en>            <de>Tür öffnen</de>							<es>Abrir Puerta</es>       	<fr>Ouvrir</fr>   <pl>Otwórz drzwi</pl>	 </text>
@@ -163,7 +240,17 @@
 			<text name="COwater"><de>Trinkwasser</de>		<en>Drinking water</en>							<es>Agua Potable</es> <fr>Eau potable</fr>	</text>
 			<text name="COcompost">         <en>Compost</en>       <de>Kompost</de>			<es>Compost</es>       <fr>Compost</fr>   </text>	
 	
-	
+<!-- UVA -->
+			<text name="grape">								<en>grape</en>							<de>Weintrauben</de>				<fr>Raisins</fr> 							<es>Uva</es>					</text>
+			<text name="VIgrape">							<en>grape</en>							<de>Weintrauben</de>				<fr>Raisins</fr> 							<es>Uva</es>					</text>
+			<text name="wine"> 								<en>Wine</en> 							<de>Wein</de> 						<fr>Tonneaux de vin</fr> 					<es>Palet de Vino</es>			</text>
+			<text name="grapejuice">						<en>grapejuice</en>						<de>Traubensaft</de>				<fr>Jus de raisin</fr> 						<es>Palet de Mosto</es>			</text>
+			<text name="winesmall">							<en>Winesmall</en>						<de>WeinfassKlein</de>				<fr>Barril de Vin</fr> 						<es>Barril de Vino</es>			</text>
+			<text name="winzerei_placeable">				<en>winery</en>							<de>Winzerei</de>					<fr>Producteur (presse à raisins)</fr> 		<es>Lagar (prensa uva)</es>		</text>
+			<text name="weinverkauf_placeable"> 			<en>Winestore</en> 						<de>Weinstube</de> 					<fr>Magasin de vin</fr> 					<es>Tienda de vino</es>			</text>
+			<text name="wein">								<en>winemountain</en>					<de>Weinberg</de>					<fr>Vignoble</fr> 							<es>Viñedo</es>					</text>
+			<text name="verkauf">							<en>storetrigger</en>					<de>Verkaufstrigger</de>			<fr>Zone de vente</fr> 						<es>Zona de Venta</es>			</text>
+			
 	
 	
 	<!-- Company -->
@@ -282,7 +369,7 @@
 	 </l10n>	
 	
 	<extraSourceFiles>
-		<sourceFile filename="additionalMapTypes.lua"/>
+		<sourceFile filename="scripts/additionalMapTypes.lua"/>
 	    <sourceFile filename="scripts/DigitalStorageAmountMover.lua" /> 
 		<sourceFile filename="scripts/mCompanyFactory.lua" />
 		<sourceFile filename="scripts/mCompanyGraphics/mCompanyGraphics.lua" />
@@ -308,11 +395,42 @@
 	  <!--<newFruitCategory name="food" />  Examples for Register New FruitType Categorys -->
 	  <!--<newFillCategory name="industry" />  Examples for Register New FillType Categorys -->
 	  
+	<fruitType name="oat" 				needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
+		<fruitType name="rye" 				needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
+		<fruitType name="spelt" 			needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
+		<fruitType name="triticale" 		needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
+		<fruitType name="millet" 			needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
+		<fruitType name="hops" 				needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.38" literPerSqm="1.3" seedUsagePerSqm="0.06" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0006" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="5" witheringNumGrowthStates="7" numGrowthStates="6" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="false" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="false"  hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageHarvester forageWagon fork trainWagon augerWagon" toFruitGroups="true" fruitTypeGroups="maizeHeader maizeCutter planter" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="0.3" forageWagonConversion="chaff" />
+	 
+		<fillType name="compost" 			pricePerLiter="0.4"  showOnPriceTable="true" litersPerSecond="0.3244" massPerLiter="0.0008" useForSpray="true" sprayerCategorys="manureSpreader" toCategorys="true" fillTypeCategorys="bulk forageWagon fork trainWagon augerWagon" hasMaterials="true" hasParticles="true" useHeap="true" />
+		<fillType name="olive" 				pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0007" useForSpray="false" 	toCategorys="true" fillTypeCategorys="bulk forageWagon augerWagon" 	hasFill="true"   hasMaterials="true" hasParticles="false" useHeap="true" maxPhysicalSurfaceAngle="20" maxSurfaceAngle="30" isCowGrass="false" isCowBasefeed="false"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="false"/>		 
+		<fillType name="apple" 				pricePerLiter="0.8"  showOnPriceTable="true" massPerLiter="0.0006" useForSpray="false" 	toCategorys="true" fillTypeCategorys="bulk forageWagon augerWagon" 	hasFill="true"   hasMaterials="true" hasParticles="false" useHeap="true" maxPhysicalSurfaceAngle="20"  maxSurfaceAngle="30" isCowGrass="false" isCowBasefeed="true"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="true"/>		 
+		<fillType name="waterSal"			pricePerLiter="0" 	 showOnPriceTable="false" litersPerSecond="0.0060" massPerLiter="0.0006" toCategorys="true" fillTypeCategorys="liquid" hasMaterials="false" hasParticles="false" useHeap="false" />
+		<fillType name="sal" 				pricePerLiter="0.1"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" toCategorys="true" fillTypeCategorys="bulk augerWagon" 	hasMaterials="true" hasParticles="true" useHeap="false" isCowBasefeed="false" isCowGrass="false" isCowPower="false" isCowWindrow="false" isCowLiquid="false" isSheepGrass="false" isSheepLiquid="false" isPigBasefeed="false" isPigGrain="false" isPigProtein="false" isPigEarthfruit="false" />
+		<fillType name="grape" 				pricePerLiter="0.9"  showOnPriceTable="true" massPerLiter="0.0007" useForSpray="false" 	toCategorys="true" fillTypeCategorys="bulk forageWagon augerWagon" 	hasFill="true"   hasMaterials="true" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" isCowGrass="false" isCowBasefeed="false"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="false"/>		 
+		
+		<fillType name="paletVacio" 		pricePerLiter="0.4"  showOnPriceTable="true" massPerLiter="0.0003" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletCerveza" 		pricePerLiter="1.2"  showOnPriceTable="true" massPerLiter="0.0010" useForSpray="false" toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletTablones" 		pricePerLiter="0.4"  showOnPriceTable="true" massPerLiter="0.0013" useForSpray="false" toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletLacteos" 		pricePerLiter="1.1"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletComida" 		pricePerLiter="1.2"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletAceite" 		pricePerLiter="1" 	 showOnPriceTable="true" massPerLiter="0.0010" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletAceiteOliva" 	pricePerLiter="1.8"  showOnPriceTable="true" massPerLiter="0.0011" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20"  />		 
+		<fillType name="paletAzucar" 		pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0014" useForSpray="false"	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletLicor" 		pricePerLiter="1.3"  showOnPriceTable="true" massPerLiter="0.0011" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="grapejuice" 		pricePerLiter="1" 	 showOnPriceTable="true" massPerLiter="0.0010" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20"  />		 
+		<fillType name="wine" 				pricePerLiter="1.4"  showOnPriceTable="true" massPerLiter="0.0010" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="winesmall" 			pricePerLiter="1.2"  showOnPriceTable="true" massPerLiter="0.0002" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletCarne" 		pricePerLiter="1.1"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletJamonFresco" 	pricePerLiter="0.2"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="paletJamonCurado"	pricePerLiter="1.9"  showOnPriceTable="true" massPerLiter="0.0007" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="tomato" 			pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" isCowGrass="false" isCowBasefeed="false"  isPigBasefeed="false" isPigEarthfruit="true" isSheheepGrass="false"/>		 
+		<fillType name="lettuce" 			pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" isCowGrass="true" isCowBasefeed="false"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="true"/>		 
+		<fillType name="cauliflower" 		pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" isCowGrass="false" isCowBasefeed="true"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="false"/>		 
+		<fillType name="redCabbage" 		pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" isCowGrass="false" isCowBasefeed="true"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="false"/>		 
+		<fillType name="strawberry" 		pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+		<fillType name="raspberry" 			pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
 	
-	  <fruitType name="millet" 			needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="720" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" preparedHaulm="millet_haulm" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="250" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawStandard="true" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageHarvester forageWagon fork trainWagon augerWagon" toFruitGroups="true" fruitTypeGroups="sowingmachine grainHeader directCutter" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="false" convertType="chaff" conversionFactor="4" windrowConversionFactor="1" hasBale="false" baleTypeName="millet_windrow" hasSquareBale="false" hasRoundBale="false" forageWagonConversion="wheat" />
-	  <fillType name="compost" 			pricePerLiter="0.4"  showOnPriceTable="true" litersPerSecond="0.3244" massPerLiter="0.0008" useForSpray="true" sprayerCategorys="manureSpreader" toCategorys="true" fillTypeCategorys="bulk forageWagon fork trainWagon augerWagon" hasMaterials="true" hasParticles="true" useHeap="true" />
-	  <fillType name="apple" 			pricePerLiter="0.8"  showOnPriceTable="true" massPerLiter="0.0006" useForSpray="false" 	toCategorys="true" fillTypeCategorys="bulk forageWagon augerWagon" 	hasFill="true"   hasMaterials="true" hasParticles="false" useHeap="true" maxPhysicalSurfaceAngle="20"  maxSurfaceAngle="30" isCowGrass="false" isCowBasefeed="true"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="true"/>		 
-				
 	  
 	  
 	  
