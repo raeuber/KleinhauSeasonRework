@@ -302,8 +302,8 @@
 			<text name="buyable_header20"> <en>Buy Liquor Factory</en> <de>Kaufen Liquor Factory</de><es>Comprar Fábrica de Licor</es><fr>Acheter Liquor Factory</fr></text>
 			<text name="buyable_header21"> <en>Buy Pallets Factory</en> <de>Kaufen Pallets Factory</de><es>Comprar Fábrica de Palets</es><fr>Acheter Pallets Factory</fr></text>
 			
-			<text name="buyable_BioDiesel1"> <en>You can make BioDiesel from Rape, Sunflower or </en> <de>Sie können BioDiesel machen von Rape, Sonnenblume </de><es>Puedes fabricar BioDiesel a partir de Colza, Girasol </es><fr>Vous pouvez faire du BioDiesel de colza, tournesol ou</fr></text>
-			<text name="buyable_BioDiesel2"> <en>Soybeans. also produces compost</en> <de>oder Sojabohnen. auch produziert kompost</de><es>o Habas de soja, tambien produce compost</es><fr>le soja. aussi produit du compost</fr></text>
+			<text name="buyable_BioDiesel1"> <en>You can make BioDiesel from Rape, Sunflower or </en> <de>Sie können Biodiesel aus Raps, Sonnenblumen </de><es>Puedes fabricar BioDiesel a partir de Colza, Girasol </es><fr>Vous pouvez faire du BioDiesel de colza, tournesol ou</fr></text>
+			<text name="buyable_BioDiesel2"> <en>Soybeans. also produces compost</en> <de>und Sojabohnen machen. Außerdem wird Kompost hergestellt</de><es>o Habas de soja, tambien produce compost</es><fr>le soja. aussi produit du compost</fr></text>
 			
 			<text name="buyable_FabUva1"> <en>You can make Wine and Must.</en> <de>Du kannst Wein und Must machen.</de><es>Puedes fabricar Vino y Mosto. </es><fr>Vous pouvez faire Wine and Must.</fr></text>
 			<text name="buyable_FabUva2"> <en>Bring water, pallets and grapes</en> <de>Bringen Sie Wasser, Paletten und Trauben</de><es>Trae agua, palets y uvas</es><fr>Apportez de l'eau, des palettes et des raisins</fr></text>
