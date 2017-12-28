@@ -378,24 +378,35 @@
 
 <!-- additional inputBindings -->
 <inputBindings>
-<input name="ANIMATED_OBJECT_OPEN_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
-<input name="ANIMATED_OBJECT_CLOSE_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
-<input name="LIGHTSWITCH_CLICK" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+		<input name="GATE_MOVE" 					category="VEHICLE ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+        <input name="ANIMATED_OBJECT_OPEN_DOOR" 	category="VEHICLE ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+        <input name="ANIMATED_OBJECT_CLOSE_DOOR"	category="VEHICLE ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
+        <input name="ANIMATED_OBJECT_OPEN_GATE"		category="VEHICLE ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+        <input name="ANIMATED_OBJECT_CLOSE_GATE" 	category="VEHICLE ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
+		<input name="ANIMATED_OBJECT_OPEN_PORTON" 	category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+        <input name="ANIMATED_OBJECT_CLOSE_PORTON" 	category="ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
+        <input name="ANIMATED_OBJECT_OPEN_PERSIANA" category="VEHICLE ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+        <input name="ANIMATED_OBJECT_CLOSE_PERSIANA" category="VEHICLE ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
+        <input name="SWTRIGGER_ACTION" 				category="VEHICLE ONFOOT" key1="KEY_o"     device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
+		<input name="LIGHTSWITCH_CLICK" 			category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+		<input name="EMPTY_KOTTE" 					category="VEHICLE" key1="KEY_o" key2="" button="BUTTON_4 BUTTON_5" mouse="" device="1" visible="true"/>
+		
+		<input name="ANIMATED_OBJECT_POWER OFF" category="ONFOOT" key1="KEY_l" key2="" device="0" button="" mouse="" />
+		<input name="ANIMATED_OBJECT_POWER ON" category="ONFOOT" key1="KEY_l" key2="" device="0" button="" mouse="" />
+		<input name="ANIMATED_OBJECT_CLOSE_UNLOADING" category="ONFOOT" key1="KEY_o" key2="" device="0" button="" mouse="" />
+		<input name="ANIMATED_OBJECT_OPEN_UNLOADING" category="ONFOOT" key1="KEY_o" key2="" device="0" button="" mouse="" />
+		
+		<input name="ANIMATED_OBJECT_MOVE_UP" category="ONFOOT" key1="" key2="" device="0" button="" mouse="MOUSE_BUTTON_LEFT" />
+        <input name="ANIMATED_OBJECT_MOVE_DOWN" category="ONFOOT" key1="" key2="" device="0" button="" mouse="MOUSE_BUTTON_RIGHT" />
+		<input name="ANIMATED_OBJECT_MOVE_UP2" category="ONFOOT" key1="KEY_k" key2="" device="0" button="" mouse="" />
+        <input name="ANIMATED_OBJECT_MOVE_DOWN2" category="ONFOOT" key1="KEY_l" key2="" device="0" button="" mouse="" />
 </inputBindings>
 
 
-<!-- Examples for Registration
-	   massPerLiter bei klee_windrow 350 strawName="klee_windrow" fillTypeConversion="true" convertType="klee_windrow"
-	       massPerLiter bei luzerne_windrow 350 strawName="luzerne_windrow" fillTypeConversion="true" convertType="luzerne_windrow"-->
-		<!-- Example for Carrot   
-		   <fruitType name="carrot" needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.41" literPerSqm="5.78" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="400" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="true" preparedHaulm="carrot_haulm" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageHarvester trainWagon augerWagon" toFruitGroups="true" fruitTypeGroups="planter grainHeader directCutter" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" />
-	    -->
 		
-	<AdditionalMapTypes hudsDirectory="fruitHuds/" groundTipDirectory="tipOnGround/" baleTypesDirectory="baleTypes/">
-	  <!--<newFruitCategory name="food" />  Examples for Register New FruitType Categorys -->
-	  <!--<newFillCategory name="industry" />  Examples for Register New FillType Categorys -->
+<AdditionalMapTypes hudsDirectory="fruitHuds/" groundTipDirectory="tipOnGround/" baleTypesDirectory="baleTypes/">
 	  
-	<fruitType name="oat" 				needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
+		<fruitType name="oat" 				needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
 		<fruitType name="rye" 				needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
 		<fruitType name="spelt" 			needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
 		<fruitType name="triticale" 		needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
@@ -430,25 +441,53 @@
 		<fillType name="redCabbage" 		pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" isCowGrass="false" isCowBasefeed="true"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="false"/>		 
 		<fillType name="strawberry" 		pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
 		<fillType name="raspberry" 			pricePerLiter="0.7"  showOnPriceTable="true" massPerLiter="0.0008" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
+</AdditionalMapTypes>
+
+	<changeFillTypeValues>
+		<changeFillTypeValue 	fillType="milk" 			showOnPriceTable="true" />
+		<changeFillTypeValue 	fillType="fertilizer" 		showOnPriceTable="true" />
+		<changeFillTypeValue 	fillType="digestate" 		showOnPriceTable="true" />
+		<changeFillTypeValue 	fillType="seeds" 			showOnPriceTable="true" />
+		<changeFillTypeValue 	fillType="fuel" 			showOnPriceTable="false" />
+		<changeFillTypeValue 	fillType="egg" 				showOnPriceTable="true" />
+		<changeFillTypeValue 	fillType="forage" 	pricePerLiter="0.25"	showOnPriceTable="true" />
+		<changeFillTypeValue 	fillType="pigFood" 	pricePerLiter="0.25"	showOnPriceTable="true" />
+		<changeFillTypeValue 	fillType="straw" 			fillToGroundScale="3" />
+		<changeFillTypeValue 	fillType="grass_windrow" 	fillToGroundScale="3" />
+		<changeFillTypeValue 	fillType="dryGrass_windrow" fillToGroundScale="4" />
+	</changeFillTypeValues>
+		
 	
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  <!--<addFruitcategory name="wheat" toCategory="maizeheader" />  Examples for add Giants Fruits to new FruitType Categorys -->
-	  <!--<addFillcategory name="fertilizer" toCategory="trainWagon" />  Examples for add Giants Fruits to new FillType Categorys -->
-	  <!--<addFoodToGroup name="klee_windrow" isCowBasefeed="false" isCowGrass="false" isCowPower="false" isCowWindrow="false" isCowLiquid="false" isSheepGrass="false" isSheepLiquid="false" isPigBasefeed="false" isPigGrain="false" isPigProtein="false" isPigEarthfruit="false" />  Examples for add Giants or new Types & Fruits to FoodGroups -->
-	  
-	  <!--<newAnimalFoodGroup animalname="sheep" groupname="bulk" weight="0.50" filltypenames="silage"/>  Examples for Register New Animal FoodGroup with Fruit as Food -->
-	  
-	  <!--<setNewFoodWeight name="cow" isCowGrassWeight="0.20" isCowBulkWeight="0.50" isCowPowerWeight="0.30" /> This Entrys are the Game Standards -->
-	  <!--<setNewFoodWeight name="sheep" isSheepGrassWeight="1.00" /> This Entrys are the Game Standards -->
-	  <!--<setNewFoodWeight name="pig" isPigBaseWeight="0.50" isPigGrainWeight="0.25" isPigProteinWeight="0.20" isPigEarthWeight="0.05" /> This Entrys are the Game Standards -->
-	</AdditionalMapTypes>
-
-
+	<brands>
+		<brand name="MARHU" title="MARHU" image="import/stopmilksale/brand_MARHU.dds"/>
+		<brand name="ELPOZO" title="ELPOZO" image="import/joskin/elpozo.dds"/>
+    </brands>
+		
+	<storeItems>
+        <storeItem rootNode="Placeable" xmlFilename="import/stopmilksale/StopMilkSale.xml"/>
+		<storeItem rootNode="vehicle" xmlFilename="import/joskin/joskinBetimaxRDS.xml"/>
+		<storeItem rootNode="pallets" xmlFilename="import/pallets/hops/palletHops.xml"/>
+	</storeItems>
+	
+	
+	<vehicleTypes>
+		
+		<type name="animalsLoadedTrailer" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="attacherJoints" />
+			<specialization name="lights" />
+			<specialization name="attachable" />
+			<specialization name="animatedVehicle" />
+			<specialization name="cylindered" />
+			<specialization name="foldable" />
+			<specialization name="fillable" />
+			<specialization name="fillVolume" />
+			<specialization name="livestockTrailer" />
+			<specialization name="trailer" />
+			<specialization name="cover"/>
+			<specialization name="washable" />
+			<specialization name="mountable" />
+		</type>
+		
+	</vehicleTypes>
 	
 </modDesc>

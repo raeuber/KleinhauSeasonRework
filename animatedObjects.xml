@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<animatedObjects>
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+			
+			<!-- GrainStore Door -->
+				<animatedObject index="GrainStoreDoor1">
+					<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR" />
+					<sound file="maps/sounds/OpenDoor.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+					<animation initialTime="0" duration="4">
+						<part node="1"> <!--index of Door node-->
+							<Keyframe time="0" translation="0.700902 0.840007 0.0117912" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="0.700902 0.840007 0.0117912" rotation="0 95 0"/>
+						</part>
+						<part node="1|0"> <!--index of Doorhandle node-->
+							<Keyframe time="0" translation="-1.32892 -0.9839 -0.0117912" rotation="0 0 0"/>
+							<Keyframe time="0.125" translation="-1.32892 -0.9839 -0.0117912" rotation="0 -0 -14"/>
+							<Keyframe time="0.150" translation="-1.32892 -0.9839 -0.0117912" rotation="0 0 0"/>
+							<Keyframe time="1" translation="-1.32892 -0.9839 -0.0117912" rotation="0 0 0"/>
+						</part>
+					</animation>
+				</animatedObject>
+				
+				<!-- GrainStore Foldinggate1 -->
+				<animatedObject index="GrainStoreFoldinggate1">
+					<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_GATE" negText="input_ANIMATED_OBJECT_CLOSE_GATE" />
+					<sound file="maps/sounds/Foldinggate.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+					<animation initialTime="0" duration="4">
+						<part node="1"> <!--index of Door node-->
+							<Keyframe time="0" translation="2.03886 1.96171 0.00635147" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="2.03886 1.96171 0.00635147" rotation="0 125 0"/>
+						</part>
+						<part node="2"> <!--index of Door node-->
+							<Keyframe time="0" translation="-2.03886 1.96171 0.00635147" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="-2.03886 1.96171 0.00635147" rotation="0 -125 0"/>
+						</part>
+						<part node="2|0"> <!--index of Door node-->
+							<Keyframe time="0" translation="1.04474 0 -0.0375824" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="1.04474 0 -0.0375824" rotation="0 178 0"/>
+						</part>
+						<part node="2|0|0"> <!--index of Door node-->
+							<Keyframe time="0" translation="0.988373 0 0.0624619" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="0.988373 0 0.0624619" rotation="0 -178 0"/>
+						</part>
+					</animation>
+				</animatedObject>
+				
+				<!-- GrainStore Foldinggate2 -->
+				<animatedObject index="GrainStoreFoldinggate2">
+					<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_GATE" negText="input_ANIMATED_OBJECT_CLOSE_GATE" />
+					<sound file="maps/sounds/Foldinggate.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+					<animation initialTime="0" duration="4">
+						<part node="1"> <!--index of Door node-->
+							<Keyframe time="0" translation="2.03886 0.61171 0.00635175" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="2.03886 0.61171 0.00635175" rotation="0 125 0"/>
+						</part>
+						<part node="2"> <!--index of Door node-->
+							<Keyframe time="0" translation="-2.03886 0.511709 0.00635175" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="-2.03886 0.511709 0.00635175" rotation="0 -125 0"/>
+						</part>
+						<part node="2|0"> <!--index of Door node-->
+							<Keyframe time="0" translation="1.04474 -0.511709 -0.0375805" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="1.04474 -0.511709 -0.0375805" rotation="0 178 0"/>
+						</part>
+						<part node="2|0|0"> <!--index of Door node-->
+							<Keyframe time="0" translation="0.988373 0 0.0624676" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="0.988373 0 0.0624676" rotation="0 -178 0"/>
+						</part>
+					</animation>
+				</animatedObject>
+				
+				<!-- GrainStore Foldinggate3 -->
+				<animatedObject index="GrainStoreFoldinggate3">
+					<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_GATE" negText="input_ANIMATED_OBJECT_CLOSE_GATE" />
+					<sound file="maps/sounds/Foldinggate.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+					<animation initialTime="0" duration="4">
+						<part node="1"> <!--index of Door node-->
+							 <Keyframe time="0" translation="2.03886 0.511709 -0.00635165" rotation="0 -0 0"/>
+							 <Keyframe time="1" translation="2.03886 0.511709 -0.00635165" rotation="0 -125 0"/>
+						</part>
+						<part node="2"> <!--index of Door node-->
+							<Keyframe time="0" translation="-2.03886 2.23517e-08 -0.00635165" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="-2.03886 2.23517e-08 -0.00635165" rotation="0 125 0"/>
+						</part>
+						<part node="2|0"> <!--index of Door node-->
+							<Keyframe time="0" translation="1.04489 0 0.0375824" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="1.04489 0 0.0375824" rotation="0 -178 0"/>
+						</part>
+						<part node="2|0|0"> <!--index of Door node-->
+							<Keyframe time="0" translation="0.988499 0 -0.0624695" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="0.988499 0 -0.0624695" rotation="0 178 0"/>
+						</part>
+					</animation>
+				</animatedObject>
+				
+				<!-- GrainStore Foldinggate4 -->
+				<animatedObject index="GrainStoreFoldinggate4">
+					<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_GATE" negText="input_ANIMATED_OBJECT_CLOSE_GATE" />
+					<sound file="maps/sounds/Foldinggate.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+					<animation initialTime="0" duration="4">
+						<part node="1"> <!--index of Door node-->
+							<Keyframe time="0" translation="2.03886 0.511709 -0.00634975" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="2.03886 0.511709 -0.00634975" rotation="0 -125 0"/>
+						</part>
+						<part node="2"> <!--index of Door node-->
+							<Keyframe time="0" translation="-2.03886 0.56171 -0.00634975" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="-2.03886 0.56171 -0.00634975" rotation="0 125 0"/>
+						</part>
+						<part node="2|0"> <!--index of Door node-->
+							 <Keyframe time="0" translation="1.04474 0 0.0375805" rotation="0 -0 0"/>
+							 <Keyframe time="1" translation="1.04474 0 0.0375805" rotation="0 -178 0"/>
+						</part>
+						<part node="2|0|0"> <!--index of Door node-->
+							<Keyframe time="0" translation="0.988373 0 -0.0624619" rotation="0 -0 0"/>
+							<Keyframe time="1" translation="0.988373 0 -0.0624619" rotation="0 178 0"/>
+						</part>
+					</animation>
+				</animatedObject>
+				
+				<!-- Ventilation-->
+				<animatedObject index="Rotoren">
+					<controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_ROTORON_CLICK" negText="input_ROTOROFF_CLICK" />
+					<sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+					<animation initialTime="0" duration="0.25">
+						<part node="1"> <!--Rotorstatic-->
+							<keyFrame time="0.2" visibility="true" />
+							<keyFrame time="0.21" visibility="false" />
+						</part>
+						<part node="2"> <!--Rotorshader-->
+							<keyFrame time="0.2" visibility="false" />
+							<keyFrame time="0.21" visibility="true" />
+						</part>
+						<part node="3"> <!--sound-->
+							<keyFrame time="0.00" translation="0 -1000 0" />
+							<keyFrame time="1" translation="0 0 0" />
+						</part>
+						<part node="4|1"> <!--switch-->
+							<keyFrame time="0.00" translation="0.182 -0.009 0" />
+							<keyFrame time="0.50" translation="0.180 -0.009 0" />
+							<keyFrame time="1.00" translation="0.182 -0.009 0" />
+						</part>
+					</animation>
+				</animatedObject>	
+				
+				<!-- IndoorLights -->
+				<animatedObject index="lightSwitch90Neg1">
+					<controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+					<sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+					<animation initialTime="0" duration="0.5">
+						<part node="1|0"> <!--index of Lever of the Lightswitch-->
+							<keyFrame time="0.00" rotation="0 0 0" />
+							<keyFrame time="1" rotation="-90 0 0" />
+						</part>
+						<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+							<keyFrame time="0.5" visibility="false" />
+							<keyFrame time="0.55" visibility="true" />
+						</part>
+						<part node="3|0"> <!--index of Lever of the Lightswitch-->
+							<keyFrame time="0.00" rotation="0 0 0" />
+							<keyFrame time="1" rotation="-90 0 0" />
+						</part>
+				</animation>
+				</animatedObject>	
+  
+			
+	<!--  taller -->
+		<!--  Tuer 1 -->
+			<animatedObject index="WerkstattTor1">
+				<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR" />
+				<sound file="maps/sounds/OpenGateDoorSound.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+				<animation initialTime="0" duration="2">
+					<part node="1"> <!--index of Door node-->
+						<keyFrame time="0" rotation="0 0 0" />
+						<keyFrame time="1" rotation="0 -90 0" />
+					</part>
+				</animation>
+			</animatedObject>
+		<!--  Tuer 2 -->
+			<animatedObject index="WerkstattTor2">
+				<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR" />
+				<sound file="maps/sounds/OpenGateDoorSound.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+				<animation initialTime="0" duration="2">
+					<part node="1"> <!--index of Door node-->
+						<keyFrame time="0" rotation="0 0 0" />
+						<keyFrame time="1" rotation="0 90 0" />
+					</part>
+				</animation>
+			</animatedObject>
+		<!--  Tor 3 -->
+			<animatedObject index="WerkstattTor3">
+				<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_GATE" negText="input_ANIMATED_OBJECT_CLOSE_GATE" />
+				<sound file="maps/sounds/door1.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+				<animation initialTime="0" duration="4">
+					<part node="1"> <!--index of left Door node-->
+						<keyFrame time="0" rotation="0 0 0" />
+						<keyFrame time="0.8" rotation="0 -90 0" />
+						<keyFrame time="1" rotation="0 -90 0" />
+					</part>
+					<part node="2"> <!--index of right Door node-->
+						<keyFrame time="0" rotation="0 0 0" />
+						<keyFrame time="0.2" rotation="0 0 0" />
+						<keyFrame time="1" rotation="0 90 0" />
+					</part>
+				</animation>
+			</animatedObject>
+		<!-- Tor 4 -->
+			<animatedObject index="WerkstattTor4">
+				<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_GATE" negText="input_ANIMATED_OBJECT_CLOSE_GATE" />
+				<sound file="maps/sounds/door1.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+				<animation initialTime="0" duration="4">
+					<part node="1"> <!--index of left Door node-->
+						<keyFrame time="0" rotation="0 0 0" />
+						<keyFrame time="0.8" rotation="0 -90 0" />
+						<keyFrame time="1" rotation="0 -90 0" />
+					</part>
+					<part node="2"> <!--index of right Door node-->
+						<keyFrame time="0" rotation="0 0 0" />
+						<keyFrame time="0.2" rotation="0 0 0" />
+						<keyFrame time="1" rotation="0 90 0" />
+					</part>
+				</animation>
+			</animatedObject>
+		<!-- Tor 5-->
+			<animatedObject index="WerkstattTor5">
+				<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ROLLDOOR" />
+				<sound file="maps/sounds/OpenDoor.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+				<animation initialTime="0" duration="4">
+					<part node="1"> <!--index of Door node-->
+						<keyFrame time="0" translation="0 0 0" />
+						<keyFrame time="1" translation="0 0 4.52" />
+					</part>
+				</animation>
+			</animatedObject>
+		<!-- Tor 6-->
+			<animatedObject index="WerkstattTor6">
+				<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ROLLDOOR" />
+				<sound file="maps/sounds/OpenDoor.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+				<animation initialTime="0" duration="4">
+					<part node="1"> <!--index of Door node-->
+						<keyFrame time="0" translation="0 0.162 0" />
+						<keyFrame time="1" translation="0 0.162 -4.52" />
+					</part>
+				</animation>
+			</animatedObject>
+		<!-- Licht-->
+			<animatedObject index="WerkstattLichtIndoor1">
+				<controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+				<sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+				<animation initialTime="0" duration="0.25">
+					<part node="1|0"> <!--index of Lever of the Lightswitch-->
+						<keyFrame time="0.00" rotation="0 0 0" />
+						<keyFrame time="1" rotation="90 0 0" />
+					</part>
+					<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+						<keyFrame time="0.5" visibility="false" />
+						<keyFrame time="0.55" visibility="true" />
+					</part>
+					<part node="3|0"> <!--index of Lever of the Lightswitch-->
+						<keyFrame time="0.00" rotation="0 0 0" />
+						<keyFrame time="1" rotation="90 0 0" />
+					</part>
+				</animation>
+			</animatedObject>
+	<!--invernadero  -->
+	<animatedObject index="stonegate">
+		<controls posKey="ANIMATED_OBJECT_OPEN_GATE" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_GATE" negText="input_ANIMATED_OBJECT_CLOSE_GATE" />
+		<sound file="maps/sounds/door1.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+		<animation initialTime="0" duration="4">
+			<part node="1"> <!--index of left Door node-->
+				<keyFrame time="0" rotation="0 0 0" />
+				<keyFrame time="0.8" rotation="0 -90 0" />
+				<keyFrame time="1" rotation="0 -90 0" />
+			</part>
+			<part node="2"> <!--index of right Door node-->
+				<keyFrame time="0" rotation="0 0 0" />
+				<keyFrame time="0.2" rotation="0 0 0" />
+				<keyFrame time="1" rotation="0 90 0" />
+			</part>
+		</animation>
+	</animatedObject> 
+	
+	<!--Biodiesel-->
+	<animatedObject index="RafSchranke">
+		<controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_GATES" negText="input_ANIMATED_OBJECT_CLOSE_GATES" />
+		
+		<sound file="maps/sounds/hydraulicUp.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+		
+		<openingHours startTime="7" endTime="20" disableIfClosed="true" /> 
+		<animation initialTime="0" duration="4">
+			<part node="1"> <!--index of left Door node-->
+				<keyFrame time="0" rotation="0 0 0" />
+				<keyFrame time="0.8" rotation="0 0 90" />
+				<keyFrame time="1" rotation="0 0 90" />
+			</part>
+		</animation>
+	</animatedObject>
+	
+	<!--Gallinero  -->
+	<animatedObject index="Puertagallinero">
+        <controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR" />
+         <sound file="maps/sounds/creaky_door_4.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+         <animation initialTime="0" duration="4.5">
+            <part node="1"> 
+                <keyFrame time="0.05" rotation="0 0 0" /> 
+                <keyFrame time="1.00" rotation="0 110 0" />
+            </part>
+		</animation>
+    </animatedObject>
+	
+	<!--Barreras  -->
+	<animatedObject index="barreras90">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+        <sound file="maps/sounds/click6.wav" pitchOffset="1.00" volume="0.50" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="5">
+			<part node="1|0">
+                <keyFrame time="0.15" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 0 90"  />
+            </part>	
+        </animation>
+    </animatedObject>
+		
+		
+	<!--Puertas Dobles  -->
+    <animatedObject index="PuertaDoble1">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+        <animation initialTime="0" duration="6">
+            <part node="1|1|0">
+                <keyFrame time="0.35" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 -100 0"  />
+            </part>
+		    <part node="2|1|0">
+                <keyFrame time="0.35" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 100 0"  />
+            </part>	
+			<part node="1|0|0">
+                <keyFrame time="0.35" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 -100 0"  />
+            </part>
+		    <part node="2|0|0">
+                <keyFrame time="0.35" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 100 0"  />
+            </part>	
+			 <part node="1|0|0|0">
+                <keyFrame time="0.0" rotation="0 0 0" />
+                <keyFrame time="0.3" rotation="180 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+	
+	 <animatedObject index="PuertaDoble2">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+        <animation initialTime="0" duration="6">
+            <part node="1|1|0">
+                <keyFrame time="0.35" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 -110 0"  />
+            </part>
+		    <part node="2|1|0">
+                <keyFrame time="0.35" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 110 0"  />
+            </part>	
+			<part node="1|0|0">
+                <keyFrame time="0.35" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 -110 0"  />
+            </part>
+		    <part node="2|0|0">
+                <keyFrame time="0.35" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 110 0"  />
+            </part>	
+			 <part node="1|0|0|0">
+                <keyFrame time="0.0" rotation="0 0 0" />
+                <keyFrame time="0.3" rotation="180 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+	
+    <!--Puertas Corredizas-->
+	
+	
+	 <animatedObject index="PuertaLateralx">
+			<controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+		   <sound file="maps/sounds/slidingdoor.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+			<animation initialTime="0" duration="5">
+	 <part node="1">
+					<keyFrame time="0.15" translation="0 0 0" />
+					<keyFrame time="1" translation="-5.4 0 0"  />
+				</part> 
+	 
+			</animation>
+		</animatedObject>
+	
+    <animatedObject index="PuertaLateralizk">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+       <sound file="maps/sounds/slidingdoor.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="5">
+			<part node="1">
+                <keyFrame time="0.15" translation="0 0 0" />
+                <keyFrame time="1" translation="0 0 7"  />
+            </part>	
+			
+        </animation>
+    </animatedObject>
+	
+	 <animatedObject index="PuertaLateralder">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+       <sound file="maps/sounds/slidingdoor.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="5">
+			<part node="1">
+                <keyFrame time="0.15" translation="0 0 0" />
+                <keyFrame time="1" translation="0 0 -7"  />
+            </part>	
+			
+        </animation>
+    </animatedObject>
+	
+    <!--Vallas simples-->
+    <animatedObject index="VallaLarga80">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+        <sound file="maps/sounds/click6.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="5">
+			<part node="1|0">
+                <keyFrame time="0.15" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 -80 0"  />
+            </part>	
+			 <part node="1|0|0">
+                <keyFrame time="0.00" translation="0 0 0" />
+                <keyFrame time="0.1" translation="-0.05 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+	
+	 <animatedObject index="VallaLarga90">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+        <sound file="maps/sounds/click6.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="5">
+			<part node="1|0">
+                <keyFrame time="0.15" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 -90 0"  />
+            </part>	
+			 <part node="1|0|0">
+                <keyFrame time="0.00" translation="0 0 0" />
+                <keyFrame time="0.1" translation="-0.05 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+       
+	 <animatedObject index="VallaLarga100">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+        <sound file="maps/sounds/click6.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="5">
+			<part node="1|0">
+                <keyFrame time="0.15" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 -100 0"  />
+            </part>	
+			 <part node="1|0|0">
+                <keyFrame time="0.00" translation="0 0 0" />
+                <keyFrame time="0.1" translation="-0.05 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+	
+	<animatedObject index="VallaLarga160">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+        <sound file="maps/sounds/click6.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="6">
+			<part node="1|0">
+                <keyFrame time="0.15" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 -160 0"  />
+            </part>	
+			 <part node="1|0|0">
+                <keyFrame time="0.00" translation="0 0 0" />
+                <keyFrame time="0.1" translation="-0.05 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+       
+	 <animatedObject index="VallaLarga180">
+        <controls posKey="GATE_MOVE" triggerNode="0" posText="input_GATE_MOVE" negText="input_GATE_MOVE" />
+        <sound file="maps/sounds/click6.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="6">
+			<part node="1|0">
+                <keyFrame time="0.15" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 -178 0"  />
+            </part>	
+			 <part node="1|0|0">
+                <keyFrame time="0.00" translation="0 0 0" />
+                <keyFrame time="0.1" translation="-0.05 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+	 
+    <!-- PortonesMetalicos -->
+    <animatedObject index="PortonMetalico1">
+        <controls posKey="ANIMATED_OBJECT_OPEN_PORTON" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_PORTON" negText="input_ANIMATED_OBJECT_CLOSE_PORTON" />
+         <sound file="maps/sounds/slidingdoor.wav" pitchOffset="1.00" volume="0.90" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+         <animation initialTime="0" duration="3.9">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 0 0" /> 
+                <keyFrame time="1.00" translation="0 -2.75 0" />
+            </part>
+           
+        </animation>
+    </animatedObject>
+      <animatedObject index="PortonMetalico2">
+        <controls posKey="ANIMATED_OBJECT_OPEN_PORTON" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_PORTON" negText="input_ANIMATED_OBJECT_CLOSE_PORTON" />
+         <sound file="maps/sounds/slidingdoor.wav" pitchOffset="1.00" volume="0.90" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+         <animation initialTime="0" duration="3.9">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 0 0" /> 
+                <keyFrame time="1.00" translation="0 -2.75 0" />
+            </part>
+           
+        </animation>
+    </animatedObject>
+      <animatedObject index="PortonMetalico3">
+        <controls posKey="ANIMATED_OBJECT_OPEN_PORTON" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_PORTON" negText="input_ANIMATED_OBJECT_CLOSE_PORTON" />
+         <sound file="maps/sounds/slidingdoor.wav" pitchOffset="1.00" volume="0.90" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+         <animation initialTime="0" duration="3.9">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 0 0" /> 
+                <keyFrame time="1.00" translation="0 -2.75 0" />
+            </part>
+           
+        </animation>
+    </animatedObject>
+      <animatedObject index="PortonMetalico4">
+        <controls posKey="ANIMATED_OBJECT_OPEN_PORTON" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_PORTON" negText="input_ANIMATED_OBJECT_CLOSE_PORTON" />
+         <sound file="maps/sounds/slidingdoor.wav" pitchOffset="1.00" volume="0.90" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+         <animation initialTime="0" duration="3.9">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 0 0" /> 
+                <keyFrame time="1.00" translation="0 -2.75 0" />
+            </part>
+           
+        </animation>
+    </animatedObject>
+	
+	<!-- PERSIANAS -->
+	<animatedObject index="persiana">
+		<controls posKey="ANIMATED_OBJECT_OPEN_PERSIANA" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_PERSIANA" negText="input_ANIMATED_OBJECT_CLOSE_PERSIANA" />
+		<sound file="maps/sounds/OpenElectricDoorSound.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+		<animation initialTime="0" duration="7.5">
+			<part node="1"> <!--index of segment 1-->
+				<Keyframe time="0" translation="-0.0175004 -1.8 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.161" translation="-0.0175004 -1.22008 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.329" translation="-0.0175004 -0.619618 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.497" translation="-0.0175004 -0.0201835 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.664" translation="-0.0175004 0.580276 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.832" translation="-0.0175004 1.1796 1.75" rotation="0 -0 0"/>
+				<Keyframe time="1" translation="-0.0175004 1.77975 1.75" rotation="0 -0 35"/>
+			</part>
+			<part node="2"> <!--index of segment 2-->
+				<Keyframe time="0" translation="-0.0175004 -1.2 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.161" translation="-0.0175004 -0.620078 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.329" translation="-0.0175004 -0.0196182 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.497" translation="-0.0175004 0.579816 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.664" translation="-0.018703 1.18028 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.832" translation="-0.0271212 1.7796 1.75" rotation="0 -0 35"/>
+				<Keyframe time="1" translation="-0.361646 2.27124 1.75" rotation="0 -0 65"/>
+			</part>
+			<part node="3"> <!--index of segment 3-->
+				<Keyframe time="0" translation="-0.0175004 -0.6 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.161" translation="-0.0175004 -0.0200779 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.329" translation="-0.0175004 0.580382 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.497" translation="-0.0175004 1.17982 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.664" translation="-0.0175004 1.78028 1.75" rotation="0 -0 35"/>
+				<Keyframe time="0.832" translation="-0.361646 2.27109 1.75" rotation="0 -0 65"/>
+				<Keyframe time="1" translation="-0.905431 2.52481 1.75" rotation="0 -0 90"/>
+			</part>
+			<part node="4"> <!--index of segment 4-->
+				<Keyframe time="0" translation="-0.0175004 -9.53674e-008 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.161" translation="-0.0175004 0.579922 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.329" translation="-0.0175004 1.18038 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.497" translation="-0.0175004 1.77982 1.75" rotation="0 -0 35"/>
+				<Keyframe time="0.664" translation="-0.361646 2.27177 1.75" rotation="0 -0 65"/>
+				<Keyframe time="0.832" translation="-0.905431 2.52467 1.75" rotation="0 -0 90"/>
+				<Keyframe time="1" translation="-1.50543 2.52481 1.75" rotation="0 -0 90"/>
+			</part>
+			<part node="5"> <!--index of segment 5-->
+				<Keyframe time="0" translation="-0.0175004 0.6 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.161" translation="-0.0175004 1.17992 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.329" translation="-0.0271212 1.78038 1.75" rotation="0 -0 35"/>
+				<Keyframe time="0.497" translation="-0.361646 2.27131 1.75" rotation="0 -0 65"/>
+				<Keyframe time="0.664" translation="-0.905431 2.52534 1.75" rotation="0 -0 90"/>
+				<Keyframe time="0.832" translation="-1.50543 2.52467 1.75" rotation="0 -0 90"/>
+				<Keyframe time="1" translation="-2.10543 2.52481 1.75" rotation="0 -0 90"/>
+			</part>
+			<part node="6"> <!--index of segment 6-->
+				<Keyframe time="0" translation="-0.0175004 1.2 1.75" rotation="0 -0 0"/>
+				<Keyframe time="0.161" translation="-0.0175004 1.77992 1.75" rotation="0 -0 35"/>
+				<Keyframe time="0.329" translation="-0.361646 2.27187 1.75" rotation="0 -0 65"/>
+				<Keyframe time="0.497" translation="-0.905431 2.52488 1.75" rotation="0 -0 90"/>
+				<Keyframe time="0.664" translation="-1.50543 2.52534 1.75" rotation="0 -0 90"/>
+				<Keyframe time="0.832" translation="-2.10543 2.52467 1.75" rotation="0 -0 90"/>
+				<Keyframe time="1" translation="-2.70543 2.52481 1.75" rotation="0 -0 90"/>
+			</part>
+		</animation>
+	</animatedObject>
+    
+    <!-- PUERTA SIMPLE -->
+    <animatedObject index="puerta">
+        <controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR" />
+         <sound file="maps/sounds/slidingdoor.wav" pitchOffset="1.00" volume="0.80" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+         <animation initialTime="0" duration="3.9">
+            <part node="1">
+                <keyFrame time="0.05" rotation="0 0 0" /> 
+                <keyFrame time="1.00" rotation="0 90 0" />
+            </part>
+        </animation>
+    </animatedObject>
+       
+    <!-- RAKS de palets -->
+     <!-- little -->
+    <animatedObject index="lPlate1">
+        <controls posKey="ANIMATED_OBJECT_MOVE_DOWN" negKey="ANIMATED_OBJECT_MOVE_UP" triggerNode="0" posText="input_ANIMATED_OBJECT_MOVE_DOWN" negText="input_ANIMATED_OBJECT_MOVE_UP" />
+        <sound file="maps/sounds/hydraulicUp.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="15">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 0 -0.195" />
+				<keyFrame time="0.50" translation="0 0 -1.868" />
+				<keyFrame time="1.00" translation="0 -1.397 -1.868" />
+            </part>
+			<part node="2">
+                <keyFrame time="0.00" visibility="false" />
+                <keyFrame time="0.01" visibility="true" />
+				<keyFrame time="0.99" visibility="true" />
+				<keyFrame time="1.00" visibility="false" />
+            </part>
+			<part node="1|3">
+                <keyFrame time="0.00" scale="1 1 1" /> 
+                <keyFrame time="0.99" scale="1 1 1" />
+				<keyFrame time="1.00" scale="0 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+    <animatedObject index="lPlate2">
+        <controls posKey="ANIMATED_OBJECT_MOVE_DOWN2" negKey="ANIMATED_OBJECT_MOVE_UP2" triggerNode="0" posText="input_ANIMATED_OBJECT_MOVE_DOWN2" negText="input_ANIMATED_OBJECT_MOVE_UP2" />
+        <sound file="maps/sounds/hydraulicUp.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="20">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 3.122 -0.195" />
+				<keyFrame time="0.33" translation="0 3.122 -1.868" />
+				<keyFrame time="1.00" translation="0 0.165 -1.868" />
+            </part>
+		<part node="2">
+                <keyFrame time="0.00" visibility="false" />
+                <keyFrame time="0.01" visibility="true" />
+				<keyFrame time="0.99" visibility="true" />
+				<keyFrame time="1.00" visibility="false" />
+        </part>
+		<part node="1|3">
+                <keyFrame time="0.00" scale="1 1 1" /> 
+                <keyFrame time="0.99" scale="1 1 1 " />
+				<keyFrame time="1.00" scale="0 0 0" />
+        </part>
+        </animation>
+    </animatedObject>
+	
+	 <!-- medium -->
+    <animatedObject index="mPlate1">
+        <controls posKey="ANIMATED_OBJECT_MOVE_DOWN" negKey="ANIMATED_OBJECT_MOVE_UP" triggerNode="0" posText="input_ANIMATED_OBJECT_MOVE_DOWN" negText="input_ANIMATED_OBJECT_MOVE_UP" />
+        <sound file="maps/sounds/hydraulicUp.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="20">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 0 -0.195" />
+				<keyFrame time="0.50" translation="0 0 -2.7" />
+				<keyFrame time="1.00" translation="0 -2.093 -2.7" />
+            </part>
+			<part node="2">
+                <keyFrame time="0.00" visibility="false" />
+                <keyFrame time="0.01" visibility="true" />
+				<keyFrame time="0.99" visibility="true" />
+				<keyFrame time="1.00" visibility="false" />
+            </part>
+			<part node="1|3">
+                <keyFrame time="0.00" scale="1 1 1" /> 
+                <keyFrame time="0.99" scale="1 1 1" />
+				<keyFrame time="1.00" scale="0 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+    <animatedObject index="mPlate2">
+        <controls posKey="ANIMATED_OBJECT_MOVE_DOWN2" negKey="ANIMATED_OBJECT_MOVE_UP2" triggerNode="0" posText="input_ANIMATED_OBJECT_MOVE_DOWN2" negText="input_ANIMATED_OBJECT_MOVE_UP2" />
+        <sound file="maps/sounds/hydraulicUp.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="25">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 3.122 -0.195" />
+				<keyFrame time="0.33" translation="0 3.122 -2.7" />
+				<keyFrame time="1.00" translation="0 -1.314 -2.7" />
+            </part>
+		<part node="2">
+                <keyFrame time="0.00" visibility="false" />
+                <keyFrame time="0.01" visibility="true" />
+				<keyFrame time="0.99" visibility="true" />
+				<keyFrame time="1.00" visibility="false" />
+        </part>
+		<part node="1|3">
+                <keyFrame time="0.00" scale="1 1 1" /> 
+                <keyFrame time="0.99" scale="1 1 1" />
+				<keyFrame time="1.00" scale="0 0 0" />
+        </part>
+        </animation>
+    </animatedObject>
+    
+ <!-- GRAIN STORAGE -->
+    <animatedObject index="Plate1">
+        <controls posKey="ANIMATED_OBJECT_MOVE_DOWN" negKey="ANIMATED_OBJECT_MOVE_UP" triggerNode="0" posText="input_ANIMATED_OBJECT_MOVE_DOWN" negText="input_ANIMATED_OBJECT_MOVE_UP" />
+        <sound file="maps/sounds/hydraulicUp.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="20">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 0 -0.195" />
+				<keyFrame time="0.50" translation="0 0 -3.539" />
+				<keyFrame time="1.00" translation="0 -2.8 -3.539" />
+            </part>
+			<part node="2">
+                <keyFrame time="0.00" visibility="false" />
+                <keyFrame time="0.01" visibility="true" />
+				<keyFrame time="0.99" visibility="true" />
+				<keyFrame time="1.00" visibility="false" />
+            </part>
+			<part node="1|3">
+                <keyFrame time="0.00" scale="0.95 0.1 0.1" /> 
+                <keyFrame time="0.99" scale="0.95 0.1 0.1" />
+				<keyFrame time="1.00" scale="0 0 0" />
+            </part>
+        </animation>
+    </animatedObject>
+    <animatedObject index="Plate2">
+        <controls posKey="ANIMATED_OBJECT_MOVE_DOWN2" negKey="ANIMATED_OBJECT_MOVE_UP2" triggerNode="0" posText="input_ANIMATED_OBJECT_MOVE_DOWN2" negText="input_ANIMATED_OBJECT_MOVE_UP2" />
+        <sound file="maps/sounds/hydraulicUp.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="30">
+            <part node="1">
+                <keyFrame time="0.05" translation="0 3.122 -0.195" />
+				<keyFrame time="0.33" translation="0 3.122 -3.539" />
+				<keyFrame time="1.00" translation="0 -2.8 -3.539" />
+            </part>
+		<part node="2">
+                <keyFrame time="0.00" visibility="false" />
+                <keyFrame time="0.01" visibility="true" />
+				<keyFrame time="0.99" visibility="true" />
+				<keyFrame time="1.00" visibility="false" />
+        </part>
+		<part node="1|3">
+                <keyFrame time="0.00" scale="0.95 0.1 0.1" /> 
+                <keyFrame time="0.99" scale="0.95 0.1 0.1" />
+				<keyFrame time="1.00" scale="0 0 0" />
+        </part>
+        </animation>
+    </animatedObject>
+	
+        
+    
+    <!-- LIGHTS -->
+	
+    <!-- AZUCAR -->
+     <animatedObject index="lightSwitch001">
+        <!-- if only posyKey is given animated has a toggle state behavior  -->
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="$data/sounds/blinker.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.01"> <!-- duration -> total time of animation in seconds -->
+            <part node="1">
+                <!-- time must be in range between 0 and 1 -->
+                <keyFrame time="0.00" visibility="false" />
+                <keyFrame time="1" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    <!-- YARD LIGHTS -->
+	
+    <animatedObject index="lucesCocheraFuera">
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.25">
+            <part node="1|0"> 
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 0 -8" />
+            </part>
+			<part node="2|0"> 
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    
+    <animatedObject index="CowShedYardLight">
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.25">
+            <part node="1|0"> <!--index of Lever of the Lightswitch-->
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 0 -8" />
+            </part>
+			<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="3|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    
+    <animatedObject index="PigShedYardLight">
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.25">
+            <part node="1|0"> <!--index of Lever of the Lightswitch-->
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 0 -8" />
+            </part>
+			<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    
+    <animatedObject index="SiloYardLight">
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.25">
+            <part node="1|0"> <!--index of Lever of the Lightswitch-->
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 0 -8" />
+            </part>
+			<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="3|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="4|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="5|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="6|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    
+    <animatedObject index="ChantryYardLight">
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.25">
+            <part node="1|0"> <!--index of Lever of the Lightswitch-->
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="1" rotation="0 0 -8" />
+            </part>
+			<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="3|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="4|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    
+    
+    <!-- STRIP LIGHTS -->
+    <animatedObject index="workshopStripLight1">
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.5">
+            <part node="1|0"> <!--index of Lever of the Lightswitch-->
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="1" rotation="-90 0 0" />
+            </part>
+			<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    
+    <animatedObject index="CowShedStripLight1">
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.5">
+            <part node="1|0"> <!--index of Lever of the Lightswitch-->
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="1" rotation="-90 0 0" />
+            </part>
+			<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="3|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="4|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="5|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="6|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    
+    <animatedObject index="PigShedStripLight1">
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.5">
+            <part node="1|0"> <!--index of Lever of the Lightswitch-->
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="1" rotation="-90 0 0" />
+            </part>
+			<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="3|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="4|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    
+    <animatedObject index="SheepShedStripLight1">
+        <controls posKey="LIGHTSWITCH_CLICK" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK" />
+        <sound file="maps/sounds/switch01_0.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="0.5">
+            <part node="1|0"> <!--index of Lever of the Lightswitch-->
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="1" rotation="-90 0 0" />
+            </part>
+			<part node="2|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+            <part node="3|0"> <!--index of TG with realLights and emmisive shape-->
+                <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.55" visibility="true" />
+            </part>
+        </animation>
+    </animatedObject>
+    
+	<!-- Kuhstall_Tore -->
+	<animatedObject index="Stall_Tore01">
+        <controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR" />
+        <sound file="maps/sounds/creaky_door_4.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="4">
+            <part node="1">
+                <keyFrame time="0.00" rotation="0 0 0"/>
+                <keyFrame time="0.95" rotation="0 90 0"/>
+            </part>
+            <part node="1|0">
+                <keyFrame time="0.0" translation="-2.774 -2.359 0.063"/>
+                <keyFrame time="0.05" translation="-2.629 -2.359 0.063"/>
+            </part>
+			<part node="2">
+                <keyFrame time="0.05" rotation="0 0 0"/>
+                <keyFrame time="1.00" rotation="0 -90 0"/>
+            </part>
+        </animation>
+    </animatedObject>
+	<animatedObject index="Stall_Tore02">
+        <controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR" />
+        <sound file="maps/sounds/creaky_door_4.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="4">
+            <part node="1">
+                <keyFrame time="0.00" rotation="0 0 0"/>
+                <keyFrame time="0.95" rotation="0 90 0"/>
+            </part>
+			<part node="1|0">
+                <keyFrame time="0.0" translation="-2.774 -2.359 0.063"/>
+                <keyFrame time="0.05" translation="-2.629 -2.359 0.063"/>
+            </part>
+            <part node="2">
+                <keyFrame time="0.05" rotation="0 0 0"/>
+                <keyFrame time="1.00" rotation="0 -90 0"/>
+            </part>
+        </animation>
+    </animatedObject>
+	
+	<!-- TunelAlmacen -->
+	 <animatedObject index="Tunneldoor1">
+        <controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR" />
+		<sound file="maps/sounds/OpenDoor.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="8">
+            <part node="1">
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="0.47" rotation="0 -170 0" />
+            </part>
+			<part node="2">
+                <keyFrame time="0.53" rotation="0 0 0" />
+                <keyFrame time="1.00" rotation="0 170 0" />
+            </part>
+        </animation>
+    </animatedObject>
+    <animatedObject index="Tunneldoor2">
+        <controls posKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR" />
+		<sound file="maps/sounds/OpenDoor.wav" pitchOffset="1.00" volume="0.20" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+        <animation initialTime="0" duration="8">
+            <part node="1">
+                <keyFrame time="0.00" rotation="0 0 0" />
+                <keyFrame time="0.47" rotation="0 -170 0" />
+            </part>
+			<part node="2">
+                <keyFrame time="0.53" rotation="0 0 0" />
+                <keyFrame time="1.00" rotation="0 170 0" />
+            </part>
+        </animation>
+    </animatedObject>		
+	  
+   
+    <animatedObject index="Abladestelle">
+		<controls posKey="ANIMATED_OBJECT_OPEN_UNLOADING" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_UNLOADING" negText="input_ANIMATED_OBJECT_CLOSE_UNLOADING" />
+		<sound file="maps/sounds/squeakyDoor_4s.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+		<animation initialTime="0" duration="2">
+			<part node="1"> 
+				<Keyframe time="0" rotation="0 0 0"/>
+				<Keyframe time="1" rotation="106 0 0"/>
+			</part>
+			<part node="2">
+				<Keyframe time="0" rotation="0 0 0"/>
+				<Keyframe time="0.850" rotation="-106 0 0"/>
+			</part>
+			<part node="3">
+				<Keyframe time="0" rotation="0 0 0"/>
+				<Keyframe time="0.900" rotation="106 0 0"/>
+			</part>
+			<part node="4"> 
+				<Keyframe time="0"  rotation="0 0 0"/>
+				<Keyframe time="0.950"  rotation="-106 0 0"/>
+			</part>
+			<part node="7|0|0"> 
+				<Keyframe time="0" translation="-0.29 -3.705 0"/>
+				<Keyframe time="1" translation="-0.29 0.333 0"/>
+			</part>
+			<part node="6|4|1|0"> 
+                 <keyFrame time="0.95" visibility="false" />
+                <keyFrame time="1" visibility="true" />
+            </part>
+			
+			<part node="6|4|1|1">
+                 <keyFrame time="0.95" visibility="true" />
+                <keyFrame time="1" visibility="false" />
+            </part>	
+		</animation>
+	</animatedObject>	
+	
+	<animatedObject index="Schaltkasten">
+		<controls posKey="ANIMATED_OBJECT_POWER ON" triggerNode="0" posText="input_ANIMATED_OBJECT_POWER ON" negText="input_ANIMATED_OBJECT_POWER OFF" />
+		<sound file="maps/sounds/TurbineRoom.wav" pitchOffset="1.00" volume="0.40" indoorVolumeFactor="0.55" indoorLowpassGain="0.85" pitchMax="1.15" />
+		<animation initialTime="0" duration="4">
+			<part node="4|0|0">
+                 <keyFrame time="0.05" visibility="false" />
+                <keyFrame time="0.1" visibility="true" />
+            </part>
+			<part node="4|0|1"> 
+                 <keyFrame time="0.05" visibility="true" />
+                <keyFrame time="0.1" visibility="false" />
+            </part>	
+			<part node="6|0">
+                 <keyFrame time="0.1" visibility="false" />
+                <keyFrame time="0.2" visibility="true" />
+            </part>	
+			<part node="6|1">
+                 <keyFrame time="0.3" visibility="false" />
+                <keyFrame time="0.4" visibility="true" />
+            </part>	
+			<part node="6|2">
+                 <keyFrame time="0.5" visibility="false" />
+                <keyFrame time="0.6" visibility="true" />
+            </part>	
+			<part node="6|3"> 
+                 <keyFrame time="0.7" visibility="false" />
+                <keyFrame time="0.8" visibility="true" />
+            </part>	
+			<part node="6|4"> 
+                 <keyFrame time="0.85" visibility="false" />
+                <keyFrame time="0.9" visibility="true" />
+            </part>	
+			<part node="3"> 
+                 <keyFrame time="0.95" visibility="false" />
+                <keyFrame time="1" visibility="true" />
+            </part>	
+			<part node="5|1"> 
+                 <Keyframe time="0.05" translation="0.182 1.043 -1.38" rotation="-70 0 0"/>
+				<Keyframe time="0.1" translation="0.182 1.043 -1.38" rotation="0 0 0"/>
+            </part>	
+			<part node="5|0"> 
+                  <Keyframe time="0" translation="0.186 1.03 -1.133" rotation="0 0 0"/>
+				<Keyframe time="0.1" translation="0.186 1.03 -1.133" rotation="-90 0 0"/>
+            </part>	
+		</animation>
+	</animatedObject>
+	
+</animatedObjects>
