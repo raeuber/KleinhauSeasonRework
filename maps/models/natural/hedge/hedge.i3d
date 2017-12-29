@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="1" filename="mapobjects/objects/decorations/bushes/hedge/textures/chellington/Hedge_new.png" relativePath="true"/>
+    </Files>
+    <Materials>
+        <Material name="material10" materialId="671" ambientColor="1 1 1">
+            <Texture fileId="1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="hedge.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="hedge" translation="-117.58 99.1314 397.855" rotation="180 0.290849 -180" scale="2 1.6 1.1" clipDistance="200" nodeId="31323" materialIds="671" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="transform" nodeId="31324"/>
+        </Shape>
+    </Scene>
+</i3D>
