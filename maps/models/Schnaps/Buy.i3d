@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="3" filename="import/texturas/Bake.dds" relativePath="true"/>
+        <File fileId="4" filename="import/texturas/Bake_specular.dds" relativePath="true"/>
+        <File fileId="7" filename="import/texturas/triggerIcons_diffuse.png" relativePath="true"/>
+        <File fileId="8" filename="shaders/fxCircleShader.xml" relativePath="true"/>
+    </Files>
+    <Materials>
+        <Material name="Matutt" materialId="200" diffuseColor="0 0 1 1" ambientColor="0 0 1" cosPower="20" specularColor="0 0 1"/>
+        <Material name="Material" materialId="379" diffuseColor="0.8 0.8 0.8 1" ambientColor="1 1 1"/>
+        <Material name="poleClampSign_texture" materialId="526" diffuseColor="0 0 0 1" ambientColor="1 1 1"/>
+        <Material name="poleClampSign_texture" materialId="882" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+            <Texture fileId="3"/>
+            <Glossmap fileId="4"/>
+        </Material>
+        <Material name="triggerIcons_mat8" materialId="857" ambientColor="1 1 1" alphaBlending="true" customShaderId="8" customShaderVariation="PULSATING">
+            <Emissivemap fileId="7"/>
+            <CustomParameter name="scaleParameters" value="0.75 1 2.5 1"/>
+        </Material>
+        <Material name="sign_750mm" materialId="962" ambientColor="1 1 1"/>
+        <Material name="lambert1" materialId="1002" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1"/>
+    </Materials>
+    <Shapes externalShapesFile="Buy.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="Buyable20" translation="404.189 111.902 910.966" rotation="180 40.6173 180" clipDistance="100" nodeId="45380" materialIds="200" nonRenderable="true">
+            <TransformGroup name="inputTrigger" nodeId="45381">
+                <TransformGroup name="Rohstoff1" nodeId="45382">
+                    <TransformGroup name="money" translation="12.6723 0.151749 -7.2962" rotation="180 0 -180" nodeId="45383"/>
+                    <TransformGroup name="inVisibilityNodes" translation="12.6723 0.151749 -7.2962" rotation="180 0 -180" nodeId="45384">
+                        <Shape shapeId="2" name="colli" translation="12.3156 -0.215213 -13.6591" rotation="0 41.4298 -3.70613e-09" static="true" nodeId="45385" materialIds="1002" nonRenderable="true">
+                            <Shape shapeId="3" name="pole" nodeId="45386" materialIds="882,526,962" castsShadows="true" receiveShadows="true">
+                                <Shape shapeId="4" name="pole" nodeId="45387" materialIds="882,526,962" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="5" name="clamp" nodeId="45388" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="6" name="clamp" nodeId="45389" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="7" name="sign" nodeId="45390" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                            </Shape>
+                        </Shape>
+                        <Shape shapeId="2" name="colli" translation="10.28 -0.215213 -11.8626" rotation="0 41.4298 -3.70613e-09" static="true" nodeId="45391" materialIds="1002" nonRenderable="true">
+                            <Shape shapeId="3" name="pole" nodeId="45392" materialIds="882,526,962" castsShadows="true" receiveShadows="true">
+                                <Shape shapeId="4" name="pole" nodeId="45393" materialIds="882,526,962" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="5" name="clamp" nodeId="45394" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="6" name="clamp" nodeId="45395" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="7" name="sign" nodeId="45396" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                            </Shape>
+                        </Shape>
+                        <Shape shapeId="2" name="colli" translation="8.25189 -0.215213 -10.0727" rotation="0 41.4298 -3.70613e-09" static="true" nodeId="45397" materialIds="1002" nonRenderable="true">
+                            <Shape shapeId="3" name="pole" nodeId="45398" materialIds="882,526,962" castsShadows="true" receiveShadows="true">
+                                <Shape shapeId="4" name="pole" nodeId="45399" materialIds="882,526,962" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="5" name="clamp" nodeId="45400" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="6" name="clamp" nodeId="45401" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="7" name="sign" nodeId="45402" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                            </Shape>
+                        </Shape>
+                        <Shape shapeId="2" name="colli" translation="6.24737 -0.215213 -8.3036" rotation="0 41.4298 -3.70613e-09" static="true" nodeId="45403" materialIds="1002" nonRenderable="true">
+                            <Shape shapeId="3" name="pole" nodeId="45404" materialIds="882,526,962" castsShadows="true" receiveShadows="true">
+                                <Shape shapeId="4" name="pole" nodeId="45405" materialIds="882,526,962" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="5" name="clamp" nodeId="45406" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="6" name="clamp" nodeId="45407" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="7" name="sign" nodeId="45408" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                            </Shape>
+                        </Shape>
+                        <Shape shapeId="2" name="colli" translation="-76.76 -0.251966 -65.6074" rotation="-180 -67.7066 -180" static="true" nodeId="45409" materialIds="1002" nonRenderable="true">
+                            <Shape shapeId="3" name="pole" nodeId="45410" materialIds="882,526,962" castsShadows="true" receiveShadows="true">
+                                <Shape shapeId="4" name="pole" nodeId="45411" materialIds="882,526,962" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="5" name="clamp" nodeId="45412" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="6" name="clamp" nodeId="45413" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="7" name="sign" nodeId="45414" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                            </Shape>
+                        </Shape>
+                        <Shape shapeId="2" name="colli" translation="-75.7019 -0.251966 -68.1883" rotation="-180 -67.7066 -180" static="true" nodeId="45415" materialIds="1002" nonRenderable="true">
+                            <Shape shapeId="3" name="pole" nodeId="45416" materialIds="882,526,962" castsShadows="true" receiveShadows="true">
+                                <Shape shapeId="4" name="pole" nodeId="45417" materialIds="882,526,962" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="5" name="clamp" nodeId="45418" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="6" name="clamp" nodeId="45419" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="7" name="sign" nodeId="45420" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                            </Shape>
+                        </Shape>
+                        <Shape shapeId="2" name="colli" translation="-74.6402 -0.251966 -70.7778" rotation="-180 -67.7066 -180" static="true" nodeId="45421" materialIds="1002" nonRenderable="true">
+                            <Shape shapeId="3" name="pole" nodeId="45422" materialIds="882,526,962" castsShadows="true" receiveShadows="true">
+                                <Shape shapeId="4" name="pole" nodeId="45423" materialIds="882,526,962" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="5" name="clamp" nodeId="45424" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="6" name="clamp" nodeId="45425" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                                <Shape shapeId="7" name="sign" nodeId="45426" materialIds="882" castsShadows="true" receiveShadows="true"/>
+                            </Shape>
+                        </Shape>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="outputTrigger" nodeId="45427">
+                <TransformGroup name="Produkt1" nodeId="45428">
+                    <TransformGroup name="empty" translation="-14.531 0.543 -2.4547" rotation="180 -87.66 -180" nodeId="45429"/>
+                </TransformGroup>
+            </TransformGroup>
+            <Shape shapeId="8" name="PlayerTrigger" static="true" trigger="true" collisionMask="34603008" nodeId="45430" materialIds="379" nonRenderable="true">
+                <Shape shapeId="9" name="triggerIconBuyField" translation="0 0.805865 0" clipDistance="300" nodeId="45431" materialIds="857" castsShadows="true" receiveShadows="true">
+                    <Light name="iconLight" nodeId="45432" type="point" color="0 0.35 0.75" emitDiffuse="true" emitSpecular="true" decayRate="4" range="3"/>
+                </Shape>
+            </Shape>
+        </Shape>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="45380">
+            <Attribute name="PlayerIndex" type="string" value="2"/>
+            <Attribute name="ProduktPerHour" type="integer" value="0"/>
+            <Attribute name="inputIndex" type="string" value="0"/>
+            <Attribute name="isBuyable" type="boolean" value="true"/>
+            <Attribute name="mCompanyGraphicXML" type="string" value="scripts/comprar/mCompanyBuyableLicores.xml"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.mCompanyFactory"/>
+            <Attribute name="outputIndex" type="string" value="1"/>
+            <Attribute name="showOnTablet" type="boolean" value="false"/>
+        </UserAttribute>
+        <UserAttribute nodeId="45382">
+            <Attribute name="capacity" type="integer" value="70000"/>
+            <Attribute name="fillTypes" type="string" value="money"/>
+            <Attribute name="name" type="string" value="Geld"/>
+            <Attribute name="unit" type="string" value="money"/>
+        </UserAttribute>
+        <UserAttribute nodeId="45383">
+            <Attribute name="buttonR" type="string" value="buyable_btn"/>
+            <Attribute name="header" type="string" value="buyable_header20"/>
+        </UserAttribute>
+        <UserAttribute nodeId="45384">
+            <Attribute name="showOnFull" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="45428">
+            <Attribute name="capacity" type="integer" value="75000"/>
+            <Attribute name="factor" type="float" value="1"/>
+            <Attribute name="fillType" type="string" value="water"/>
+            <Attribute name="name" type="string" value="water"/>
+            <Attribute name="unit" type="string" value="liter"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

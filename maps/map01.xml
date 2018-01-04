@@ -13,7 +13,63 @@
         <hotspot name="Sheep"        fullName="$l10n_animals_sheepPasture" imageUVs="264 264 240 240" xMapPos="-46.515"   zMapPos="43.256"  blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
         <hotspot name="Pigs"         fullName="$l10n_animals_pigPasture"   imageUVs="776 264 240 240" xMapPos="-372.641"  zMapPos="373.358"  blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
         <hotspot name="Chickens"     fullName="$l10n_animals_chickenCoop"  imageUVs="8 264 240 240"   xMapPos="-329.099"    zMapPos="422.031"    blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
-    </hotspots>
+    
+<!-- Neue Elemente -->
+
+<hotspot name="BioDiesel"   		fullName="$l10n_BioDiesel"    		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="28 540 205 205"  xMapPos="1990.49"    zMapPos="1064.12"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+<hotspot name="FabCerveza"   		fullName="$l10n_Fab.Cerveza"  		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="30 791 205 205"  xMapPos="1102.11"    zMapPos="236.843"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+<hotspot name="FabPallets"   		fullName="$l10n_Fab.Pallets"  		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="788 271 205 205"  xMapPos="889.074"    zMapPos="-1511.514"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+<hotspot name="Vinedo"   			fullName="$l10n_Viñedo"   			baseColor="0.406 0.125 0.836 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="538 530 205 205"  xMapPos="-769.997"    zMapPos="-533.869"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+<hotspot name="Manzanos"   			fullName="$l10n_Manzanos"  			baseColor="0.406 0.125 0.836 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="28 23 205 205"  xMapPos="-490.037"    zMapPos="751.044"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+<hotspot name="FabUva"   			fullName="$l10n_Fab.Uva"   			baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="538 280 205 205"  xMapPos="502.859"    zMapPos="-1658.516"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+	
+
+
+<!--
+		<hotspot name="Vinedo"   			fullName="$l10n_Viñedo"   			baseColor="0.406 0.125 0.836 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="538 530 205 205"  xMapPos="-882.479"    zMapPos="-912.683"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+	    <hotspot name="Manzanos"   			fullName="$l10n_Manzanos"  			baseColor="0.406 0.125 0.836 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="28 23 205 205"  xMapPos="-674.085"    zMapPos="-24.897"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="Olivos"   			fullName="$l10n_Olivos"  			baseColor="0.406 0.125 0.836 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="284 540 205 205"  xMapPos="-174.82"    zMapPos="666.362"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+	
+		<hotspot name="GardenCenter"   		fullName="$l10n_Agroma" 			baseColor="0.5559 0.3647 0.2 1" imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="284 792 205 205"  xMapPos="-64.582"    zMapPos="161.357"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+	
+		<hotspot name="FabComida"   		fullName="$l10n_Fab.Comida"   		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 23 205 205"  xMapPos="-801.091"    zMapPos="595.022"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="FabSoja"   			fullName="$l10n_Fab.Soja"   		baseColor="0.277 0.598 0.25 1"  imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="284 23 205 205"  xMapPos="-578.646"    zMapPos="790.143"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="FabPallets"   		fullName="$l10n_Fab.Pallets"  		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="788 271 205 205"  xMapPos="-865.842"    zMapPos="270.631"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="FabAceite"   		fullName="$l10n_Fab.Aceite"   		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_10242.dds" imageUVs="28 280 205 205"  xMapPos="-794.404"    zMapPos="186.333"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="FabLacteos"   		fullName="$l10n_Fab.Lacteos"  		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="284 23 205 205"  xMapPos="-433.415"    zMapPos="24.12"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="FabLicor"   			fullName="$l10n_Fab.Licor"    		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_10242.dds" imageUVs="792 23 205 205"  xMapPos="389.052"    zMapPos="824.611"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="FabUva"   			fullName="$l10n_Fab.Uva"   			baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="538 280 205 205"  xMapPos="824.319"    zMapPos="-874.356"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="FabAzucar"   		fullName="$l10n_Fab.Azucar"   		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 23 205 205"  xMapPos="-496.455"    zMapPos="-72.971"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="FabTablones"   		fullName="$l10n_Fab.Tablones" 		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="28 280 205 205"  xMapPos="-741.599"    zMapPos="-379.483"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="Invernaderos"  	 	fullName="$l10n_Invernaderos" 		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="538 23 205 205"  xMapPos="-487.322"    zMapPos="721.751"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		
+		<hotspot name="Colocables"   		fullName="$l10n_Colocables"   		baseColor="0.836 0.133 0.145 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 540 205 205"  xMapPos="-288.741"    zMapPos="30.187"   blinking="false" persistent="false" showName="false"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		
+		<hotspot name="Taller"   			fullName="$l10n_Taller"   			baseColor="0.5559 0.3647 0.2 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="532 788 205 205"  xMapPos="-543.711"    zMapPos="-215.049"   blinking="false" persistent="false" showName="false"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="DepAgua"   			fullName="$l10n_DepAgua"   			baseColor="0.836 0.133 0.145 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 792 205 205"  xMapPos="-721.85"    zMapPos="-71.305"   blinking="false" persistent="false" showName="false"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="DepAgua" 	  		fullName="$l10n_DepAgua"   			baseColor="0.836 0.133 0.145 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 792 205 205"  xMapPos="-102.836"    zMapPos="663.367"   blinking="false" persistent="false" showName="false"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		
+		<hotspot name="Fuente"   			fullName="$l10n_Fuente"  			baseColor="0.2 0.85 0.836 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 792 205 205"  xMapPos="-398.022"    zMapPos="-226.143"   blinking="false" persistent="false" showName="false"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="Fuente"   			fullName="$l10n_Fuente"   			baseColor="0.2 0.85 0.836 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 792 205 205"  xMapPos="-636.234"    zMapPos="-378.563"   blinking="false" persistent="false" showName="false"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="Fuente"   			fullName="$l10n_Fuente"   			baseColor="0.2 0.85 0.836 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 792 205 205"  xMapPos="-330.109"    zMapPos="-46.269"   blinking="false" persistent="false" showName="false"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		<hotspot name="Fuente"   			fullName="$l10n_Fuente"   			baseColor="0.2 0.85 0.836 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 792 205 205"  xMapPos="-936.434"    zMapPos="325.687"   blinking="false" persistent="false" showName="false"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+			
+		<hotspot name="Desalinizadora"   	fullName="$l10n_Desali"   			baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_1024.dds" imageUVs="792 792 205 205"  xMapPos="-322.8819"    zMapPos="146.03269"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		
+		<hotspot name="Matadero"   			fullName="$l10n_Matadero"   		baseColor="0.277 0.598 0.25 1"	imageUVs="520 264 240 240"  xMapPos="-869.786"    zMapPos="39.771"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		
+		<hotspot name="Curadero"		   	fullName="$l10n_Curadero" 	  		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_10242.dds" imageUVs="28 23 205 205"  xMapPos="-326.3070"    zMapPos="647.2818"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+		
+		<hotspot name="Compostadora"   		fullName="$l10n_Compostadora" 		baseColor="0.277 0.598 0.25 1"	imageFilename="scripts/hud/mapHotspots_10242.dds" imageUVs="284 23 205 205"  xMapPos="-175.328"    zMapPos="-29.312"   blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+			
+	-->
+	
+	
+	
+	
+	
+	
+	</hotspots>
 
     <additionalFiles>
         <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
@@ -158,83 +214,7 @@
             <fillType name="straw"            priceScale="1" supportsGreatDemand="false" disablePriceDrop="true" />
         </tipTrigger>
 		
-<!-- TRAIN SILOS -->
-        <tipTrigger index="TRAIN_STATION_1_TRAILER_IN" stationName="station_trainStation1" appearsOnPDA="false" isAreaTrigger="true" isSellingPoint="false" triggerWidth="3" supportsExtension="false" storageRadius="50" >
-            <fillType name="wheat"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="barley"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="rape"       priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="maize"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sunflower"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="soybean"    priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sugarBeet"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="potato"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-        </tipTrigger>
-
-        <tipTrigger index="TRAIN_STATION_1_TRAIN_IN" stationName="station_trainStation1" appearsOnPDA="false" isAreaTrigger="true" isSellingPoint="false" isTrainOnly="true" triggerWidth="3" supportsExtension="false" storageRadius="50" >
-            <fillType name="wheat"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="barley"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="rape"       priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="maize"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sunflower"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="soybean"    priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sugarBeet"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="potato"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-        </tipTrigger>
-
-        <tipTrigger index="TRAIN_STATION_2_TRAILER_IN" stationName="station_trainStation2" appearsOnPDA="false" isAreaTrigger="true" isSellingPoint="false" triggerWidth="3" supportsExtension="false" storageRadius="50" >
-            <fillType name="wheat"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="barley"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="rape"       priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="maize"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sunflower"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="soybean"    priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sugarBeet"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="potato"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-        </tipTrigger>
-
-        <tipTrigger index="TRAIN_STATION_2_TRAIN_IN" stationName="station_trainStation2" appearsOnPDA="false" isAreaTrigger="true" isSellingPoint="false" isTrainOnly="true" triggerWidth="3" supportsExtension="false" storageRadius="50" >
-            <fillType name="wheat"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="barley"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="rape"       priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="maize"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sunflower"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="soybean"    priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sugarBeet"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="potato"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-        </tipTrigger>
-
-        <tipTrigger index="TRANSPORT_HUB_TRAILER_IN" stationName="station_transportHub" appearsOnPDA="false" isAreaTrigger="true" isSellingPoint="false" triggerWidth="3" supportsExtension="false" storageRadius="50" >
-            <fillType name="wheat"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="barley"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="rape"       priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="maize"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sunflower"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="soybean"    priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sugarBeet"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="potato"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-        </tipTrigger>
-
-        <tipTrigger index="TRANSPORT_HUB_TRAIN_IN_1" stationName="station_transportHub" appearsOnPDA="false" isAreaTrigger="true" isSellingPoint="false" triggerWidth="3" supportsExtension="false" storageRadius="50" >
-            <fillType name="wheat"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="barley"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="rape"       priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="maize"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sunflower"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="soybean"    priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sugarBeet"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="potato"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-        </tipTrigger>
-
-        <tipTrigger index="TRANSPORT_HUB_TRAIN_IN_2" stationName="station_transportHub" appearsOnPDA="false" isAreaTrigger="true" isSellingPoint="false" triggerWidth="3" supportsExtension="false" storageRadius="50" >
-            <fillType name="wheat"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="barley"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="rape"       priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="maize"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sunflower"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="soybean"    priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="sugarBeet"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-            <fillType name="potato"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
-        </tipTrigger>
+        
     </tipTriggers>
 		
 	
