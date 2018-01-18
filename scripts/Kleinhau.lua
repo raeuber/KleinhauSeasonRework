@@ -1,15 +1,15 @@
-CantabriaInfinita = {};
+Kleinhau = {};
 
-local CantabriaInfinita_mt = Class(CantabriaInfinita, Mission00);
+local Kleinhau_mt = Class(Kleinhau, Mission00);
 
-function CantabriaInfinita:new(baseDirectory, customMt)
-    local cantabriaInfinita = customMt;
+function Kleinhau:new(baseDirectory, customMt)
+    local Kleinhau = customMt;
 		
-	if cantabriaInfinita == nil then
-        cantabriaInfinita = CantabriaInfinita_mt;
+	if Kleinhau == nil then
+        Kleinhau = Kleinhau_mt;
     end;
     
-	local self = CantabriaInfinita:superClass():new(baseDirectory, cantabriaInfinita);
+	local self = Kleinhau:superClass():new(baseDirectory, Kleinhau);
 	local numAdditionalAngleChannels = 4;
 	self.terrainDetailAngleNumChannels = self.terrainDetailAngleNumChannels + numAdditionalAngleChannels;
     self.terrainDetailAngleMaxValue = (2^self.terrainDetailAngleNumChannels) - 1;
@@ -19,7 +19,7 @@ function CantabriaInfinita:new(baseDirectory, customMt)
 	return self;
 end;
 
-function CantabriaInfinita:loadHotspots(xmlFile)
+function Kleinhau:loadHotspots(xmlFile)
 	local count = 0;
 	
     while true do
@@ -80,8 +80,8 @@ function CantabriaInfinita:loadHotspots(xmlFile)
     end;
 end;
 
-function CantabriaInfinita:onStartMission()
-    CantabriaInfinita:superClass().onStartMission(self);
+function Kleinhau:onStartMission()
+    Kleinhau:superClass().onStartMission(self);
 	if g_currentMission:getIsServer() and not g_currentMission.missionInfo.isValid then		
 		if self.missionInfo.difficulty == 1 then
 			g_currentMission.missionStats.money = 200000;		
@@ -96,4 +96,4 @@ function CantabriaInfinita:onStartMission()
     end;
 end;
 
-Mission00.loadHotspots = Utils.overwrittenFunction(Mission00.loadHotspots, CantabriaInfinita.loadHotspots);
+Mission00.loadHotspots = Utils.overwrittenFunction(Mission00.loadHotspots, Kleinhau.loadHotspots);
