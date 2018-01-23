@@ -139,22 +139,13 @@
 			<text name="Cereales"><de>Getreide</de>	<en>Cereals</en>									<es>Cereales</es> <fr>Cereales</fr>	<pl>Zboża</pl></text>
 			<text name="Fertilizante"><de>Dünger</de>		<en>Fertilizer</en>							<es>Fertilizante</es> <fr>Engrais</fr><pl>Nawóz</pl>	</text>
 			<text name="chaff">	<de>Spreu</de>		<en>Chaff</en>										<es>Picado</es> <fr>Paille hachée</fr>	<pl>Plewy</pl></text>
-			<text name="milk"><de>Milch</de>		<en>Milk</en>										<es>Leche</es> 	<fr>Lait</fr>	<pl>Mleko</pl>	</text>
 			<text name="water"><de>Trinkwasser</de>		<en>Drinking water</en>							<es>Agua Potable</es> <fr>Eau potable</fr>	<pl>Pitna woda</pl>	</text>
-			<text name="waterSal"><en>Saltwater</en>	<de>Salz</de>										<es>Agua Salada</es> <fr>Eau salée</fr>	<pl>Słona woda</pl>	</text>
-			<text name="Sal"><de>Salt</de>		<en>Salt</en>											<es>Sal</es> 	<fr>Sel</fr> <pl>Sól</pl>	</text>
-						
+			
 			<text name="sugarBeet">			<de>Zuckerrübe </de>		<en>Sugar Beet</en>				<es>Remolacha Azucarera</es> 	<fr>Betterave à sucre</fr>	<pl>Burak cukrowy</pl>	</text>
 			<text name="animales">			<de>pig cow sheep </de>		<en>pig cow sheep</en>			<es>Cerdos, Vacas u Ovejas</es> <fr>Cochon,Mouton,Vache</fr> <pl>Świnie, krowy i owce</pl></text>
 			
 			<text name="straw"> <en>Straw</en> <de>Stroh</de> <es>Paja</es> <fr>Paille</fr>	<pl>Słoma</pl></text>			
 		
-			<text name="mCompanyFactory_AddOn_waterSal"><de>Salzwassertank</de><en>Salty Water Depot</en>	<es>Depósito de Agua Salada</es> <fr>Dépôt d'eau salée</fr> <pl>Zbiornik na słoną wodę</pl>		</text>
-			<text name="mCompanyFactory_AddOn_waterSal_start"><de>Salz abladen</de><en>unload Saltwater</en><es>Descargar Agua Salada</es> <fr>Décharger l'eau salée</fr> <pl>Nalewanie słonej wody</pl>		</text>
-			<text name="mCompanyFactory_AddOn_waterSal_stop"><de>Salz stoppen</de><en>stop Saltwater</en>	<es>Parar llenado de Agua Salada</es> <fr>Arrêter l'eau salée</fr> <pl>Zatrzymanie nalewania słonej wody</pl></text>
-			
-			<text name="waterSal_start"><de>Salz abladen</de><en>unload Saltwater</en><es>Descargar Agua Salada</es> <fr>Décharger l'eau salée</fr>	</text>
-			<text name="waterSal_stop"><de>Salz stoppen</de><en>stop Saltwater</en>	<es>Parar llenado de Agua Salada</es> <fr>Arrêter l'eau salée</fr></text>
 			
 						
 		<!-- AdditionalTrigger -->
@@ -198,10 +189,7 @@
 			<text name="mCompanyFactory_AddOn_start_pigfood"><de>Schweinefutter laden</de><en>load pigfood</en>							<es>Cargar comida de cerdos</es> 	<fr>Charger la Nourriture à Cochon</fr>	<pl>Załaduj pasze dla świń</pl></text>
 			<text name="mCompanyFactory_AddOn_stop_pigfood"><de>Schweinefutter stoppen</de><en>stop pigfood</en>						<es>Parar llenado de comida de cerdos</es> 	<fr>Arrêter la Nourriture à Cochon</fr>	<pl>Przestań ładować pasze dla świń</pl></text>
 			
-		<!-- milk  -->
-			<text name="MilkSellTrigger_stopFill"> <en>stop fill</en> <de><![CDATA[Verkauf stoppen]]></de> 							<es>Parar venta</es> 	<fr>Arrêter de remplir</fr><pl>Zatrzymaj sprzedaż mleka</pl>	</text>
-			<text name="MilkSellTrigger_startFill"> <en>start fill</en> <de><![CDATA[Verkauf starten]]></de> 						<es>Vender leche</es> 	<fr>Commencer à remplir</fr><pl>Sprzedaj mleko </pl>		</text>
-
+		
 		<!-- Invernaderos -->
 			<text name="emptypallet"> <en>pallets</en> <de>pallets</de> 						<fr>Palettes</fr>										<es>Palets</es><pl>Palety</pl>		</text>
 			<text name="tomatoPallet"> <en>tomato Pallets</en> <de>tomato</de> 					<fr>Palette de tomates</fr>								<es>Palet de tomates</es><pl>Palety pomidorów</pl>	</text>
