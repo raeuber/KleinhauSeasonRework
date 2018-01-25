@@ -56,8 +56,37 @@
       <en>weed</en>
       <de>weed</de>
 </text>
-   	<!-- unloading pantalla.xml -->
+		<!-- icons  -->
+			<text name="Fuente">           <en>Fountain</en>            <de>Brunnen</de>					<es>Fuente</es>			<fr>Fontaine</fr> 	<pl>Fontanna</pl> 		</text>
+			<text name="station_farmSilo"> <en>Farm</en>            	<de>Bauernhof</de>					<es>Granja</es>			<fr>Ferme</fr>  	<pl>Farma</pl> 			</text>
+			<text name="Almacen_2">        <en>Warehouse 2</en>         <de>Lager 2</de>					<es>Almacen 2</es>		<fr>Silo 2</fr>     <pl>Magazyn 2</pl>		</text>
+			<text name="Viñedo">           <en>Vineyard</en>            <de>Weinberg </de>					<es>Viñedo</es>			<fr>Vignoble</fr>   <pl>Winnica</pl> 	</text>
+			<text name="Manzanos">         <en>Apple Trees</en>         <de>Apfelbäume</de>					<es>Manzanos</es>		<fr>Pommiers</fr>   <pl>Jabłka</pl>			</text>
+			<text name="Olivos">           <en>Olive Trees</en>         <de>Olivenbäume</de>				<es>Olivos</es>			<fr>Oliviers</fr>  	<pl>Oliwki</pl> 	</text>
+			<text name="Agroma">           <en>Agro Shop</en>           <de>Agroma Geschäft</de>			<es>Agroma</es>			<fr>Agroma</fr> 	<pl>Agro sklep</pl> 	</text>
+			<text name="Fab.Comida">       <en>Food factory</en>        <de>Nahrungsmittelfabrik</de>		<es>Fab.Comida</es>		<fr>Usine alimentaire</fr>   <pl>Fabryka żywności</pl> </text>
+			<text name="Fab.Soja">         <en>Soja factory</en>        <de>Soja-Fabrik</de>				<es>Fab.Soja</es>		<fr>Usine de Soja</fr>  <pl>Przetwórnia soji</pl> 	</text>
+			<text name="Fab.Pallets">      <en>Pallets factory</en>     <de>Palettenfabrik</de>				<es>Fab.Pallets</es>	<fr>Usine de palettes</fr> <pl>Fabryka palet</pl> 		   </text>
+			<text name="Fab.Aceite">       <en>Oil factory</en>         <de>Ölfabrik</de>					<es>Fab.Aceite</es>		<fr>Usine d'huile</fr>    <pl>Tłocznia oliwy</pl> 	 </text>
+			<text name="Fab.Lacteos">      <en>Dairy factory</en>       <de>Neueste Fabrik</de>				<es>Fab.Lacteos</es>	<fr>Laiterie</fr>       <pl>Mleczarnia</pl> 	</text>
+			<text name="Fab.Cerveza">      <en>Beer factory</en>        <de>Bierfabrik</de>					<es>Fab.Cerveza</es>	<fr>Brasserie</fr>   <pl>Warzelnia piwa</pl> 	</text>
+			<text name="Fab.Licor">        <en>Liqueur factory</en>     <de>Likörfabrik</de>				<es>Fab.Licor</es>		<fr>Usine de liqueur</fr> <pl>Fabyrka likieru</pl>  </text>
+			<text name="Fab.Uva">          <en>Grape factory</en>       <de>Traubenfabrik</de>				<es>Fab.Vino</es>		<fr>Usine de vin</fr>   <pl>Przetwórnia winogron</pl> </text>
+			<text name="Fab.Azucar">       <en>Sugar factory</en>       <de>Zuckerfabrik</de>				<es>Fab.Azucar</es>		<fr>Usine de sucre</fr> <pl>Fabryka cukru</pl> 		 </text>
+			<text name="Fab.Tablones">     <en>Planks factory</en>      <de>Bretter Fabrik</de>				<es>Fab.Tablones</es>	<fr>Usine de planches</fr>   <pl>Stolarnia</pl>	 </text>
+			<text name="Invernaderos">     <en>Greenhouses</en>         <de>Gewächshäuser</de>				<es>Invernaderos</es>	<fr>Serres</fr>    <pl>Szklarnia</pl>		  </text>
+			<text name="BioDiesel">        <en>BioDiesel</en>           <de>BioDiesel</de>					<es>BioDiesel</es>		<fr>Raffinerie</fr>  <pl>Biopaliwo</pl> 			 </text>
+			<text name="Colocables">       <en>Placeables</en>          <de>Platzierbar</de>				<es>Colocables</es>		<fr>Plaçable</fr>  <pl>Plac</pl> 	 </text>
+			<text name="Taller">           <en>Workshop</en>            <de>Workshop</de>					<es>Taller</es>			<fr>Atelier</fr>    <pl>Warsztat</pl> </text>
+			<text name="DepAgua">          <en>Water Storage</en>       <de>Wasser Lager</de>				<es>Dep.Agua</es>		<fr>Stockage de l'eau</fr>   <pl>Magazyn Wody</pl> 	 </text>
+			<text name="Desali">           <en>Desalination plant</en>  <de>Entsalzung</de>					<es>Desalinizadora</es>	<fr>Usine de dessalement</fr>   <pl>Destylarnia wody</pl> 	 </text>
+			<text name="Matadero">         <en>Slaughterhouse</en>  	<de>Schlachthaus</de>				<es>Matadero</es>		<fr>Abattoir</fr>   	<pl>Rzeźnia</pl> 		 </text>
+			<text name="Curadero">         <en>Dryer</en>  				<de>Trockenanlage</de>				<es>Curadero</es>		<fr>Séchoir</fr>  <pl>Suszarnia</pl> 		 </text>
+			<text name="Compostadora">     <en>Compost</en>  			<de>Compost</de>					<es>Compostadora</es>	<fr>Compost</fr>   <pl>Kompost</pl> 		 </text>
+			
 		
+		
+		<!-- unloading pantalla.xml -->
 			<text name="input_ANIMATED_OBJECT_SWITCHBOX ON"><en>Switchbox on</en><de>Schaltkasten an</de>				<es>Encender Interruptor</es>       	<fr>Allumer Interrupteur</fr> 	<pl>Włącz system</pl> 	 </text>
 			<text name="input_ANIMATED_OBJECT_SWITCHBOX OFF"><en>Switchbox off</en><de>Schaltkasten aus</de>			<es>Apagar Interruptor</es>      	<fr>Eteindre Interrupteur</fr>   <pl>Wyłącz system</pl> 	</text>
 			<text name="input_ANIMATED_OBJECT_POWER OFF"><en>Power off</en><de>Schaltkasten aus</de>					<es>Apagar</es>      <fr>Eteindre</fr>  <pl>Wyłącz zasilanie</pl>   </text>
@@ -194,6 +223,7 @@
 			<text name="emptypallet"> <en>pallets</en> <de>pallets</de> 						<fr>Palettes</fr>										<es>Palets</es><pl>Palety</pl>		</text>
 			<text name="tomatoPallet"> <en>tomato Pallets</en> <de>tomato</de> 					<fr>Palette de tomates</fr>								<es>Palet de tomates</es><pl>Palety pomidorów</pl>	</text>
 			<text name="lettucePallet"> <en>lettuce Pallets</en> <de>lettuce</de> 				<fr>Palette de laitue</fr>								<es>Palet de lechugas</es><pl>Paleta sałaty</pl>		</text>
+			<text name="lettuce"> <en>lettuce</en> <de>lettuce</de> 				<fr>Palette de laitue</fr>								<es>Palet de lechugas</es><pl>Paleta sałaty</pl>		</text>
 			<text name="cauliflowerPallet"> <en>cauliflower Pallets</en> <de>cauliflower</de>	<fr>Palette de chou-fleur</fr> 							<es>Palet de coliflor</es> <pl>Paleta kolofioru</pl></text>
 			<text name="pumpkin"> <en>pumpkin</en> <de>pumpkin</de> 							<fr>Citrouille</fr> 									<es>Calabaza</es> <pl>Dynia</pl>	</text>
 			<text name="pumpkinPallet"> <en>pumpkin Pallets</en> <de>pumpkin</de>				<fr>Palette de citrouille</fr> 							<es>Palet de calabazas</es> <pl>Paleta dyni</pl>	</text>

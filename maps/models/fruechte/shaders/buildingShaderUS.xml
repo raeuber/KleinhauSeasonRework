@@ -5,7 +5,7 @@
         <Parameter name="colorScale" target="colorScale" type="float4" defaultValue="0.8 0.55 0.055 1.0" minValue="0.0 0.0 0.0 0.0" maxValue="1.0 1.0 1.0 1.0"/>
     </Parameters>
     <Textures>
-        <Texture name="mDirtNormal" defaultColorProfile="linearRGB" defaultFilename="../maps/textures/terrain/dirt_normal.png"/>
+        <Texture name="mDirtNormal" defaultColorProfile="linearRGB" defaultFilename="../shared/dirt_normal.png"/>
         <Texture name="mTexture1Diffuse" defaultColorProfile="sRGB"/>
         <Texture name="mTexture1Normal" defaultColorProfile="linearRGB"/>
         <Texture name="mTexture2Diffuse" defaultColorProfile="sRGB"/>

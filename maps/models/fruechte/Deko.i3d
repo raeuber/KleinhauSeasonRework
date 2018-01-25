@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="23" filename="shaders/buildingShaderUS.xml" relativePath="true"/>
+    <File fileId="29" filename="shaders/emissiveLightsShader.xml" relativePath="true"/>
+    <File fileId="25" filename="textures/goldcrestValley/buildingDetails_diffuse.png" relativePath="true"/>
+    <File fileId="26" filename="textures/goldcrestValley/buildingDetails_normal.png" relativePath="true"/>
+    <File fileId="27" filename="textures/goldcrestValley/buildingDetails_specular.png" relativePath="true"/>
+    <File fileId="36" filename="textures/goldcrestValley/carLiftSmall_diffuse.png" relativePath="true"/>
+    <File fileId="37" filename="textures/goldcrestValley/carLiftSmall_normal.png" relativePath="true"/>
+    <File fileId="38" filename="textures/goldcrestValley/carLiftSmall_specular.png" relativePath="true"/>
+    <File fileId="17" filename="textures/goldcrestValley/compressor_diffuse.png" relativePath="true"/>
+    <File fileId="18" filename="textures/goldcrestValley/compressor_normal.png" relativePath="true"/>
+    <File fileId="19" filename="textures/goldcrestValley/compressor_specular.png" relativePath="true"/>
+    <File fileId="39" filename="textures/goldcrestValley/earmuffs_diffuse.png" relativePath="true"/>
+    <File fileId="40" filename="textures/goldcrestValley/earmuffs_normal.png" relativePath="true"/>
+    <File fileId="41" filename="textures/goldcrestValley/earmuffs_specular.png" relativePath="true"/>
+    <File fileId="5" filename="textures/goldcrestValley/extensionCord_diffuse.png" relativePath="true"/>
+    <File fileId="6" filename="textures/goldcrestValley/extensionCord_normal.png" relativePath="true"/>
+    <File fileId="7" filename="textures/goldcrestValley/extensionCord_specular.png" relativePath="true"/>
+    <File fileId="11" filename="textures/goldcrestValley/gasCanister_diffuse.png" relativePath="true"/>
+    <File fileId="12" filename="textures/goldcrestValley/gasCanister_normal.png" relativePath="true"/>
+    <File fileId="13" filename="textures/goldcrestValley/gasCanister_specular.png" relativePath="true"/>
+    <File fileId="14" filename="textures/goldcrestValley/gasCylinder_diffuse.png" relativePath="true"/>
+    <File fileId="15" filename="textures/goldcrestValley/gasCylinder_normal.png" relativePath="true"/>
+    <File fileId="16" filename="textures/goldcrestValley/gasCylinder_specular.png" relativePath="true"/>
+    <File fileId="30" filename="textures/goldcrestValley/leafBlower_diffuse.png" relativePath="true"/>
+    <File fileId="31" filename="textures/goldcrestValley/leafBlower_normal.png" relativePath="true"/>
+    <File fileId="32" filename="textures/goldcrestValley/leafBlower_specular.png" relativePath="true"/>
+    <File fileId="8" filename="textures/goldcrestValley/lifter_diffuse.png" relativePath="true"/>
+    <File fileId="9" filename="textures/goldcrestValley/lifter_normal.png" relativePath="true"/>
+    <File fileId="10" filename="textures/goldcrestValley/lifter_specular.png" relativePath="true"/>
+    <File fileId="1" filename="textures/goldcrestValley/pails_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="textures/goldcrestValley/pails_normal.png" relativePath="true"/>
+    <File fileId="3" filename="textures/goldcrestValley/pails_specular.png" relativePath="true"/>
+    <File fileId="45" filename="textures/goldcrestValley/radio_diffuse.png" relativePath="true"/>
+    <File fileId="46" filename="textures/goldcrestValley/radio_normal.png" relativePath="true"/>
+    <File fileId="47" filename="textures/goldcrestValley/radio_specular.png" relativePath="true"/>
+    <File fileId="20" filename="textures/goldcrestValley/railroadBuildings_diffuse.png" relativePath="true"/>
+    <File fileId="21" filename="textures/goldcrestValley/railroadBuildings_normal.png" relativePath="true"/>
+    <File fileId="42" filename="textures/goldcrestValley/stormLamp_diffuse.png" relativePath="true"/>
+    <File fileId="43" filename="textures/goldcrestValley/stormLamp_normal.png" relativePath="true"/>
+    <File fileId="44" filename="textures/goldcrestValley/stormLamp_specular.png" relativePath="true"/>
+    <File fileId="22" filename="textures/goldcrestValley/toolShed02_specular.png" relativePath="true"/>
+    <File fileId="33" filename="textures/goldcrestValley/waterCanister_diffuse.png" relativePath="true"/>
+    <File fileId="34" filename="textures/goldcrestValley/waterCanister_normal.png" relativePath="true"/>
+    <File fileId="35" filename="textures/goldcrestValley/waterCanister_specular.png" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="642" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="toolShed2_mat" materialId="60062" ambientColor="1 1 1" cosPower="255" specularColor="1 1 1" customShaderId="23" customShaderVariation="FORCE_GLOSS_SECONDUV">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <Glossmap fileId="22"/>
+      <CustomParameter name="uvScale" value="30 30 2 2"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+    <Material name="buildingDetails_mat" materialId="60071" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="25"/>
+      <Normalmap fileId="26"/>
+      <Glossmap fileId="27"/>
+    </Material>
+    <Material name="earmuffs_mat" materialId="60059" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="39"/>
+      <Normalmap fileId="40"/>
+      <Glossmap fileId="41"/>
+    </Material>
+    <Material name="waterCanister_mat" materialId="60074" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+      <Texture fileId="33"/>
+      <Normalmap fileId="34"/>
+      <Glossmap fileId="35"/>
+    </Material>
+    <Material name="pails_mat" materialId="60058" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="compressor_mat" materialId="60066" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="17"/>
+      <Normalmap fileId="18"/>
+      <Glossmap fileId="19"/>
+    </Material>
+    <Material name="radio_mat" materialId="60067" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="45"/>
+      <Normalmap fileId="46"/>
+      <Glossmap fileId="47"/>
+    </Material>
+    <Material name="stormLamp_mat" materialId="60072" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="42"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="44"/>
+    </Material>
+    <Material name="lifter_mat" materialId="60070" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+    </Material>
+    <Material name="carLiftSmall_mat" materialId="60063" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="36"/>
+      <Normalmap fileId="37"/>
+      <Glossmap fileId="38"/>
+    </Material>
+    <Material name="leafBlower_mat" materialId="60073" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="30"/>
+      <Normalmap fileId="31"/>
+      <Glossmap fileId="32"/>
+    </Material>
+    <Material name="lampsLit_mat" materialId="60065" ambientColor="1 1 1" emissiveColor="1 1 1 0.894118" alphaBlending="true" customShaderId="29" customShaderVariation="STATIC_LIGHT">
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+    <Material name="gasCylinder_mat" materialId="60069" ambientColor="1 1 1" cosPower="100" specularColor="1 1 1">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+    </Material>
+    <Material name="extensionCords_mat" materialId="60068" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+    </Material>
+    <Material name="gasCanister_mat" materialId="60060" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Deko.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Werkstatthaus" nodeId="60127">
+      <Shape shapeId="1" name="pail02_vis" translation="3.06225 0.274822 3.94606" clipDistance="77" nodeId="60124" materialIds="60058" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="extensionCordReel" translation="2.91061 0.274822 -4.88256" rotation="-180 66.156 180" dynamic="true" clipDistance="84" nodeId="60122" materialIds="642" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="3" name="extensionCordReel_vis" clipDistance="150" nodeId="60123" materialIds="60068" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="4" name="lifterUp" translation="2.60605 2.18378 -2.99264" rotation="0 30 0" dynamic="true" clipDistance="50" nodeId="60119" materialIds="642" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="5" name="lifter_vis" clipDistance="50" nodeId="60120" materialIds="60070" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="lifterThing_vis" translation="0 0.2 0" clipDistance="50" nodeId="60121" materialIds="60070" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="7" name="gasCanister" translation="211.637 90.2748 -112.417" rotation="-0 -90 0" dynamic="true" clipDistance="66" nodeId="60098" materialIds="642" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="8" name="gasCanister_vis" clipDistance="150" nodeId="60099" materialIds="60060" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="7" name="gasCanister" translation="211.375 90.2748 -112.377" rotation="180 -80 180" dynamic="true" clipDistance="66" nodeId="60100" materialIds="642" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="8" name="gasCanister_vis" clipDistance="150" nodeId="60101" materialIds="60060" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="9" name="gasCylinder01" translation="210.723 90.2748 -112.41" rotation="0 15 0" dynamic="true" density="3" clipDistance="111" nodeId="60102" materialIds="642" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="10" name="gasCylinder01_vis" clipDistance="150" nodeId="60103" materialIds="60069" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="11" name="compressor" translation="209.972 90.2748 -112.224" dynamic="true" clipDistance="77" nodeId="60104" materialIds="642" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="12" name="compressor_vis" clipDistance="77" nodeId="60105" materialIds="60066" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="13" name="vis" static="true" clipDistance="600" nodeId="60106" materialIds="60062" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="14" name="addons" translation="0 0 2.22045e-17" static="true" clipDistance="212" nodeId="60107" materialIds="60071" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="lighting" visibility="false" static="true" clipDistance="120" nodeId="60108">
+          <Shape shapeId="15" name="lampsLit" translation="0 0 2.22045e-17" clipDistance="150" nodeId="60109" materialIds="60065" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="envLight5" translation="2.8034 2.9335 0.0410995" nodeId="60110">
+            <Light name="pointLight4" translation="0.202409 -0.25 0" clipDistance="120" nodeId="60111" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+          </TransformGroup>
+        </TransformGroup>
+      </Shape>
+      <Shape shapeId="16" name="leafBlower" translation="209.047 90.2748 -112.393" rotation="0 95 0" dynamic="true" clipDistance="77" nodeId="60112" materialIds="642" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="17" name="leafBlower_vis" clipDistance="77" nodeId="60113" materialIds="60073" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="18" name="waterCanister_vis" translation="2.68493 0.274822 -4.02919" clipDistance="77" nodeId="60114" materialIds="60074" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="19" name="carLiftSmallOpen_vis" translation="2.56312 0.274822 -2.42598" clipDistance="50" nodeId="60115" materialIds="60063" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="20" name="earmuffs_vis" translation="2.49633 1.28162 -3.04757" clipDistance="100" nodeId="60116" materialIds="60059" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="21" name="stormLamp_vis" translation="2.6569 0.818038 -2.59669" clipDistance="77" nodeId="60117" materialIds="60072" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="22" name="radio_vis" translation="2.53687 1.22356 -2.47517" clipDistance="77" nodeId="60118" materialIds="60067" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="60108">
+      <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
