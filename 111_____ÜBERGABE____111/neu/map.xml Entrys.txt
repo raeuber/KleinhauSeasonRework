@@ -1,0 +1,45 @@
+
+Suche in der map01/02.xml folgenden Abschnitt
+
+Search in the map 01 / 02.xml following section
+
+<additionalFiles>
+        <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/glowEffectMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/mapTargetMarker.i3d" />
+        <additionalFile filename="$data/particleSystems/particle_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/effect_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/cutterEffect_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/cutterEffectMap01_materialHolder.i3d" />
+        <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />		
+</additionalFiles>
+
+Füge über </additionalFiles> folgendes ein
+
+put over </additionalFiles> the following
+
+<additionalFile filename="maps/pSystem/particleSystems/particleMap_materialHolder.i3d" />
+<additionalFile filename="maps/pSystem/particleSystems/effectMap_materialHolder.i3d" />
+<additionalFile filename="maps/pSystem/particleSystems/cutterEffectMap.i3d" />
+<additionalFile filename="maps/pSystem/fillPlanes/fillPlane_materialHolder.i3d" />
+
+Das ganze sollte dann so aussehen.
+
+The whole should then look like this.
+
+<additionalFiles>
+        <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/glowEffectMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/mapTargetMarker.i3d" />
+        <additionalFile filename="$data/particleSystems/particle_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/effect_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/cutterEffect_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/cutterEffectMap01_materialHolder.i3d" />
+        <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />		
+	<additionalFile filename="maps/pSystem/particleSystems/particleMap_materialHolder.i3d" />
+        <additionalFile filename="maps/pSystem/particleSystems/effectMap_materialHolder.i3d" />
+        <additionalFile filename="maps/pSystem/particleSystems/cutterEffectMap.i3d" />
+        <additionalFile filename="maps/pSystem/fillPlanes/fillPlane_materialHolder.i3d" />
+</additionalFiles>
