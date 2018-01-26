@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="customModels/windTurbine/windTurbineBody_diffuse.png" relativePath="true"/>
+    <File fileId="5" filename="customModels/windTurbine/windTurbineBody_normal.png" relativePath="true"/>
+    <File fileId="6" filename="customModels/windTurbine/windTurbineBody_specular.png" relativePath="true"/>
+    <File fileId="1" filename="customModels/windTurbine/windTurbineParts_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="customModels/windTurbine/windTurbineParts_normal.png" relativePath="true"/>
+    <File fileId="3" filename="customModels/windTurbine/windTurbineParts_specular.png" relativePath="true"/>
+    <File fileId="10" filename="import/texturas/triggerIcons_diffuse.png" relativePath="true"/>
+    <File fileId="11" filename="shaders/fxCircleShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Material" materialId="38" diffuseColor="0.8 0.8 0.8 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="Matutt" materialId="37" diffuseColor="0 0 1 1" ambientColor="0 0 1" cosPower="20" specularColor="0 0 1">
+    </Material>
+    <Material name="triggerIcons_mat8" materialId="43" ambientColor="1 1 1" alphaBlending="true" customShaderId="11" customShaderVariation="PULSATING">
+      <Emissivemap fileId="10"/>
+      <CustomParameter name="scaleParameters" value="0.75 1 2.5 1"/>
+    </Material>
+    <Material name="lambert1" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="windTurbineBody_mat" materialId="8" ambientColor="1 1 1" cosPower="5" specularColor="1 1 1">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="windTurbineParts_mat" materialId="9" ambientColor="1 1 1" cosPower="5" specularColor="1 1 1">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Windrad.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Windpark" nodeId="36">
+      <Shape shapeId="1" name="windTurbine" rotation="-1.13902e-06 -8.15163 2.35432e-07" static="true" linearDamping="0.5" angularDamping="0.5" clipDistance="100000" nodeId="18" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="windTurbine_head" translation="-5.46168e-08 35.9098 8.19251e-08" nodeId="19" materialIds="9" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="windTurbine_rotors" translation="5.38764e-08 2.20355 3.54973" nodeId="20" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="4" name="windTurbine_vis" static="true" linearDamping="0.5" angularDamping="0.5" nodeId="21" materialIds="8" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="5" name="noClimbCol" visibility="false" static="true" linearDamping="0.5" angularDamping="0.5" nodeId="22" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="6" name="tipBlockers" static="true" collisionMask="524288" nodeId="23" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true">
+          <Shape shapeId="7" name="tipBlocker" translation="0 0 6.33115" static="true" collisionMask="524288" nodeId="24" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <TransformGroup name="clearAreas" nodeId="25">
+          <TransformGroup name="clearArea01" nodeId="26">
+            <TransformGroup name="start" translation="-5.32314 0 -5.63207" nodeId="27"/>
+            <TransformGroup name="width" translation="5.63059 0 -5.63207" nodeId="28"/>
+            <TransformGroup name="height" translation="-5.32314 0 4.92169" nodeId="29"/>
+          </TransformGroup>
+          <TransformGroup name="clearArea02" nodeId="30">
+            <TransformGroup name="start" translation="-1.51953 0 3.85852" nodeId="31"/>
+            <TransformGroup name="width" translation="1.52 0 3.85852" nodeId="32"/>
+            <TransformGroup name="height" translation="-1.51953 0 7.27966" nodeId="33"/>
+          </TransformGroup>
+        </TransformGroup>
+      </Shape>
+      <Shape shapeId="8" name="Buyable01" translation="-1.842 0.5 7.57849" rotation="0 -11.6076 0" clipDistance="100" nodeId="54" materialIds="37" nonRenderable="true">
+        <TransformGroup name="inputTrigger" nodeId="55">
+          <TransformGroup name="Rohstoff1" translation="0 0 0.488353" nodeId="56">
+            <TransformGroup name="money" translation="12.6723 0.151749 -7.2962" rotation="180 0 -180" nodeId="57"/>
+            <TransformGroup name="inVisibilityNodes" translation="12.6723 0.151749 -7.2962" rotation="180 0 -180" nodeId="58"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="outputTrigger" nodeId="83">
+          <TransformGroup name="Produkt1" nodeId="84">
+            <TransformGroup name="empty" translation="-14.531 0.543 -2.4547" rotation="180 -87.66 -180" nodeId="85"/>
+          </TransformGroup>
+        </TransformGroup>
+        <Shape shapeId="9" name="PlayerTrigger" static="true" trigger="true" collisionMask="34603008" nodeId="86" materialIds="38" nonRenderable="true">
+          <Shape shapeId="10" name="triggerIconBuyField" translation="0 0.805865 0" clipDistance="300" nodeId="87" materialIds="43" castsShadows="true" receiveShadows="true">
+            <Light name="iconLight" nodeId="88" type="point" color="0 0.35 0.75" emitDiffuse="true" emitSpecular="true" decayRate="4" range="3"/>
+          </Shape>
+        </Shape>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="20">
+      <Attribute name="axis" type="float" value="3"/>
+      <Attribute name="onCreate" type="scriptCallback" value="Rotator.onCreate"/>
+      <Attribute name="speed" type="float" value="-0.001"/>
+    </UserAttribute>
+    <UserAttribute nodeId="54">
+      <Attribute name="PlayerIndex" type="string" value="2"/>
+      <Attribute name="ProduktPerHour" type="integer" value="150"/>
+      <Attribute name="inputIndex" type="string" value="0"/>
+      <Attribute name="isBuyable" type="boolean" value="true"/>
+      <Attribute name="mCompanyGraphicXML" type="string" value="scripts/comprar/mCompanyBuyableBioDiesel.xml"/>
+      <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.mCompanyFactory"/>
+      <Attribute name="outputIndex" type="string" value="1"/>
+      <Attribute name="showOnTablet" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="56">
+      <Attribute name="capacity" type="integer" value="500000"/>
+      <Attribute name="fillTypes" type="string" value="money"/>
+      <Attribute name="name" type="string" value="Geld"/>
+      <Attribute name="unit" type="string" value="money"/>
+    </UserAttribute>
+    <UserAttribute nodeId="57">
+      <Attribute name="buttonR" type="string" value="buyable_btn"/>
+      <Attribute name="header" type="string" value="buyable_header1"/>
+    </UserAttribute>
+    <UserAttribute nodeId="58">
+      <Attribute name="showOnFull" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="84">
+      <Attribute name="factor" type="float" value="1"/>
+      <Attribute name="fillType" type="string" value="money"/>
+      <Attribute name="name" type="string" value="Geld"/>
+      <Attribute name="unit" type="string" value="money"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
