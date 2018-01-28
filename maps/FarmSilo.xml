@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <tipTriggers>
+<!-- SILO -->
+        <tipTrigger index="FARM_SILO" stationName="station_farmSilo" appearsOnPDA="false" isAreaTrigger="true" isSellingPoint="false" triggerWidth="3" supportsExtension="true" storageRadius="75" >
+            <fillType name="wheat"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            <fillType name="barley"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            <fillType name="rape"       priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            <fillType name="maize"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            <fillType name="sunflower"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            <fillType name="soybean"    priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+						
+            <fillType name="oat"     priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            <fillType name="rye"       priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            <fillType name="spelt"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            <fillType name="triticale"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            <fillType name="weed"    priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+			<fillType name="hops"     	priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+			
+			
+			<fillType name="grape"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+			<fillType name="apple"      priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+							
+			<fillType name="sugarCane"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+			
+        </tipTrigger>
+		
+		 <tipTrigger index="MAP_SILO" stationName="Almacen_2" appearsOnPDA="false" isAreaTrigger="true" isSellingPoint="false" triggerWidth="3" supportsExtension="true" storageRadius="50" >
+           <fillType name="woodChips"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+           <fillType name="grass_windrow"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+           <fillType name="dryGrass_windrow"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+           <fillType name="potato"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+           <fillType name="sugarBeet"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+          <fillType name="silage"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+           
+		   <fillType name="straw"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+		  <fillType name="forage"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+           <fillType name="pigFood"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+           <fillType name="chaff"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+           <fillType name="sal"  priceScale="0" supportsGreatDemand="false" disablePriceDrop="true" />
+            
+        </tipTrigger>
+
+
+
+    </tipTriggers>
+	
+   	
+</map>
