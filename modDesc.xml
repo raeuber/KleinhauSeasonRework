@@ -52,6 +52,17 @@
 <de>Licht an/aus</de>
 </text>
 
+
+<text name="input_ROTORON_CLICK">
+<de>Ventilation an Schalten</de>
+</text>
+<text name="input_ROTOROFF_CLICK">
+<de>Ventilation aus Schalten</de>
+</text>
+
+
+
+
 <text name="weed">
       <en>weed</en>
       <de>weed</de>
