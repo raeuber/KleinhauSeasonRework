@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="17" filename="import/texturas/Glass.dds" relativePath="true"/>
+        <File fileId="13" filename="import/texturas/SiloPipes.dds" relativePath="true"/>
+        <File fileId="26" filename="import/texturas/Station_specular.dds" relativePath="true"/>
+        <File fileId="25" filename="import/texturas/Steuerung_diffuse.dds" relativePath="true"/>
+        <File fileId="39" filename="import/texturas/boot1.dds" relativePath="true"/>
+        <File fileId="40" filename="import/texturas/boot2.dds" relativePath="true"/>
+        <File fileId="41" filename="import/texturas/boot3.dds" relativePath="true"/>
+        <File fileId="42" filename="import/texturas/boot4.dds" relativePath="true"/>
+        <File fileId="43" filename="import/texturas/boot5.dds" relativePath="true"/>
+        <File fileId="12" filename="import/texturas/color_3.dds" relativePath="true"/>
+        <File fileId="1" filename="import/texturas/decals.dds" relativePath="true"/>
+        <File fileId="29" filename="import/texturas/details_diffuse2.dds" relativePath="true"/>
+        <File fileId="37" filename="import/texturas/details_green.dds" relativePath="true"/>
+        <File fileId="38" filename="import/texturas/details_red.dds" relativePath="true"/>
+        <File fileId="22" filename="import/texturas/dischargingsite_diff.dds" relativePath="true"/>
+        <File fileId="23" filename="import/texturas/dischargingsite_nrm.dds" relativePath="true"/>
+        <File fileId="24" filename="import/texturas/dischargingsite_spec.dds" relativePath="true"/>
+        <File fileId="30" filename="import/texturas/displayOff.dds" relativePath="true"/>
+        <File fileId="16" filename="import/texturas/farmHome_diffuse.dds" relativePath="true"/>
+        <File fileId="31" filename="import/texturas/fillTypes2.dds" relativePath="true"/>
+        <File fileId="44" filename="import/texturas/fillTypes4.dds" relativePath="true"/>
+        <File fileId="2" filename="import/texturas/final_bolts.dds" relativePath="true"/>
+        <File fileId="3" filename="import/texturas/final_box.dds" relativePath="true"/>
+        <File fileId="4" filename="import/texturas/final_fan.dds" relativePath="true"/>
+        <File fileId="5" filename="import/texturas/final_fanshroud.dds" relativePath="true"/>
+        <File fileId="6" filename="import/texturas/final_grille.dds" relativePath="true"/>
+        <File fileId="7" filename="import/texturas/final_hatches.dds" relativePath="true"/>
+        <File fileId="8" filename="import/texturas/final_ladder.dds" relativePath="true"/>
+        <File fileId="9" filename="import/texturas/final_legs.dds" relativePath="true"/>
+        <File fileId="11" filename="import/texturas/final_tank.dds" relativePath="true"/>
+        <File fileId="34" filename="import/texturas/green.dds" relativePath="true"/>
+        <File fileId="15" filename="import/texturas/light02_diffuse.dds" relativePath="true"/>
+        <File fileId="10" filename="import/texturas/logo.dds" relativePath="true"/>
+        <File fileId="14" filename="import/texturas/normal.dds" relativePath="true"/>
+        <File fileId="36" filename="import/texturas/red.dds" relativePath="true"/>
+        <File fileId="19" filename="import/texturas/strawBarn_diffuse.dds" relativePath="true"/>
+        <File fileId="35" filename="import/texturas/zahlen.dds" relativePath="true"/>
+        <File fileId="32" filename="import/texturas/zahlen5.dds" relativePath="true"/>
+        <File fileId="27" filename="shaders/buildingShader.xml" relativePath="true"/>
+        <File fileId="20" filename="shaders/default_normal.dds" relativePath="true"/>
+        <File fileId="33" filename="shaders/numbershader2.xml" relativePath="true"/>
+    </Files>
+    <Materials>
+        <Material name="abladestelle_mat" materialId="110" ambientColor="1 1 1" cosPower="10" specularColor="1 1 1">
+            <Texture fileId="22"/>
+            <Normalmap fileId="23"/>
+            <Glossmap fileId="24"/>
+        </Material>
+        <Material name="mat" materialId="112" ambientColor="5 5 5" alphaBlending="true" customShaderId="33">
+            <Emissivemap fileId="32"/>
+            <CustomParameter name="number" value="11 0 0 0"/>
+            <CustomParameter name="numberColor" value="0.0009 0.0021 0.0144 1"/>
+        </Material>
+        <Material name="UnnamedMaterial" materialId="45" diffuseColor="1 1 1 1" ambientColor="1 1 1"/>
+        <Material name="mat" materialId="75" ambientColor="5 5 5" alphaBlending="true">
+            <Emissivemap fileId="34"/>
+        </Material>
+        <Material name="acmat_0" materialId="74" ambientColor="1 1 1" alphaBlending="true">
+            <Texture fileId="1"/>
+        </Material>
+        <Material name="Display_mat" materialId="83" ambientColor="1 1 1">
+            <Texture fileId="43"/>
+        </Material>
+        <Material name="Material.018" materialId="86" ambientColor="1 1 1">
+            <Texture fileId="3"/>
+        </Material>
+        <Material name="Material.005" materialId="268" ambientColor="1 1 1">
+            <Texture fileId="13"/>
+            <Normalmap fileId="14"/>
+        </Material>
+        <Material name="Material.007" materialId="231" ambientColor="1 1 1" cosPower="15" specularColor="0.1 0.1 0.1" alphaBlending="true">
+            <Texture fileId="10"/>
+        </Material>
+        <Material name="Display_mat" materialId="335" ambientColor="1 1 1">
+            <Texture fileId="30"/>
+        </Material>
+        <Material name="Material.016" materialId="320" ambientColor="1 1 1" cosPower="15" specularColor="0.1 0.1 0.1">
+            <Texture fileId="4"/>
+        </Material>
+        <Material name="Material.009" materialId="114" ambientColor="1 1 1" cosPower="15" specularColor="0.1 0.1 0.1">
+            <Texture fileId="11"/>
+        </Material>
+        <Material name="Display_mat22" materialId="189" ambientColor="1 1 1">
+            <Texture fileId="44"/>
+        </Material>
+        <Material name="Display_mat" materialId="281" ambientColor="1 1 1">
+            <Texture fileId="39"/>
+        </Material>
+        <Material name="heublaeser:acmat_1" materialId="385" ambientColor="0.2 0.2 0.2" cosPower="130" specularColor="0.2 0.2 0.2">
+            <Texture fileId="13"/>
+            <Normalmap fileId="14"/>
+        </Material>
+        <Material name="lambert1" materialId="397" ambientColor="1 1 1">
+            <Texture fileId="29"/>
+        </Material>
+        <Material name="mat" materialId="450" ambientColor="5 5 5" alphaBlending="true">
+            <Emissivemap fileId="36"/>
+        </Material>
+        <Material name="Material.012" materialId="455" ambientColor="1 1 1" cosPower="15" specularColor="0.1 0.1 0.1">
+            <Texture fileId="8"/>
+        </Material>
+        <Material name="Stall" materialId="487" ambientColor="1 1 1">
+            <Texture fileId="19"/>
+        </Material>
+        <Material name="kuhlturm1" materialId="736" ambientColor="0.16528 0.16528 0.16528" cosPower="15.768" specularColor="0.18182 0.18182 0.18182">
+            <Texture fileId="13"/>
+            <Normalmap fileId="14"/>
+        </Material>
+        <Material name="Steuerung_mat" materialId="747" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1" customShaderId="27" customShaderVariation="FORCE_GLOOSS_SECONDUV">
+            <Texture fileId="25"/>
+            <Glossmap fileId="26"/>
+            <CustomParameter name="uvScale" value="30 30 2 2"/>
+            <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+        </Material>
+        <Material name="mat" materialId="708" ambientColor="5 5 5" alphaBlending="true" customShaderId="33">
+            <Emissivemap fileId="35"/>
+            <CustomParameter name="number" value="11 0 0 0"/>
+            <CustomParameter name="numberColor" value="0.0009 0.0021 0.0144 1"/>
+        </Material>
+        <Material name="Lamp_green" materialId="754" ambientColor="1 1 1" cosPower="20" specularColor="0.5 0.5 0.5">
+            <Texture fileId="37"/>
+        </Material>
+        <Material name="Material.011" materialId="758" ambientColor="1 1 1" cosPower="15" specularColor="0.1 0.1 0.1">
+            <Texture fileId="9"/>
+        </Material>
+        <Material name="lambert2" materialId="751" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+            <Normalmap fileId="20"/>
+        </Material>
+        <Material name="Display_mat" materialId="695" ambientColor="1 1 1">
+            <Texture fileId="40"/>
+        </Material>
+        <Material name="Material.013" materialId="584" ambientColor="1 1 1" cosPower="15" specularColor="0.1 0.1 0.1">
+            <Texture fileId="7"/>
+        </Material>
+        <Material name="Lamp_red" materialId="577" ambientColor="1 1 1" cosPower="20" specularColor="0.5 0.5 0.5">
+            <Texture fileId="38"/>
+            <Emissivemap fileId="38"/>
+        </Material>
+        <Material name="Glass" materialId="571" ambientColor="1 1 1" alphaBlending="true">
+            <Texture fileId="17"/>
+        </Material>
+        <Material name="House_Texture" materialId="566" ambientColor="1 1 1">
+            <Texture fileId="16"/>
+        </Material>
+        <Material name="Material.015" materialId="635" ambientColor="1 1 1" cosPower="15" specularColor="0.1 0.1 0.1">
+            <Texture fileId="5"/>
+        </Material>
+        <Material name="wandleuchte_mat" materialId="587" ambientColor="1 1 1">
+            <Texture fileId="15"/>
+        </Material>
+        <Material name="Display_mat" materialId="812" ambientColor="1 1 1">
+            <Texture fileId="41"/>
+        </Material>
+        <Material name="Material.010" materialId="839" ambientColor="1 1 1" cosPower="15" specularColor="0.1 0.1 0.1">
+            <Texture fileId="12"/>
+        </Material>
+        <Material name="Material.014" materialId="891" ambientColor="1 1 1" cosPower="15" specularColor="0.1 0.1 0.1">
+            <Texture fileId="6"/>
+        </Material>
+        <Material name="Material.019" materialId="892" ambientColor="1 1 1">
+            <Texture fileId="2"/>
+        </Material>
+        <Material name="Display_mat2" materialId="893" ambientColor="1 1 1">
+            <Texture fileId="31"/>
+        </Material>
+        <Material name="Display_mat" materialId="878" ambientColor="1 1 1">
+            <Texture fileId="42"/>
+        </Material>
+        <Material name="lambert1" materialId="1002" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1"/>
+    </Materials>
+    <Shapes externalShapesFile="Heu.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="SiloTuberculosVirutas" nodeId="22406">
+            <TransformGroup name="StorageShed" translation="-652.854 104.92 -374.294" rotation="-180 -0.202912 -180" nodeId="22407">
+                <TransformGroup name="Foundations" nodeId="22408"/>
+                <TransformGroup name="Shed" translation="-0.00726798 0 0" nodeId="22409">
+                    <Shape shapeId="1" name="termsofUse_decal" translation="-5.09819 0.065 -15.0805" rotation="0.000100952 -90 4.84275e-05" scale="4 4 1" nodeId="22410" materialIds="74" receiveShadows="true"/>
+                    <TransformGroup name="SilosandPipe" nodeId="22411">
+                        <TransformGroup name="Meridian_tank" translation="-3.9071 0 -22.5" rotation="-1.53255e-05 90 -1.53197e-05" clipDistance="130" nodeId="22412">
+                            <Shape shapeId="2" name="bolts" static="true" nodeId="22413" materialIds="892" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="3" name="box" static="true" nodeId="22414" materialIds="86" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="4" name="fan" static="true" nodeId="22415" materialIds="320" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="5" name="fan shroud" static="true" nodeId="22416" materialIds="635" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="6" name="grill" static="true" nodeId="22417" materialIds="891" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="7" name="hatches" static="true" nodeId="22418" materialIds="584" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="8" name="ladder" static="true" nodeId="22419" materialIds="455" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="9" name="legs" translation="0 0 -0.0482314" static="true" nodeId="22420" materialIds="758" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="10" name="logo" translation="0 6.96432 -0" rotation="-2.09429e-15 31.4854 1.54198e-13" scale="1.002 0.825868 1.002" static="true" nodeId="22421" materialIds="231" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="11" name="tank" translation="0 0 -0.058" static="true" nodeId="22422" materialIds="114" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="12" name="wire" static="true" nodeId="22423" materialIds="839" castsShadows="true" receiveShadows="true"/>
+                        </TransformGroup>
+                        <TransformGroup name="Meridian_tank" translation="7.2267 0 -22.5" rotation="-2.31703e-07 90 -1.25488e-09" clipDistance="130" nodeId="22424">
+                            <Shape shapeId="2" name="bolts" static="true" nodeId="22425" materialIds="892" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="3" name="box" static="true" nodeId="22426" materialIds="86" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="4" name="fan" static="true" nodeId="22427" materialIds="320" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="5" name="fan shroud" static="true" nodeId="22428" materialIds="635" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="6" name="grill" static="true" nodeId="22429" materialIds="891" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="7" name="hatches" static="true" nodeId="22430" materialIds="584" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="8" name="ladder" static="true" nodeId="22431" materialIds="455" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="9" name="legs" translation="0 0 -0.0482314" static="true" nodeId="22432" materialIds="758" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="10" name="logo" translation="0 6.96432 -0" rotation="-2.09429e-15 31.4854 1.54198e-13" scale="1.002 0.825868 1.002" static="true" nodeId="22433" materialIds="231" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="11" name="tank" translation="0 0 -0.0582467" static="true" nodeId="22434" materialIds="114" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="12" name="wire" static="true" nodeId="22435" materialIds="839" castsShadows="true" receiveShadows="true"/>
+                        </TransformGroup>
+                        <TransformGroup name="Pipes" translation="0.033 2.99437 -8.28078" nodeId="22436">
+                            <Shape shapeId="13" name="SiloSpout" translation="0.602089 -0.255 0.828225" rotation="178.896 -0 -90" scale="0.6 0.6 0.5" static="true" nodeId="22437" materialIds="268" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="14" name="Straight" translation="0.319916 5.41193 3.35381" rotation="0 1 0" scale="0.17 0.17 1.5" clipDistance="500" nodeId="22438" materialIds="736" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="15" name="90" translation="-3.12743 6.88603 -14.2137" rotation="-0.804782 0.335444 91.3123" clipDistance="500" nodeId="22439" materialIds="385" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="15" name="90" translation="0.00788454 6.75425 -14.2159" rotation="-94.4262 68.5902 87.1729" clipDistance="500" nodeId="22440" materialIds="385" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="14" name="Straight" translation="-3.15711 6.88331 -14.2019" rotation="-90 1.52533 89.2135" scale="0.17 0.17 0.3" clipDistance="500" nodeId="22441" materialIds="736" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="14" name="Straight" translation="-0.124261 6.83855 -14.2029" rotation="-90 0.607044 89.6546" scale="0.17 0.17 0.3" clipDistance="500" nodeId="22442" materialIds="736" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="15" name="90" translation="7.26256 5.92451 -14.207" rotation="-0.10687 -0.0324605 3.99646" clipDistance="500" nodeId="22443" materialIds="385" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="15" name="90" translation="0.0209271 5.4045 -13.319" rotation="-89.9214 1.17626 -89.4992" clipDistance="500" nodeId="22444" materialIds="385" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="14" name="Straight" translation="3.13144 6.82653 -14.203" rotation="-90 0.382463 90.1616" scale="0.17 0.17 0.3" clipDistance="500" nodeId="22445" materialIds="736" castsShadows="true" receiveShadows="true"/>
+                        </TransformGroup>
+                    </TransformGroup>
+                    <Shape shapeId="16" name="Light" translation="6.42737 6.07662 -4.35161" rotation="0 -0 -1.43529" static="true" collision="false" clipDistance="75" nodeId="22446" materialIds="587" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="16" name="Light" translation="-5.85352 6.54192 -4.73461" rotation="0 90 0" static="true" collision="false" clipDistance="75" nodeId="22447" materialIds="587" castsShadows="true" receiveShadows="true"/>
+                    <TransformGroup name="US_BARN" translation="1.08796e-07 0 1.08943e-07" rotation="180 0.0775601 180" clipDistance="350" nodeId="22448">
+                        <Shape shapeId="17" name="pCube124" static="true" clipDistance="350" nodeId="22449" materialIds="566,571,1002,487" castsShadows="true" receiveShadows="true"/>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="clearArea" nodeId="22450">
+                    <TransformGroup name="start" translation="-19.9741 0 -18.5212" nodeId="22451"/>
+                    <TransformGroup name="width" translation="13.632 0 -24.7895" nodeId="22452"/>
+                    <TransformGroup name="height" translation="13.632 0 0.429417" nodeId="22453"/>
+                </TransformGroup>
+                <Shape shapeId="18" name="siloTrigger01" translation="0.308 8.07785 -4.786" scale="1 1.44401 1" static="true" trigger="true" collisionMask="1073741824" nodeId="22454" materialIds="1002" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="19" name="siloTrigger02" static="true" trigger="true" collisionMask="1073741824" nodeId="22455" materialIds="1002" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                    <Shape shapeId="20" name="siloTrigger03" static="true" trigger="true" collisionMask="1073741824" nodeId="22456" materialIds="1002" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                    <Shape shapeId="21" name="siloTrigger04" static="true" trigger="true" collisionMask="1073741824" nodeId="22457" materialIds="1002" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                    <TransformGroup name="fillVolumeDischargeNode" nodeId="22458"/>
+                    <TransformGroup name="effect" translation="0 -1.04613 0" nodeId="22459">
+                        <Shape shapeId="22" name="grain" translation="0 0 -0.0163591" visibility="false" clipDistance="100" nodeId="22460" materialIds="751" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="23" name="smoke" translation="0 -0.0376328 0" visibility="false" clipDistance="100" nodeId="22461" materialIds="751" castsShadows="true" receiveShadows="true"/>
+                    </TransformGroup>
+                </Shape>
+                <TransformGroup name="unloadRobot2" translation="1.62197 -0.0182722 -4.84411" rotation="0 0.564756 -1.36472e-05" scale="1 1 1.21729" nodeId="22462">
+                    <Shape shapeId="24" name="playerTrigger" translation="-1.29461 1.56733 0.682277" scale="14.954 1.25001 6.61721" static="true" trigger="true" nodeId="22463" materialIds="45" nonRenderable="true"/>
+                    <Shape shapeId="25" name="klappehili" translation="-3.075 0.327784 1.62" kinematic="true" clipDistance="400" nodeId="22464" materialIds="110" castsShadows="true" receiveShadows="true">
+                        <Shape shapeId="26" name="griffvier" translation="-0.0908222 -0.0235404 -1.56813" kinematic="true" clipDistance="100" nodeId="22465" materialIds="110" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                    <Shape shapeId="27" name="klappehire" translation="-3.07507 0.328 -1.62" kinematic="true" clipDistance="400" nodeId="22466" materialIds="110" castsShadows="true" receiveShadows="true">
+                        <Shape shapeId="26" name="griffdrei" translation="-0.0908222 -0.0235404 1.56864" kinematic="true" clipDistance="100" nodeId="22467" materialIds="110" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                    <Shape shapeId="28" name="klappevoli" translation="2.52248 0.327784 1.62" kinematic="true" clipDistance="400" nodeId="22468" materialIds="110" castsShadows="true" receiveShadows="true">
+                        <Shape shapeId="29" name="griffzwei" translation="0.0920666 -0.0236801 -1.56842" kinematic="true" clipDistance="100" nodeId="22469" materialIds="110" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                    <Shape shapeId="30" name="klappevore" translation="2.52248 0.327784 -1.62" kinematic="true" clipDistance="400" nodeId="22470" materialIds="110" castsShadows="true" receiveShadows="true">
+                        <Shape shapeId="29" name="griffeins" translation="0.0904385 -0.0236801 1.56826" kinematic="true" clipDistance="100" nodeId="22471" materialIds="110" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                    <Shape shapeId="31" name="abladestelle" translation="-0.277 0.842 0" static="true" clipDistance="400" nodeId="22472" materialIds="110" castsShadows="true" receiveShadows="true"/>
+                    <TransformGroup name="Schaltkasten2" translation="-5.61554 0.0560814 2.41584" rotation="-180 -90 -180" nodeId="22473">
+                        <Shape shapeId="24" name="playerTrigger" translation="1.31556 1.13712 -1.04283" scale="2.88689 1 2.56876" static="true" trigger="true" nodeId="22474" materialIds="45" nonRenderable="true"/>
+                        <Shape shapeId="32" name="Schaltkasten" translation="0.171 -0.00426308 -0.960567" static="true" nodeId="22475" materialIds="747,397" castsShadows="true" receiveShadows="true"/>
+                        <TransformGroup name="Display" nodeId="22476">
+                            <Shape shapeId="33" name="DisplayOff" translation="0.168756 1.096 -1.10057" kinematic="true" nodeId="22477" materialIds="335" castsShadows="true" receiveShadows="true"/>
+                        </TransformGroup>
+                        <Shape shapeId="33" name="FillTypes" translation="0.173 1.09577 -1.0999" kinematic="true" nodeId="22478" materialIds="893" castsShadows="true" receiveShadows="true">
+                            <TransformGroup name="woodChips" translation="-0.00294645 0.358986 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22479">
+                                <TransformGroup name="storage" translation="0.860511 0 0" scale="0.8 0.5 1" nodeId="22480">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22481" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22482" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22483" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22484" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22485" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22486" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22487" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22488" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22489" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.08915 0 0" scale="0.8 0.5 1" nodeId="22490">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22491" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22492" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22493" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22494" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22495" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22496" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22497" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22498" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22499" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                            <TransformGroup name="grass_windrow" translation="-0.00295012 0.292817 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22500">
+                                <TransformGroup name="storage" translation="0.861 0 0" scale="0.8 0.5 1" nodeId="22501">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22502" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22503" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22504" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22505" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22506" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22507" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22508" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22509" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22510" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.089 0 0" scale="0.8 0.5 1" nodeId="22511">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22512" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22513" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22514" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22515" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22516" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22517" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22518" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22519" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22520" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                            <TransformGroup name="dryGrass_windrow" translation="-0.0025607 0.229199 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22521">
+                                <TransformGroup name="storage" translation="0.861 0 0" scale="0.8 0.5 1" nodeId="22522">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22523" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22524" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22525" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22526" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22527" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22528" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22529" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22530" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22531" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.089 0 0" scale="0.8 0.5 1" nodeId="22532">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22533" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22534" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22535" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22536" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22537" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22538" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22539" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22540" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22541" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                            <TransformGroup name="potato" translation="-0.003 0.168532 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22542">
+                                <TransformGroup name="storage" translation="0.861 0 0" scale="0.8 0.5 1" nodeId="22543">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22544" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22545" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22546" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22547" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22548" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22549" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22550" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22551" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22552" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.089 0 0" scale="0.8 0.5 1" nodeId="22553">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22554" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22555" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22556" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22557" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22558" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22559" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22560" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22561" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22562" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                            <TransformGroup name="sugarBeet" translation="-0.003 0.103561 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22563">
+                                <TransformGroup name="storage" translation="0.861 0 0" scale="0.8 0.5 1" nodeId="22564">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22565" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22566" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22567" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22568" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22569" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22570" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22571" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22572" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22573" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.089 0 0" scale="0.8 0.5 1" nodeId="22574">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22575" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22576" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22577" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22578" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22579" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22580" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22581" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22582" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22583" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                            <TransformGroup name="silage" translation="-0.003 0.0387395 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22584">
+                                <TransformGroup name="storage" translation="0.861 0 0" scale="0.8 0.5 1" nodeId="22585">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22586" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22587" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22588" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22589" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22590" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22591" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22592" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22593" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22594" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.089 0 0" scale="0.8 0.5 1" nodeId="22595">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22596" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22597" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22598" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22599" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22600" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22601" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22602" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22603" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22604" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                        </Shape>
+                        <TransformGroup name="Lights" nodeId="22605">
+                            <TransformGroup name="SignalLampControl" nodeId="22606">
+                                <Shape shapeId="35" name="SignalLampGreen" translation="0.181 1.02648 -1.22324" kinematic="true" nodeId="22607" materialIds="754" castsShadows="true" receiveShadows="true">
+                                    <Light name="light" translation="0.01 0 0" nodeId="22608" type="point" color="0 1 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
+                                </Shape>
+                                <Shape shapeId="36" name="SignalLampRed" translation="0.181 1.02681 -1.27925" kinematic="true" nodeId="22609" materialIds="577" castsShadows="true" receiveShadows="true">
+                                    <Light name="light" translation="0.01 0 0" nodeId="22610" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
+                                </Shape>
+                            </TransformGroup>
+                            <TransformGroup name="SignalLampStation" nodeId="22611">
+                                <Shape shapeId="37" name="SignalLampGreen" translation="0.180828 1.02648 -1.43927" kinematic="true" nodeId="22612" materialIds="754" castsShadows="true" receiveShadows="true">
+                                    <Light name="light" translation="0.01 0 0" nodeId="22613" type="point" color="0 1 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
+                                </Shape>
+                                <Shape shapeId="38" name="SignalLampRed" translation="0.180828 1.02681 -1.49527" kinematic="true" nodeId="22614" materialIds="577" castsShadows="true" receiveShadows="true">
+                                    <Light name="light" translation="0.01 0 0" nodeId="22615" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
+                                </Shape>
+                            </TransformGroup>
+                        </TransformGroup>
+                        <TransformGroup name="Switcher" nodeId="22616">
+                            <Shape shapeId="39" name="NotSchalter" translation="0.186 1.02974 -1.1326" kinematic="true" nodeId="22617" materialIds="397" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="40" name="OnOffSchalter" translation="0.182 1.04309 -1.37982" rotation="-70 -0 0" kinematic="true" nodeId="22618" materialIds="397" castsShadows="true" receiveShadows="true"/>
+                        </TransformGroup>
+                        <TransformGroup name="bootAnimation" nodeId="22619">
+                            <Shape shapeId="33" name="boot1" translation="0.17 1.096 -1.10057" kinematic="true" nodeId="22620" materialIds="281" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="33" name="boot2" translation="0.1701 1.096 -1.10057" kinematic="true" nodeId="22621" materialIds="695" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="33" name="boot3" translation="0.1702 1.096 -1.10057" kinematic="true" nodeId="22622" materialIds="812" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="33" name="boot4" translation="0.1703 1.096 -1.10057" kinematic="true" nodeId="22623" materialIds="878" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="33" name="boot5" translation="0.1704 1.096 -1.10057" kinematic="true" nodeId="22624" materialIds="83" castsShadows="true" receiveShadows="true"/>
+                        </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="gameplay" nodeId="22625">
+                        <TransformGroup name="IN" nodeId="22626">
+                            <Shape shapeId="41" name="triggerPos" translation="-0.290189 -3.705 0" scale="1.25 1 0.7" kinematic="true" trigger="true" collisionMask="8388608" nodeId="22627" materialIds="1002" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                                <TransformGroup name="triggerStart" translation="-4.5 0 1.9984e-15" nodeId="22628"/>
+                                <TransformGroup name="triggerEnd" translation="4.5 0 -1.9984e-15" nodeId="22629"/>
+                                <Shape shapeId="41" name="farmSiloShovelTarget" translation="0 -0.1 0" scale="1 0.01 1" kinematic="true" nodeId="22630" materialIds="1002" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                            </Shape>
+                        </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="Schaltkasten35" translation="-0.29097 0.0560805 2.41584" rotation="-180 -90 -180" nodeId="22631">
+                        <Shape shapeId="24" name="playerTrigger" translation="1.31556 1.13712 -1.04283" scale="2.88689 1 2.56876" static="true" trigger="true" nodeId="22632" materialIds="45" nonRenderable="true"/>
+                        <Shape shapeId="32" name="Schaltkasten" translation="0.171 -0.00426308 -0.960567" static="true" nodeId="22633" materialIds="747,397" castsShadows="true" receiveShadows="true"/>
+                        <TransformGroup name="Display" nodeId="22634">
+                            <Shape shapeId="33" name="DisplayOff" translation="0.168756 1.096 -1.10057" kinematic="true" nodeId="22635" materialIds="335" castsShadows="true" receiveShadows="true"/>
+                        </TransformGroup>
+                        <Shape shapeId="33" name="FillTypes" translation="0.173 1.09577 -1.0999" kinematic="true" nodeId="22636" materialIds="189" castsShadows="true" receiveShadows="true">
+                            <TransformGroup name="straw" translation="-0.00294645 0.358986 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22637">
+                                <TransformGroup name="storage" translation="0.860511 0 0" scale="0.8 0.5 1" nodeId="22638">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22639" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22640" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22641" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22642" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22643" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22644" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22645" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22646" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22647" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.08915 0 0" scale="0.8 0.5 1" nodeId="22648">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22649" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22650" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22651" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22652" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22653" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22654" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22655" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22656" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22657" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                            <TransformGroup name="forage" translation="-0.00295012 0.292817 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22658">
+                                <TransformGroup name="storage" translation="0.861 0 0" scale="0.8 0.5 1" nodeId="22659">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22660" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22661" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22662" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22663" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22664" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22665" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22666" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22667" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22668" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.089 0 0" scale="0.8 0.5 1" nodeId="22669">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22670" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22671" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22672" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22673" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22674" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22675" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22676" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22677" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22678" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                            <TransformGroup name="pigFood" translation="-0.0025607 0.229199 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22679">
+                                <TransformGroup name="storage" translation="0.861 0 0" scale="0.8 0.5 1" nodeId="22680">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22681" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22682" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22683" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22684" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22685" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22686" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22687" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22688" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22689" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.089 0 0" scale="0.8 0.5 1" nodeId="22690">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22691" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22692" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22693" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22694" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22695" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22696" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22697" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22698" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22699" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                            <TransformGroup name="chaff" translation="-0.003 0.168532 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22700">
+                                <TransformGroup name="storage" translation="0.861 0 0" scale="0.8 0.5 1" nodeId="22701">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22702" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22703" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22704" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22705" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22706" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22707" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22708" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22709" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22710" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.089 0 0" scale="0.8 0.5 1" nodeId="22711">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22712" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22713" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22714" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22715" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22716" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22717" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22718" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22719" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22720" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                            <TransformGroup name="sal" translation="-0.003 0.103561 -0.166" rotation="-180 90 -180" scale="0.2 0.2 0.2" nodeId="22721">
+                                <TransformGroup name="storage" translation="0.861 0 0" scale="0.8 0.5 1" nodeId="22722">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22723" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22724" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22725" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22726" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22727" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22728" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22729" materialIds="112" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22730" materialIds="112" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22731" materialIds="75" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                                <TransformGroup name="space" translation="2.089 0 0" scale="0.8 0.5 1" nodeId="22732">
+                                    <Shape shapeId="34" name="digi7" translation="0.54 0 0.013" clipDistance="200" nodeId="22733" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi6" translation="0.36 0 0.013" clipDistance="200" nodeId="22734" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi5" translation="0.18 0 0.013" clipDistance="200" nodeId="22735" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi4" translation="0 0 0.013" clipDistance="200" nodeId="22736" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22737" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                    <Shape shapeId="34" name="digi3" translation="-0.18 0 0.013" clipDistance="200" nodeId="22738" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi2" translation="-0.36 0 0.013" clipDistance="200" nodeId="22739" materialIds="708" castsShadows="true" receiveShadows="true"/>
+                                    <Shape shapeId="34" name="digi1" translation="-0.54 0 0.013" clipDistance="200" nodeId="22740" materialIds="708" castsShadows="true" receiveShadows="true">
+                                        <Shape shapeId="34" name="point" translation="0.09 -0.16 0" scale="0.15 0.07 1" clipDistance="200" nodeId="22741" materialIds="450" castsShadows="true" receiveShadows="true"/>
+                                    </Shape>
+                                </TransformGroup>
+                            </TransformGroup>
+                        </Shape>
+                        <TransformGroup name="Lights" nodeId="22742">
+                            <TransformGroup name="SignalLampControl" nodeId="22743">
+                                <Shape shapeId="35" name="SignalLampGreen" translation="0.181 1.02648 -1.22324" kinematic="true" nodeId="22744" materialIds="754" castsShadows="true" receiveShadows="true">
+                                    <Light name="light" translation="0.01 0 0" nodeId="22745" type="point" color="0 1 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
+                                </Shape>
+                                <Shape shapeId="36" name="SignalLampRed" translation="0.181 1.02681 -1.27925" kinematic="true" nodeId="22746" materialIds="577" castsShadows="true" receiveShadows="true">
+                                    <Light name="light" translation="0.01 0 0" nodeId="22747" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
+                                </Shape>
+                            </TransformGroup>
+                            <TransformGroup name="SignalLampStation" nodeId="22748">
+                                <Shape shapeId="37" name="SignalLampGreen" translation="0.180828 1.02648 -1.43927" kinematic="true" nodeId="22749" materialIds="754" castsShadows="true" receiveShadows="true">
+                                    <Light name="light" translation="0.01 0 0" nodeId="22750" type="point" color="0 1 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
+                                </Shape>
+                                <Shape shapeId="38" name="SignalLampRed" translation="0.180828 1.02681 -1.49527" kinematic="true" nodeId="22751" materialIds="577" castsShadows="true" receiveShadows="true">
+                                    <Light name="light" translation="0.01 0 0" nodeId="22752" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
+                                </Shape>
+                            </TransformGroup>
+                        </TransformGroup>
+                        <TransformGroup name="Switcher" nodeId="22753">
+                            <Shape shapeId="39" name="NotSchalter" translation="0.186 1.02974 -1.1326" kinematic="true" nodeId="22754" materialIds="397" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="40" name="OnOffSchalter" translation="0.182 1.04309 -1.37982" rotation="-70 -0 0" kinematic="true" nodeId="22755" materialIds="397" castsShadows="true" receiveShadows="true"/>
+                        </TransformGroup>
+                        <TransformGroup name="bootAnimation" nodeId="22756">
+                            <Shape shapeId="33" name="boot1" translation="0.17 1.096 -1.10057" kinematic="true" nodeId="22757" materialIds="281" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="33" name="boot2" translation="0.1701 1.096 -1.10057" kinematic="true" nodeId="22758" materialIds="695" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="33" name="boot3" translation="0.1702 1.096 -1.10057" kinematic="true" nodeId="22759" materialIds="812" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="33" name="boot4" translation="0.1703 1.096 -1.10057" kinematic="true" nodeId="22760" materialIds="878" castsShadows="true" receiveShadows="true"/>
+                            <Shape shapeId="33" name="boot5" translation="0.1704 1.096 -1.10057" kinematic="true" nodeId="22761" materialIds="83" castsShadows="true" receiveShadows="true"/>
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="22454">
+            <Attribute name="effectsNode" type="string" value="4"/>
+            <Attribute name="fillVolumeDischargeNode" type="string" value="3"/>
+            <Attribute name="fillVolumeDischargeNodeLength" type="float" value="0.2"/>
+            <Attribute name="fillVolumeDischargeNodeWidth" type="float" value="0.2"/>
+            <Attribute name="isFarmSilo" type="boolean" value="true"/>
+            <Attribute name="node" type="string" value="0|0|0"/>
+            <Attribute name="onCreate" type="scriptCallback" value="SiloTrigger.onCreate"/>
+            <Attribute name="particlePosition" type="string" value="-0.05 0.15 0.05"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22455">
+            <Attribute name="capacityPerType" type="integer" value="125000"/>
+            <Attribute name="costsPerFillLevelAndDay" type="float" value="0"/>
+            <Attribute name="fillTypes" type="string" value="woodChips grass_windrow dryGrass_windrow potato sugarBeet straw forage silage pigFood chaff sal"/>
+            <Attribute name="onCreate" type="scriptCallback" value="Storage.onCreate"/>
+            <Attribute name="saveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22460">
+            <Attribute name="materialType" type="string" value="UNLOADING"/>
+            <Attribute name="useSelfAsEffectNode" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22461">
+            <Attribute name="materialType" type="string" value="SMOKE"/>
+            <Attribute name="useSelfAsEffectNode" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22462">
+            <Attribute name="index" type="string" value="Abladestelle"/>
+            <Attribute name="onCreate" type="scriptCallback" value="AnimatedObject.onCreate"/>
+            <Attribute name="xmlFilename" type="string" value="animatedObjects.xml"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22473">
+            <Attribute name="index" type="string" value="Schaltkasten"/>
+            <Attribute name="onCreate" type="scriptCallback" value="AnimatedObject.onCreate"/>
+            <Attribute name="xmlFilename" type="string" value="animatedObjects.xml"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22477">
+            <Attribute name="default" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22479">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="woodChips"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22500">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="grass_windrow"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22521">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="dryGrass_windrow"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22542">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="potato"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22563">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="sugarBeet"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22584">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="silage"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22606">
+            <Attribute name="greenIndex" type="string" value="0"/>
+            <Attribute name="redIndex" type="string" value="1"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22611">
+            <Attribute name="greenIndex" type="string" value="0"/>
+            <Attribute name="redIndex" type="string" value="1"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22617">
+            <Attribute name="default" type="string" value="0 0 0"/>
+            <Attribute name="on" type="string" value="-90 0 0"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22618">
+            <Attribute name="default" type="string" value="-70 0 0"/>
+            <Attribute name="on" type="string" value="0 0 0"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22627">
+            <Attribute name="index" type="string" value="MAP_SILO"/>
+            <Attribute name="mapPositionIndex" type="string" value=""/>
+            <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+            <Attribute name="shovelTargetIndex" type="string" value="2"/>
+            <Attribute name="stationName" type="string" value="Almacen_2"/>
+            <Attribute name="xmlFile" type="string" value="maps/CantabriaInfinita.xml"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22631">
+            <Attribute name="index" type="string" value="Schaltkasten"/>
+            <Attribute name="onCreate" type="scriptCallback" value="AnimatedObject.onCreate"/>
+            <Attribute name="xmlFilename" type="string" value="animatedObjects.xml"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22635">
+            <Attribute name="default" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22637">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="straw"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22658">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="forage"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22679">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="pigFood"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22700">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="chaff"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22721">
+            <Attribute name="defaultOff" type="string" value="11"/>
+            <Attribute name="digitSpaceId" type="string" value="1"/>
+            <Attribute name="digitStorageId" type="string" value="0"/>
+            <Attribute name="fillType" type="string" value="sal"/>
+            <Attribute name="onCreate" type="scriptCallback" value="modOnCreate.DigitalAmountMoverOnCreate"/>
+            <Attribute name="showFreeSpace" type="boolean" value="true"/>
+            <Attribute name="storageSaveId" type="string" value="MAP_SILO"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22743">
+            <Attribute name="greenIndex" type="string" value="0"/>
+            <Attribute name="redIndex" type="string" value="1"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22748">
+            <Attribute name="greenIndex" type="string" value="0"/>
+            <Attribute name="redIndex" type="string" value="1"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22754">
+            <Attribute name="default" type="string" value="0 0 0"/>
+            <Attribute name="on" type="string" value="-90 0 0"/>
+        </UserAttribute>
+        <UserAttribute nodeId="22755">
+            <Attribute name="default" type="string" value="-70 0 0"/>
+            <Attribute name="on" type="string" value="0 0 0"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

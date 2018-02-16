@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="37">
-    <author>Hiijinx</author>
-    <version>2.0.0.0</version>
+    <author>Hiijinx Myxin</author>
+    <version>1.0.0.0</version>
     <title>
-        <en>Kleinhau</en>
-        <de>Kleinhau</de>
-    </title>
+        <en>Kleinhau Season Rework</en>
+            </title>
 	<description>
         <en><![CDATA[Continue my Father's legacy on our old farm.
 		Update 1.2.1.0 
@@ -23,11 +22,10 @@
     <iconFilename>icon.png</iconFilename>
     <multiplayer supported="true"/>
     <maps>
-    <map id="Kleinhau" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/map01.xml" defaultVehiclesXMLFilename="defaultVehicles.xml">
+    <map id="Kleinhau Season" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/map01.xml" defaultVehiclesXMLFilename="defaultVehicles.xml">
 	        <title>
-                <en>Kleinhau</en>
-                <de>Kleinhau</de>
-            </title>
+                <en>Kleinhau Season Rework</en>
+             </title>
             <description>
                 <en>Continue my Father's legacy on our old farm.</en>
                 <de>Setze das Erbe meines Vaters auf unserem ehemaligen Hof fort.</de>
@@ -94,6 +92,9 @@
 			<text name="Matadero">         <en>Slaughterhouse</en>  	<de>Schlachthaus</de>				<es>Matadero</es>		<fr>Abattoir</fr>   	<pl>Rzeźnia</pl> 		 </text>
 			<text name="Curadero">         <en>Dryer</en>  				<de>Trockenanlage</de>				<es>Curadero</es>		<fr>Séchoir</fr>  <pl>Suszarnia</pl> 		 </text>
 			<text name="Compostadora">     <en>Compost</en>  			<de>Compost</de>					<es>Compostadora</es>	<fr>Compost</fr>   <pl>Kompost</pl> 		 </text>
+			
+			<text name="Hof.Silo">     	   <de>Hof Silo</de>	</text>
+			<text name="Extra.Silo">       <de>Aussen Silo</de>	</text>
 			
 		
 		
@@ -504,6 +505,8 @@
 		<sourceFile filename="scripts/mCompanyFactory.lua" />
 		<sourceFile filename="scripts/mCompanyGraphics/mCompanyGraphics.lua" />
 		<sourceFile filename="scripts/mCompanyFactory_AddOn.lua" />
+		<sourceFile filename="scripts/GMKFC_Mod.lua" />		
+		<sourceFile filename="scripts/regFillTypes.lua" />
 	</extraSourceFiles>
 
 <!-- additional inputBindings -->
@@ -541,8 +544,8 @@
 		<fruitType name="spelt" 			needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
 		<fruitType name="triticale" 		needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="true" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="true" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageWagon fork augerWagon" toFruitGroups="true" fruitTypeGroups="grainHeader sowingMachine" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="1" forageWagonConversion="wheat" />
 		<fruitType name="hops" 				needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.38" literPerSqm="1.3" seedUsagePerSqm="0.06" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0006" maxPhysicalSurfaceAngle="22.5" useForFieldJob="true" minForageGrowthState="5" witheringNumGrowthStates="7" numGrowthStates="6" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="false" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="0.0003" windrowMaxPhysicalSurfaceAngle="50" hasStraw="false"  hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageHarvester forageWagon fork trainWagon augerWagon" toFruitGroups="true" fruitTypeGroups="maizeHeader maizeCutter planter" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" conversionFactor="1" windrowConversionFactor="0.3" forageWagonConversion="chaff" />
-		<fruitType name="weed" 				needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0005" maxPhysicalSurfaceAngle="22.5" useForFieldJob="false" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="28800000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" preparedHaulm="oat_haulm" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="false" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="250" windrowMaxPhysicalSurfaceAngle="50" hasStraw="false" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageHarvester forageWagon fork trainWagon augerWagon" toFruitGroups="true" fruitTypeGroups="sowingmachine grainHeader directCutter" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" convertType="chaff" conversionFactor="4" windrowConversionFactor="1" hasBale="true" baleTypeName="squarebale_oat_windrow_240" hasSquareBale="true" hasRoundBale="false" forageWagonConversion="wheat" />
-        
+		<fruitType name="weed" 				needsSeeding="true" allowsSeeding="true" useSeedingWidth="true"  directionSnapAngle="0" alignsToSun="true"  minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" pricePerLiter="0.31" literPerSqm="1.2" seedUsagePerSqm="0.05" showOnPriceTable="true" shownOnMap="true" massPerLiter="0.0009" maxPhysicalSurfaceAngle="22.5" useForFieldJob="false" minForageGrowthState="3" witheringNumGrowthStates="8" numGrowthStates="6" growthStateTime="16400000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="0" isEarthfruit="false" preparedHaulm="oat_haulm" minPreparingGrowthState="1" maxPreparingGrowthState="7" preparedGrowthState="6" hasWindrow="false" windrowPricePerLiter="0.04" windrowLiterPerSqm="5" windrowShowOnPriceTable="false" windrowMassPerLiter="250" windrowMaxPhysicalSurfaceAngle="50" hasStraw="false" strawName="straw" strawFactor="7.0" hasFill="true" hasMaterials="true" hasParticles="true" useHeap="true" toFillCategorys="true" fillTypeCategorys="bulk combine forageHarvester forageWagon fork trainWagon augerWagon" toFruitGroups="true" fruitTypeGroups="sowingmachine grainHeader directCutter" useAsCowBasefeed="false" useAsCowGrass="false" useAsCowPower="false" useAsSheepGrass="false" useAsPigBasefeed="false" useAsPigGrain="false" useAsPigProtein="false" useAsPigEarthfruit="false" fillTypeConversion="true" convertType="chaff" conversionFactor="4" windrowConversionFactor="1" hasBale="true" baleTypeName="squarebale_oat_windrow_240" hasSquareBale="true" hasRoundBale="false" forageWagonConversion="wheat" />
+
 				
 		<fillType name="compost" 			pricePerLiter="0.4"  showOnPriceTable="true" litersPerSecond="0.3244" massPerLiter="0.0008" useForSpray="true" sprayerCategorys="manureSpreader" toCategorys="true" fillTypeCategorys="bulk forageWagon fork trainWagon augerWagon" hasMaterials="true" hasParticles="true" useHeap="true" />
 		<fillType name="apple" 				pricePerLiter="0.8"  showOnPriceTable="true" massPerLiter="0.0006" useForSpray="false" 	toCategorys="true" fillTypeCategorys="bulk forageWagon augerWagon" 	hasFill="true"   hasMaterials="true" hasParticles="false" useHeap="true" maxPhysicalSurfaceAngle="20"  maxSurfaceAngle="30" isCowGrass="false" isCowBasefeed="true"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="true"/>		 
@@ -551,6 +554,10 @@
 
 		
 		
+		
+		<fillType name="Zucker" 			pricePerLiter="0.1"  showOnPriceTable="true" massPerLiter="0.0006" useForSpray="false" 	toCategorys="true" fillTypeCategorys="bulk forageWagon augerWagon" 	hasFill="true"   hasMaterials="true" hasParticles="false" useHeap="true" maxPhysicalSurfaceAngle="20"  maxSurfaceAngle="30" isCowGrass="false" isCowBasefeed="true"  isPigBasefeed="false" isPigEarthfruit="false" isSheheepGrass="true"/>		 
+		
+		<fillType name="paletTablones" 		pricePerLiter="0.4"  showOnPriceTable="true" massPerLiter="0.0013" useForSpray="false" toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
 		<fillType name="paletVacio" 		pricePerLiter="0.4"  showOnPriceTable="true" massPerLiter="0.0003" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
 		<fillType name="paletCerveza" 		pricePerLiter="1.2"  showOnPriceTable="true" massPerLiter="0.0010" useForSpray="false" toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
 		<fillType name="paletLicor" 		pricePerLiter="1.3"  showOnPriceTable="true" massPerLiter="0.0011" useForSpray="false" 	toCategorys="true" fillTypeCategorys="piece" 	hasMaterials="false" hasParticles="false" useHeap="false" maxPhysicalSurfaceAngle="20" />		 
@@ -594,6 +601,8 @@
         <storeItem rootNode="Placeable" xmlFilename="import/stopmilksale/StopMilkSale.xml"/>
 		<storeItem rootNode="vehicle" xmlFilename="import/joskin/joskinBetimaxRDS.xml"/>
 		<storeItem rootNode="pallets" xmlFilename="import/pallets/hops/palletHops.xml"/>
+		<storeItem rootNode="pallets" xmlFilename="import/zucker/bigBagContainerZucker.xml"/>
+		
 	</storeItems>
 	
 	

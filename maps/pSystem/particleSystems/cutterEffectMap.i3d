@@ -10,6 +10,7 @@
     <File fileId="3" filename="../../../foliage/dinkelTriticale_diffuse.dds" relativePath="true"/>
     <File fileId="5" filename="../../../foliage/hops_diffuse.png" relativePath="true"/>
     <File fileId="1" filename="../../../foliage/oatRye_diffuse.dds" relativePath="true"/>
+    <File fileId="6" filename="foliage/weed_diffuse.dds" relativePath="true"/>
     <File fileId="2" filename="shaders/cuttersShader.xml" relativePath="true"/>
   </Files>
 
@@ -25,6 +26,16 @@
       <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
       <CustomParameter name="lengthAndRadius" value="4.3 1 1 1"/>
     </Material>
+    <Material name="millet_mat1" materialId="12" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_SCROLLING">
+      <Texture fileId="4"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="4.3 1 1 1"/>
+    </Material>
+    <Material name="speltTriticale_mat1" materialId="11" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_SCROLLING">
+      <Texture fileId="3"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="4.3 1 1 1"/>
+    </Material>
     <Material name="ryeOat_mat" materialId="9" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_ROTATION">
       <Texture fileId="1"/>
       <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
@@ -32,21 +43,6 @@
     </Material>
     <Material name="millet_mat" materialId="10" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_ROTATION">
       <Texture fileId="4"/>
-      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
-      <CustomParameter name="lengthAndRadius" value="0 0 -0.25 0.25"/>
-    </Material>
-    <Material name="speltTriticale_mat1" materialId="11" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_SCROLLING">
-      <Texture fileId="3"/>
-      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
-      <CustomParameter name="lengthAndRadius" value="4.3 1 1 1"/>
-    </Material>
-    <Material name="millet_mat1" materialId="12" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_SCROLLING">
-      <Texture fileId="4"/>
-      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
-      <CustomParameter name="lengthAndRadius" value="4.3 1 1 1"/>
-    </Material>
-    <Material name="hops_mat" materialId="13" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_ROTATION">
-      <Texture fileId="5"/>
       <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
       <CustomParameter name="lengthAndRadius" value="0 0 -0.25 0.25"/>
     </Material>
@@ -60,6 +56,31 @@
       <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
       <CustomParameter name="lengthAndRadius" value="2.5 1.3 2 3"/>
     </Material>
+    <Material name="hops_mat" materialId="13" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_ROTATION">
+      <Texture fileId="5"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="0 0 -0.25 0.25"/>
+    </Material>
+    <Material name="ryeOat_mat1" materialId="67" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_SCROLLING">
+      <Texture fileId="6"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="4.3 1 1 1"/>
+    </Material>
+    <Material name="ryeOat_mat" materialId="69" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_ROTATION">
+      <Texture fileId="6"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="0 0 -0.25 0.25"/>
+    </Material>
+    <Material name="triticale_mat11" materialId="68" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_SCALING">
+      <Texture fileId="6"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="2.5 1.3 2 3"/>
+    </Material>
+    <Material name="triticale_mat12" materialId="70" ambientColor="1 1 1" customShaderId="2" customShaderVariation="MESH_SCROLLING">
+      <Texture fileId="6"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="4 1 1.5 1.5"/>
+    </Material>
   </Materials>
 
 
@@ -71,219 +92,291 @@
   </Dynamics>
 
   <Scene>
-    <TransformGroup name="cutting" nodeId="32">
-      <TransformGroup name="shader" nodeId="33">
-        <TransformGroup name="oat" nodeId="34">
-          <Shape shapeId="1" name="center2" clipDistance="100" nodeId="35" materialIds="9" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="right2" clipDistance="100" nodeId="36" materialIds="8" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="left2" clipDistance="100" nodeId="37" materialIds="8" castsShadows="true" receiveShadows="true"/>
+    <TransformGroup name="cutting" nodeId="26">
+      <TransformGroup name="shader" nodeId="27">
+        <TransformGroup name="oat" nodeId="28">
+          <Shape shapeId="1" name="center2" clipDistance="100" nodeId="29" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="right2" clipDistance="100" nodeId="30" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="left2" clipDistance="100" nodeId="31" materialIds="8" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="rye" nodeId="38">
-          <Shape shapeId="4" name="center1" clipDistance="100" nodeId="39" materialIds="9" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="right1" clipDistance="100" nodeId="40" materialIds="8" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="left1" clipDistance="100" nodeId="41" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="rye" nodeId="32">
+          <Shape shapeId="4" name="center1" clipDistance="100" nodeId="33" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="right1" clipDistance="100" nodeId="34" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="left1" clipDistance="100" nodeId="35" materialIds="8" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="spelt" nodeId="42">
-          <Shape shapeId="1" name="center2" clipDistance="100" nodeId="43" materialIds="7" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="right2" clipDistance="100" nodeId="44" materialIds="11" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="left2" clipDistance="100" nodeId="45" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="spelt" nodeId="36">
+          <Shape shapeId="1" name="center2" clipDistance="100" nodeId="37" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="right2" clipDistance="100" nodeId="38" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="left2" clipDistance="100" nodeId="39" materialIds="11" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="triticale" nodeId="46">
-          <Shape shapeId="4" name="center1" clipDistance="100" nodeId="47" materialIds="7" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="5" name="right1" clipDistance="100" nodeId="48" materialIds="11" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="6" name="left1" clipDistance="100" nodeId="49" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="triticale" nodeId="40">
+          <Shape shapeId="4" name="center1" clipDistance="100" nodeId="41" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="right1" clipDistance="100" nodeId="42" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="left1" clipDistance="100" nodeId="43" materialIds="11" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="millet" nodeId="50">
-          <Shape shapeId="1" name="center2" clipDistance="100" nodeId="51" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="right2" clipDistance="100" nodeId="52" materialIds="12" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="left2" clipDistance="100" nodeId="53" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="millet" nodeId="44">
+          <Shape shapeId="1" name="center2" clipDistance="100" nodeId="45" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="right2" clipDistance="100" nodeId="46" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="left2" clipDistance="100" nodeId="47" materialIds="12" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="hops" nodeId="54">
-          <Shape shapeId="1" name="center2" clipDistance="100" nodeId="55" materialIds="13" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="2" name="right2" clipDistance="100" nodeId="56" materialIds="14" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="3" name="left2" clipDistance="100" nodeId="57" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="hops" nodeId="48">
+          <Shape shapeId="1" name="center2" clipDistance="100" nodeId="49" materialIds="13" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="right2" clipDistance="100" nodeId="50" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="left2" clipDistance="100" nodeId="51" materialIds="14" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="hopsThreshing" nodeId="58">
-          <Shape shapeId="7" name="center" clipDistance="100" nodeId="59" materialIds="15" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="8" name="right" clipDistance="100" nodeId="60" materialIds="14" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="9" name="left" clipDistance="100" nodeId="61" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="hopsThreshing" nodeId="52">
+          <Shape shapeId="7" name="center" clipDistance="100" nodeId="53" materialIds="15" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="right" clipDistance="100" nodeId="54" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="9" name="left" clipDistance="100" nodeId="55" materialIds="14" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="hopsForage" nodeId="62">
-          <Shape shapeId="10" name="center" clipDistance="100" nodeId="63" materialIds="15" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="11" name="right" clipDistance="100" nodeId="64" materialIds="14" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="12" name="left" clipDistance="100" nodeId="65" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="hopsForage" nodeId="56">
+          <TransformGroup name="center" clipDistance="100" nodeId="57"/>
+          <TransformGroup name="right" clipDistance="100" nodeId="58"/>
+          <TransformGroup name="left" clipDistance="100" nodeId="59"/>
         </TransformGroup>
-        <TransformGroup name="hopsForage_stage3" nodeId="66">
-          <Shape shapeId="13" name="center" clipDistance="100" nodeId="67" materialIds="15" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="14" name="right" clipDistance="100" nodeId="68" materialIds="14" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="15" name="left" clipDistance="100" nodeId="69" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="hopsForage_stage3" nodeId="60">
+          <TransformGroup name="center" clipDistance="100" nodeId="61"/>
+          <TransformGroup name="right" clipDistance="100" nodeId="62"/>
+          <TransformGroup name="left" clipDistance="100" nodeId="63"/>
+        </TransformGroup>
+        <TransformGroup name="weed" nodeId="83">
+          <Shape shapeId="1" name="center2" clipDistance="100" nodeId="84" materialIds="69" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="right2" clipDistance="100" nodeId="85" materialIds="67" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="left2" clipDistance="100" nodeId="86" materialIds="67" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="weedForage" nodeId="87">
+          <Shape shapeId="4" name="center" clipDistance="100" nodeId="88" materialIds="68" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="right" clipDistance="100" nodeId="89" materialIds="70" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="left" clipDistance="100" nodeId="90" materialIds="70" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="weedForage_stage3" nodeId="91">
+          <Shape shapeId="7" name="center" clipDistance="100" nodeId="92" materialIds="68" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="right" clipDistance="100" nodeId="93" materialIds="70" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="9" name="left" clipDistance="100" nodeId="94" materialIds="70" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
       </TransformGroup>
     </TransformGroup>
   </Scene>
 
   <UserAttributes>
-    <UserAttribute nodeId="35">
+    <UserAttribute nodeId="29">
       <Attribute name="cutterEffectType" type="string" value="CENTER"/>
       <Attribute name="fruitType" type="string" value="oat"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
-    <UserAttribute nodeId="36">
+    <UserAttribute nodeId="30">
       <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
       <Attribute name="fruitType" type="string" value="oat"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="31">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="oat"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="33">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="rye"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="34">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="rye"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="35">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="rye"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="37">
-      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
-      <Attribute name="fruitType" type="string" value="oat"/>
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="spelt"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="38">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="spelt"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="39">
-      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
-      <Attribute name="fruitType" type="string" value="rye"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="40">
-      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
-      <Attribute name="fruitType" type="string" value="rye"/>
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="spelt"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="41">
-      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
-      <Attribute name="fruitType" type="string" value="rye"/>
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="triticale"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="42">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="triticale"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="43">
-      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
-      <Attribute name="fruitType" type="string" value="spelt"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="44">
-      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
-      <Attribute name="fruitType" type="string" value="spelt"/>
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="triticale"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="45">
-      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
-      <Attribute name="fruitType" type="string" value="spelt"/>
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="millet"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="46">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="millet"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="47">
-      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
-      <Attribute name="fruitType" type="string" value="triticale"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="48">
-      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
-      <Attribute name="fruitType" type="string" value="triticale"/>
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="millet"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="49">
-      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
-      <Attribute name="fruitType" type="string" value="triticale"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="51">
-      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
-      <Attribute name="fruitType" type="string" value="millet"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="52">
-      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
-      <Attribute name="fruitType" type="string" value="millet"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="53">
-      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
-      <Attribute name="fruitType" type="string" value="millet"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="55">
       <Attribute name="cutterEffectType" type="string" value="CENTER"/>
       <Attribute name="fruitType" type="string" value="hops"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
-    <UserAttribute nodeId="56">
+    <UserAttribute nodeId="50">
       <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="hops"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="51">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="hops"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="53">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="hops"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="54">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="hops"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="55">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
       <Attribute name="fruitType" type="string" value="hops"/>
       <Attribute name="isThreshing" type="boolean" value="true"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="57">
-      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
       <Attribute name="fruitType" type="string" value="hops"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="58">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="hops"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="59">
-      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
       <Attribute name="fruitType" type="string" value="hops"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="60">
-      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
-      <Attribute name="fruitType" type="string" value="hops"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="61">
-      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
       <Attribute name="fruitType" type="string" value="hops"/>
-      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="growthStates" type="string" value="3"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="62">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="hops"/>
+      <Attribute name="growthStates" type="string" value="3"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
     <UserAttribute nodeId="63">
-      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
-      <Attribute name="fruitType" type="string" value="hops"/>
-      <Attribute name="isThreshing" type="boolean" value="false"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="64">
-      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
-      <Attribute name="fruitType" type="string" value="hops"/>
-      <Attribute name="isThreshing" type="boolean" value="false"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="65">
       <Attribute name="cutterEffectType" type="string" value="LEFT"/>
-      <Attribute name="fruitType" type="string" value="hops"/>
-      <Attribute name="isThreshing" type="boolean" value="false"/>
-      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
-    </UserAttribute>
-    <UserAttribute nodeId="67">
-      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
       <Attribute name="fruitType" type="string" value="hops"/>
       <Attribute name="growthStates" type="string" value="3"/>
       <Attribute name="isThreshing" type="boolean" value="false"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
-    <UserAttribute nodeId="68">
+    <UserAttribute nodeId="84">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="weed"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="85">
       <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
-      <Attribute name="fruitType" type="string" value="hops"/>
+      <Attribute name="fruitType" type="string" value="weed"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="86">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="weed"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="88">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="weed"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="89">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="weed"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="90">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="weed"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="92">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="weed"/>
       <Attribute name="growthStates" type="string" value="3"/>
       <Attribute name="isThreshing" type="boolean" value="false"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
     </UserAttribute>
-    <UserAttribute nodeId="69">
+    <UserAttribute nodeId="93">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="weed"/>
+      <Attribute name="growthStates" type="string" value="3"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="94">
       <Attribute name="cutterEffectType" type="string" value="LEFT"/>
-      <Attribute name="fruitType" type="string" value="hops"/>
+      <Attribute name="fruitType" type="string" value="weed"/>
       <Attribute name="growthStates" type="string" value="3"/>
       <Attribute name="isThreshing" type="boolean" value="false"/>
       <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>

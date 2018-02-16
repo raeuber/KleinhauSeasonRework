@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="map01" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.0.5"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="traubenParticle.dds" relativePath="true"/>
+    <File fileId="2" filename="traubenParticle_NORM.dds" relativePath="true"/>
+    <File fileId="3" filename="../../../shaders/psColorShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="fx_soil4x1_mat" materialId="8" ambientColor="1 1 1" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="psColor" value="1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="top.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+    <ParticleSystem name="soilEmitter" dynamicId="1" type="sprite" rate="0.15" lifespan="600" maxCount="800" speed="0.003" speedRandom="0.0002" tangentSpeed="0" normalSpeed="1.2" spriteScaleX="0.17" spriteScaleY="0.17" blendFactor="1" blendInFactor="0" blendOutFactor="0.9" depthSort="true" deltaRotateMin="-0.0010472" deltaRotateMax="0.0010472" textureAtlasSizeX="4">
+      <Gravity force="0 -1.6 -0.7"/>
+    </ParticleSystem>
+  </Dynamics>
+
+  <Scene>
+    <Dynamic dynamicId="1" emitterShapeNodeId="43" name="EmitterTop" translation="-4.02304 2.7159 -0.0958627" rotation="177.338 0.637266 180" clipDistance="100" nodeId="42" materialIds="8" castsShadows="true" receiveShadows="true" distanceBlending="false">
+      <Shape shapeId="2" name="EmitShape" scale="9 1 1" nodeId="43" materialIds="6" nonRenderable="true"/>
+    </Dynamic>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="42">
+      <Attribute name="useWorldSpace" type="boolean" value="true"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

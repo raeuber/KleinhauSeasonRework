@@ -1,121 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <careerVehicles>
-    <vehicle id="1" filename="data/vehicles/steerable/fendt/fendt300.xml" isAbsolute="true" age="0" price="113800" propertyState="1" operatingTime="806.98903050423"  fuelFillLevel="207.42076718597" cruiseControl="43"  attacherJointComboDir="-1" dirtAmount="0.08722489482069">
-        <component1 position="-320.15573120117 88.270866394043 580.73699951172" rotation="-0.0067899981513619 -0.36445984244347 0.060442373156548" />
-        <component2 position="-320.58386230469 88.909149169922 581.75622558594" rotation="-0.0067937159910798 -0.36446225643158 0.060442093759775" />
+<vehicle id="1" filename="data/vehicles/steerable/fendt/fendt300.xml" isAbsolute="true" age="0" price="113800" propertyState="1" operatingTime="1390.2285867043"  fuelFillLevel="207.3254861014" cruiseControl="43"  attacherJointComboDir="-1" dirtAmount="0.087224893271923">
+        <component1 position="-320.15591430664 88.270866394043 580.73645019531" rotation="-0.0068054497241974 -0.36478185653687 0.060430124402046" />
+        <component2 position="-320.58441162109 88.909149169922 581.75561523438" rotation="-0.0068072280846536 -0.36478328704834 0.060429941862822" />
         <configuration name="baseColor" id="2" />
         <configuration name="motor" id="1" />
         <configuration name="wheel" id="1" />
         <configuration name="frontloader" id="2" />
         <boughtConfiguration name="baseColor" id="1" />
+        <boughtConfiguration name="baseColor" id="2" />
         <boughtConfiguration name="motor" id="1" />
         <boughtConfiguration name="wheel" id="1" />
         <boughtConfiguration name="frontloader" id="1" />
+        <boughtConfiguration name="frontloader" id="2" />
     </vehicle>
-    <vehicle id="2" filename="data/vehicles/tools/stoll/stollFrontLoaderFZ60.xml" isAbsolute="true" age="0" price="8000" propertyState="1" operatingTime="778.03578343391"  dirtAmount="0.046725728478167">
-        <component1 position="-320.67440795898 88.022338867188 582.13336181641" rotation="-0.05042327940464 -0.36445984244347 0.060442373156548" />
+    <vehicle id="2" filename="data/vehicles/tools/stoll/stollFrontLoaderFZ60.xml" isAbsolute="true" age="0" price="8000" propertyState="1" operatingTime="1361.2753396339"  dirtAmount="0.046725727617741">
+        <component1 position="-320.67501831055 88.022331237793 582.13269042969" rotation="-0.050438731908798 -0.36478185653687 0.060430124402046" />
         <configuration name="baseColor" id="8" />
         <boughtConfiguration name="baseColor" id="8" />
         <movingTool1 rotation="-0.21970641613007"/>
         <movingTool2 rotation="-0.95993107557297"/>
     </vehicle>
     <vehicle id="3" filename="data/vehicles/tools/stoll/stollToolPalletFork.xml" isAbsolute="true" age="0" price="800" propertyState="1" operatingTime="692.67858886719"  dirtAmount="0.044283613562584">
-        <component1 position="-321.72613525391 88.335029602051 585.74877929688" rotation="-0.047731649130583 -0.33452969789505 0.042690794914961" />
+        <component1 position="-321.72616577148 88.335639953613 585.74884033203" rotation="-0.049345377832651 -0.33462917804718 0.042825650423765" />
         <configuration name="baseColor" id="8" />
         <boughtConfiguration name="baseColor" id="8" />
     </vehicle>
-    <vehicle id="4" filename="data/vehicles/trailers/metaltech/db8000.xml" isAbsolute="true" age="1" price="9400" propertyState="1" operatingTime="127.13610839844"  fillTypes="unknown" fillLevels="0" isCoverOpen="false" dirtAmount="0.011252590455115">
-        <component1 position="-280.19964599609 93.443893432617 586.00653076172" rotation="-0.082223437726498 -0.87131583690643 0.11404855549335" />
-        <component2 position="-281.48043823242 94.123252868652 587.01721191406" rotation="-0.084632590413094 -0.89482492208481 0.11714503914118" />
-        <component3 position="-282.61721801758 94.323753356934 587.90380859375" rotation="-0.084069855511189 -0.89480209350586 0.11704401671886" />
-        <configuration name="wheel" id="1" />
-        <boughtConfiguration name="wheel" id="1" />
-        <wheelDirt wheel1="1.000000" wheel2="1.000000" wheel3="1.000000" wheel4="1.000000"/>
-    </vehicle>
-    <vehicle id="5" filename="data/vehicles/tools/kverneland/kvernelandExactaEL.xml" isAbsolute="true" age="0" price="6300" propertyState="1" operatingTime="50.211902433395"  fillTypes="unknown" fillLevels="0" foldAnimTime="0" dirtAmount="0.0021092983031956">
-        <component1 position="-377.74526977539 73.02269744873 351.84466552734" rotation="-0.0012664801906794 -0.39408776164055 0.026174500584602" />
-    </vehicle>
-    <vehicle id="6" filename="data/vehicles/tools/vogelNoot/vogelNootTerraDisc600.xml" isAbsolute="true" age="0" price="32000" propertyState="1" operatingTime="197.217948946"   lowerAnimTime="0" foldAnimTime="1" dirtAmount="0.053122018009296">
-        <component1 position="-402.25521850586 74.585388183594 455.15814208984" rotation="0.12942230701447 -0.58254981040955 0.036534681916237" />
-        <component2 position="-404.05026245117 74.720588684082 457.87350463867" rotation="0.13111962378025 -0.58254730701447 0.03661397472024" />
+    <vehicle id="4" filename="data/vehicles/trailers/metaltech/db8000.xml" isAbsolute="true" age="1" price="9400" propertyState="1" operatingTime="127.13610839844"  fillTypes="unknown" fillLevels="0"  preferedTipReferencePointIndex="1" isCoverOpen="false" dirtAmount="0.011252590455115">
+        <component1 position="-280.19964599609 93.443908691406 586.00653076172" rotation="-0.082239858806133 -0.87166899442673 0.1140713840723" />
+        <component2 position="-281.48080444336 94.123229980469 587.01678466797" rotation="-0.084463767707348 -0.89340651035309 0.1169301122427" />
+        <component3 position="-282.61624145508 94.323883056641 587.90496826172" rotation="-0.083903357386589 -0.89338374137878 0.11682999134064" />
         <configuration name="wheel" id="1" />
         <boughtConfiguration name="wheel" id="1" />
     </vehicle>
-    <vehicle id="7" filename="data/vehicles/tools/stoll/stollFrontLoaderFZ60.xml" isAbsolute="true" age="0" price="8000" propertyState="1" operatingTime="865.76465804863"  dirtAmount="0.065904060462322">
-        <component1 position="-396.28768920898 74.144248962402 427.81784057617" rotation="-3.1204707622528 -1.0971632003784 3.09912109375" />
-        <configuration name="baseColor" id="8" />
-        <boughtConfiguration name="baseColor" id="8" />
-        <movingTool1 rotation="-0.53284187215067"/>
-        <movingTool2 rotation="-0.2203538112731"/>
+    <vehicle id="5" filename="data/vehicles/tools/kverneland/kvernelandExactaEL.xml" isAbsolute="true" age="0" price="6300" propertyState="1" operatingTime="50.211902618408"  fillTypes="unknown" fillLevels="0" foldAnimTime="0" dirtAmount="0.0021092982497066">
+        <component1 position="-377.74526977539 73.022071838379 351.84466552734" rotation="-0.00081755517749116 -0.39407062530518 0.026898648589849" />
     </vehicle>
-    <vehicle id="8" filename="data/vehicles/tools/stoll/stollToolShovel.xml" isAbsolute="true" age="0" price="1400" propertyState="1" operatingTime="322.06316396713"  fillTypes="unknown" fillLevels="0" dirtAmount="0.02812449564298">
-        <component1 position="-391.63101196289 74.378028869629 484.29190063477" rotation="-0.042411059141159 -0.51932960748672 -0.001829000771977" />
-        <configuration name="baseColor" id="8" />
-        <boughtConfiguration name="baseColor" id="8" />
-    </vehicle>
-    <vehicle id="9" filename="data/vehicles/tools/amazone/amazoneCayron200.xml" isAbsolute="true" age="0" price="22000" propertyState="1" operatingTime="206.23556647301"  foldAnimTime="0" ploughRotationMax="false" ploughTurnAnimTime="0" dirtAmount="0.048905132313789">
-        <component1 position="-397.93792724609 74.331703186035 459.42407226563" rotation="0.0629046484828 -0.43820199370384 -0.045415934175253" />
-        <component2 position="-395.63357543945 75.449241638184 457.00546264648" rotation="0.06488560885191 -0.43801575899124 -0.047769069671631" />
-    </vehicle>
-    <vehicle id="10" filename="data/vehicles/tools/stoll/stollToolBaleFork.xml" isAbsolute="true" age="0" price="600" propertyState="1" operatingTime="236.18756488037"  dirtAmount="0.017934174628258">
-        <component1 position="-395.22592163086 74.381217956543 482.65966796875" rotation="-0.017254317179322 -0.55900621414185 0.00097883143462241" />
-        <configuration name="baseColor" id="8" />
-        <boughtConfiguration name="baseColor" id="8" />
-    </vehicle>
-    <vehicle id="11" filename="data/vehicles/tools/vaderstad/vaderstadRapid600s.xml" isAbsolute="true" age="0" price="52000" propertyState="1" operatingTime="154.74127954102"   lowerAnimTime="0" fillTypes="unknown" fillLevels="0" selectedSeedFruitType="barley" foldAnimTime="1" isCoverOpen="false" dirtAmount="0.017976134175989">
-        <component1 position="-369.82000732422 73.27880859375 357.17297363281" rotation="-0.0020994264632463 -0.49839976429939 -0.0033293652813882" />
-        <component2 position="-372.0798034668 73.727508544922 361.21960449219" rotation="0.031152542680502 -0.15045888721943 0.007973225787282" />
+    <vehicle id="6" filename="data/vehicles/tools/vogelNoot/vogelNootTerraDisc600.xml" isAbsolute="true" age="0" price="32000" propertyState="1" operatingTime="197.21795654297"   lowerAnimTime="0" foldAnimTime="1" dirtAmount="0.053122017532587">
+        <component1 position="-402.25619506836 74.584915161133 455.1579284668" rotation="0.12819916009903 -0.58296102285385 0.037079714238644" />
+        <component2 position="-404.05252075195 74.722793579102 457.87237548828" rotation="0.13005851209164 -0.58295983076096 0.037077233195305" />
         <configuration name="wheel" id="1" />
         <boughtConfiguration name="wheel" id="1" />
-        <wheelDirt wheel1="0.655851" wheel2="0.652824" wheel3="0.600000" wheel4="0.600000" wheel5="0.600000" wheel6="0.600000" wheel7="0.775816" wheel8="0.761196"/>
     </vehicle>
-    <vehicle id="12" filename="data/vehicles/steerable/valtra/valtraTSeries.xml" isAbsolute="true" age="0" price="172300" propertyState="1" operatingTime="1303.3101342525"  fuelFillLevel="369.65273956979" cruiseControl="53"  attacherJointComboDir="-1" isReverseDriving="false"  dirtAmount="0.16275323091075">
-        <component1 position="-394.99066162109 74.287536621094 428.47891235352" rotation="-3.0768375396729 -1.0971632003784 3.09912109375" />
-        <component2 position="-396.25643920898 74.974227905273 427.81579589844" rotation="-3.07683634758 -1.0971639156342 3.0991206169128" />
+    <vehicle id="7" filename="data/vehicles/tools/stoll/stollFrontLoaderFZ60.xml" isAbsolute="true" age="0" price="8000" propertyState="1" operatingTime="1097.7679711552"  dirtAmount="0.082417432569484">
+        <component1 position="-398.00305175781 73.999816894531 426.10717773438" rotation="-3.0719702243805 -1.1463294029236 3.0761122703552" />
+        <configuration name="baseColor" id="8" />
+        <boughtConfiguration name="baseColor" id="8" />
+        <movingTool1 rotation="-0.14285498604999"/>
+        <movingTool2 rotation="-0.21417493765523"/>
+    </vehicle>
+    <vehicle id="8" filename="data/vehicles/tools/stoll/stollToolShovel.xml" isAbsolute="true" age="0" price="1400" propertyState="1" operatingTime="322.06317138672"  fillTypes="unknown" fillLevels="0" dirtAmount="0.028124496340752">
+        <component1 position="-391.63101196289 74.378051757813 484.29187011719" rotation="-0.042492806911469 -0.51935762166977 -0.0017828065901995" />
+        <configuration name="baseColor" id="8" />
+        <boughtConfiguration name="baseColor" id="8" />
+    </vehicle>
+    <vehicle id="9" filename="data/vehicles/tools/amazone/amazoneCayron200.xml" isAbsolute="true" age="0" price="22000" propertyState="1" operatingTime="206.23556518555"  foldAnimTime="0" ploughRotationMax="false" ploughTurnAnimTime="0" dirtAmount="0.04890513047576">
+        <component1 position="-398.3212890625 74.30313873291 460.61779785156" rotation="0.27747556567192 0.37556880712509 -0.88494223356247" />
+        <component2 position="-396.94442749023 75.549438476563 457.6272277832" rotation="-0.10970165580511 -0.25787353515625 0.58180689811707" />
+    </vehicle>
+    <vehicle id="10" filename="data/vehicles/tools/stoll/stollToolBaleFork.xml" isAbsolute="true" age="0" price="600" propertyState="1" operatingTime="236.18756103516"  dirtAmount="0.017934175208211">
+        <component1 position="-395.22592163086 74.381233215332 482.65966796875" rotation="-0.017269035801291 -0.5590096116066 0.000993114663288" />
+        <configuration name="baseColor" id="8" />
+        <boughtConfiguration name="baseColor" id="8" />
+    </vehicle>
+    <vehicle id="11" filename="data/vehicles/tools/vaderstad/vaderstadRapid600s.xml" isAbsolute="true" age="0" price="52000" propertyState="1" operatingTime="154.74127197266"   lowerAnimTime="0" fillTypes="unknown" fillLevels="0" selectedSeedFruitType="barley" foldAnimTime="1" isCoverOpen="false" dirtAmount="0.017976135015488">
+        <component1 position="-369.81884765625 73.278739929199 357.1731262207" rotation="-0.0020829539280385 -0.49640074372292 -0.0032709038350731" />
+        <component2 position="-372.07333374023 73.727867126465 361.22280883789" rotation="0.037327159196138 -0.14708855748177 -0.0040423711761832" />
         <configuration name="wheel" id="1" />
-        <configuration name="rimColor" id="1" />
+        <boughtConfiguration name="wheel" id="1" />
+    </vehicle>
+    <vehicle id="12" filename="data/vehicles/steerable/valtra/valtraTSeries.xml" isAbsolute="true" age="0" price="172300" propertyState="1" operatingTime="1535.3135644169"  fuelFillLevel="367.88049140677" cruiseControl="53"  attacherJointComboDir="-1" isReverseDriving="false"  dirtAmount="0.1924772976691">
+        <component1 position="-396.67794799805 74.181755065918 426.69937133789" rotation="-3.0283370018005 -1.1463294029236 3.0761122703552" />
+        <component2 position="-397.98950195313 74.830062866211 426.08871459961" rotation="-3.0283370018005 -1.1463298797607 3.0761117935181" />
         <configuration name="motor" id="1" />
         <configuration name="baseColor" id="32" />
+        <configuration name="wheel" id="1" />
+        <configuration name="rimColor" id="1" />
         <configuration name="frontloader" id="2" />
-        <boughtConfiguration name="baseColor" id="1" />
         <boughtConfiguration name="rimColor" id="1" />
-        <boughtConfiguration name="wheel" id="1" />
+        <boughtConfiguration name="baseColor" id="1" />
+        <boughtConfiguration name="baseColor" id="32" />
         <boughtConfiguration name="motor" id="1" />
+        <boughtConfiguration name="wheel" id="1" />
         <boughtConfiguration name="frontloader" id="1" />
+        <boughtConfiguration name="frontloader" id="2" />
     </vehicle>
-    <vehicle id="13" filename="data/vehicles/tools/agco/agco1500.xml" isAbsolute="true" age="0" price="1000" propertyState="1" operatingTime="1191.9451839943"  dirtAmount="0.15246040519442">
-        <component1 position="-420.53961181641 74.334571838379 469.82095336914" rotation="0.047988258302212 -0.48195344209671 -0.039667632430792" />
+    <vehicle id="13" filename="data/vehicles/tools/agco/agco1500.xml" isAbsolute="true" age="0" price="1000" propertyState="1" operatingTime="1191.9451904297"  dirtAmount="0.15246041119099">
+        <component1 position="-420.53979492188 74.334426879883 469.82080078125" rotation="0.04896567761898 -0.48192319273949 -0.038823094218969" />
         <configuration name="baseColor" id="6" />
         <boughtConfiguration name="baseColor" id="6" />
     </vehicle>
-    <vehicle id="14" filename="data/vehicles/cutters/rostselmash/rsmPowerStream700.xml" isAbsolute="true" age="0" price="36000" propertyState="1" operatingTime="271.896429533"  foldAnimTime="0" dirtAmount="0.0070945799927182">
-        <component1 position="-339.1510925293 87.724517822266 576.82037353516" rotation="-0.10464478284121 -0.34047737717628 -0.010173870250583" />
+    <vehicle id="14" filename="data/vehicles/cutters/rostselmash/rsmPowerStream700.xml" isAbsolute="true" age="0" price="36000" propertyState="1" operatingTime="271.89642333984"  foldAnimTime="0" dirtAmount="0.0070945802144706">
+        <component1 position="-339.14361572266 87.725028991699 576.82141113281" rotation="-0.10476752370596 -0.3546394109726 -0.0071585602127016" />
         <movingTool1 translation="0"/>
         <movingTool2 translation="1.0499999523163"/>
         <movingTool3 rotation="0"/>
     </vehicle>
-    <vehicle id="15" filename="data/vehicles/steerable/rostselmash/rsmAcros595.xml" isAbsolute="true" age="0" price="214000" propertyState="1" operatingTime="333.65165892792"  foldAnimTime="1" fuelFillLevel="535.91324771188" cruiseControl="33"  attacherJointComboDir="-1" fillTypes="unknown" fillLevels="0" pipeState="1" isStrawEnabled="true" workedHectars="0" dirtAmount="0.0076611709892486">
-        <component1 position="-336.71774291992 87.241012573242 570.81011962891" rotation="-0.09227716177702 -0.37824603915215 0.019720232114196" />
-        <component2 position="-336.10354614258 87.913963317871 569.23211669922" rotation="-0.093368083238602 -0.37799739837646 0.022591957822442" />
+    <vehicle id="15" filename="data/vehicles/steerable/rostselmash/rsmAcros595.xml" isAbsolute="true" age="0" price="214000" propertyState="1" operatingTime="474.15817233086"  foldAnimTime="1" fuelFillLevel="535.85427428784" cruiseControl="33"  attacherJointComboDir="-1" fillTypes="unknown" fillLevels="0" pipeState="1" isStrawEnabled="true" workedHectars="0" dirtAmount="0.0076611707918346">
+        <component1 position="-336.71697998047 87.241317749023 570.81030273438" rotation="-0.093155056238174 -0.37845927476883 0.020874986425042" />
+        <component2 position="-336.10311889648 87.913497924805 569.23187255859" rotation="-0.093616902828217 -0.3783560693264 0.022061349824071" />
         <configuration name="motor" id="1" />
         <configuration name="wheel" id="1" />
         <boughtConfiguration name="motor" id="1" />
         <boughtConfiguration name="wheel" id="1" />
     </vehicle>
-    <vehicle id="16" filename="data/vehicles/steerable/lizard/lizardPickupRodeo.xml" isAbsolute="true" age="0" price="22400" propertyState="1" operatingTime="89.969087099075"  fuelFillLevel="59.847193660128" cruiseControl="123"  attacherJointComboDir="-1" dirtAmount="0.014607767612139">
-        <component1 position="-370.18344116211 75.614654541016 434.23077392578" rotation="-0.171226516366 -1.4019478559494 0.29047927260399" />
+    <vehicle id="16" filename="data/vehicles/steerable/lizard/lizardPickupRodeo.xml" isAbsolute="true" age="0" price="22400" propertyState="1" operatingTime="92.214092773437"  fuelFillLevel="59.847091401216" cruiseControl="123"  attacherJointComboDir="-1" dirtAmount="0.014607767574489">
+        <component1 position="-370.34741210938 76.003936767578 434.10562133789" rotation="-0.52755451202393 -1.4412152767181 0.65237659215927" />
         <configuration name="baseColor" id="8" />
         <configuration name="motor" id="1" />
         <configuration name="rimColor" id="1" />
         <configuration name="wheel" id="1" />
         <boughtConfiguration name="baseColor" id="1" />
+        <boughtConfiguration name="baseColor" id="8" />
         <boughtConfiguration name="motor" id="1" />
         <boughtConfiguration name="wheel" id="1" />
         <boughtConfiguration name="rimColor" id="1" />
         <movingTool1 rotation="0"/>
+            <tensionBelt isActive="false" />
+            <tensionBelt isActive="false" />
+            <tensionBelt isActive="false" />
     </vehicle>
-	<vehicle id="17" filename="data/vehicles/trailers/kroeger/kroegerTKD302.xml" isAbsolute="true" age="1" price="27000" propertyState="1" operatingTime="110.51311709213"  fillTypes="unknown" fillLevels="0" isCoverOpen="false" dirtAmount="0.0096965810268896">
-        <component1 position="-416.77783203125 74.301887512207 469.25296020508" rotation="3.1339778900146 0.37608078122139 3.1014611721039" />
+    <vehicle id="17" filename="data/vehicles/trailers/kroeger/kroegerTKD302.xml" isAbsolute="true" age="1" price="27000" propertyState="1" operatingTime="110.5131149292"  fillTypes="unknown" fillLevels="0"  preferedTipReferencePointIndex="1" isCoverOpen="false" dirtAmount="0.0096965814009309">
+        <component1 position="-416.77783203125 74.301902770996 469.25289916992" rotation="3.1339786052704 0.37607160210609 3.101464509964" />
         <configuration name="baseColor" id="1" />
         <configuration name="wheel" id="1" />
         <configuration name="design" id="1" />
@@ -123,40 +129,109 @@
         <boughtConfiguration name="wheel" id="1" />
         <boughtConfiguration name="design" id="1" />
     </vehicle>
-    <vehicle id="18" filename="data/vehicles/tools/lizard/lizardR5000.xml" isAbsolute="true" age="1" price="5400" propertyState="1" operatingTime="23.050796508789"  foldAnimTime="0" dirtAmount="0.1">
-        <component1 position="-318.39767456055 81.727554321289 488.75839233398" rotation="-3.0226006507874 -0.65202951431274 -3.0422015190125" />
+    <vehicle id="18" filename="data/vehicles/tools/lizard/lizardR5000.xml" isAbsolute="true" age="1" price="5400" propertyState="1" operatingTime="23.050796508789"  foldAnimTime="0" dirtAmount="0.10000000149012">
+        <component1 position="-318.39804077148 81.727508544922 488.75857543945" rotation="-3.0224089622498 -0.65195339918137 -3.0422596931458" />
         <configuration name="baseColor" id="28" />
         <configuration name="wheel" id="1" />
         <boughtConfiguration name="baseColor" id="1" />
+        <boughtConfiguration name="baseColor" id="28" />
         <boughtConfiguration name="wheel" id="1" />
-        <wheelDirt wheel1="0.414287"/>
     </vehicle>
-	<vehicle id="19" filename="data/vehicles/trailers/bergmann/bergmannRepex34S.xml" isAbsolute="true" age="1" price="68000" propertyState="1" operatingTime="47.95592880249"  fillTypes="unknown" fillLevels="0" dirtAmount="0.0038463773671538">
-        <component1 position="-402.16632080078 74.25203704834 475.81414794922" rotation="-3.0885324478149 0.48148036003113 -3.1297888755798" />
-        <component2 position="-400.95059204102 75.030120849609 473.46997070313" rotation="2.6714789867401 0.48148038983345 -3.1297886371613" />
+    <vehicle id="19" filename="data/vehicles/trailers/bergmann/bergmannRepex34S.xml" isAbsolute="true" age="1" price="68000" propertyState="1" operatingTime="47.95592880249"  fillTypes="unknown" fillLevels="0"  preferedTipReferencePointIndex="1" dirtAmount="0.0038463773671538">
+        <component1 position="-402.16632080078 74.25203704834 475.81405639648" rotation="-3.088535785675 0.48148050904274 -3.1297967433929" />
+        <component2 position="-400.95059204102 75.030143737793 473.46997070313" rotation="2.6714754104614 0.48148074746132 -3.1297965049744" />
         <configuration name="wheel" id="1" />
         <boughtConfiguration name="wheel" id="1" />
         <movingTool1 rotation="0"/>
-        <wheelDirt wheel1="0.489741" wheel2="0.519856" wheel3="0.492866" wheel4="0.505589" wheel5="0.113443" wheel6="0.124724"/>
     </vehicle>
-	<vehicle id="20" filename="data/vehicles/tools/poettinger/poettingerNovaCat301.xml" isAbsolute="true" age="1" price="11000" propertyState="1" operatingTime="35.194068908691"   lowerAnimTime="0" foldAnimTime="1" dirtAmount="0.0029081583488733">
-        <component1 position="-407.72732543945 74.072067260742 449.96813964844" rotation="3.1192693710327 0.47655546665192 3.1312389373779" />
-        <component2 position="-407.60879516602 74.86547088623 449.75451660156" rotation="3.1193816661835 0.47654920816422 3.1312494277954" />
-        <wheelDirt/>
-    </vehicle>
-	    <vehicle id="21" filename="data/vehicles/steerable/masseyFerguson/MF7700.xml" isAbsolute="true" age="0" price="172000" propertyState="1" operatingTime="68.983458311081"  fuelFillLevel="429.26839996281" cruiseControl="53"  attacherJointComboDir="-1" dirtAmount="0.01141226778094">
-        <component1 position="-133.72351074219 94.368843078613 -46.91174697876" rotation="3.1295125484467 -0.024294324219227 3.0972545146942" />
-        <component2 position="-133.72608947754 95.188133239746 -48.512565612793" rotation="3.1295211315155 -0.024298502132297 3.0968928337097" />
+    <vehicle id="20" filename="data/vehicles/steerable/masseyFerguson/MF7700.xml" isAbsolute="true" age="0" price="172000" propertyState="1" operatingTime="72.185566427231"  fuelFillLevel="429.2673113233" cruiseControl="53"  attacherJointComboDir="-1" dirtAmount="0.011412267573178">
+        <component1 position="-133.72364807129 94.368858337402 -46.911754608154" rotation="3.1295037269592 -0.024325113743544 3.0966832637787" />
+        <component2 position="-133.72583007813 95.188133239746 -48.512565612793" rotation="3.1295096874237 -0.024328026920557 3.0964438915253" />
         <configuration name="wheel" id="1" />
         <configuration name="motor" id="1" />
         <configuration name="frontloader" id="1" />
         <boughtConfiguration name="motor" id="1" />
         <boughtConfiguration name="wheel" id="1" />
         <boughtConfiguration name="frontloader" id="1" />
-        <wheelDirt wheel1="0.723631" wheel2="0.726352" wheel3="0.717325" wheel4="0.719627"/>
+    </vehicle>
+    <vehicle id="21" filename="data/vehicles/steerable/newHolland/newHollandT5.xml" isAbsolute="true" age="0" price="93700" propertyState="1" operatingTime="673.24858039665"  fuelFillLevel="162.71629218238" cruiseControl="43"  attacherJointComboDir="-1" dirtAmount="0.089379294355075">
+        <component1 position="-592.06170654297 99.281440734863 904.17059326172" rotation="-0.0079279197379947 0.70544970035553 -0.00023483378754463" />
+        <component2 position="-591.37121582031 99.99781036377 904.98095703125" rotation="-0.0079252617433667 0.70544743537903 -0.00023180388961919" />
+        <configuration name="wheel" id="3" />
+        <configuration name="motor" id="2" />
+        <configuration name="frontloader" id="2" />
+        <boughtConfiguration name="motor" id="1" />
+        <boughtConfiguration name="motor" id="2" />
+        <boughtConfiguration name="wheel" id="1" />
+        <boughtConfiguration name="wheel" id="3" />
+        <boughtConfiguration name="frontloader" id="1" />
+        <boughtConfiguration name="frontloader" id="2" />
+    </vehicle>
+    <vehicle id="22" filename="data/vehicles/tools/stoll/stollFrontLoaderFZ.xml" isAbsolute="true" age="0" price="5600" propertyState="1" operatingTime="662.13902229118"  dirtAmount="0.048918291175454">
+        <component1 position="-591.06182861328 99.217315673828 905.3447265625" rotation="-0.0079279644414783 0.70544970035553 -0.00023483378754463" />
+        <configuration name="baseColor" id="20" />
+        <boughtConfiguration name="baseColor" id="20" />
+        <boughtConfiguration name="baseColor" id="8" />
+        <movingTool1 rotation="-0.069051103518023"/>
+        <movingTool2 rotation="-0.30507497426749"/>
+    </vehicle>
+    <vehicle id="23" filename="data/vehicles/tools/stoll/stollToolPalletFork.xml" isAbsolute="true" age="0" price="900" propertyState="1" operatingTime="653.60826057243"  dirtAmount="0.049951224135249">
+        <component1 position="-589.79571533203 99.406303405762 906.83111572266" rotation="0.01485810149461 0.7054500579834 -0.0002527650212869" />
+        <configuration name="baseColor" id="20" />
+        <boughtConfiguration name="baseColor" id="20" />
+        <boughtConfiguration name="baseColor" id="8" />
+    </vehicle>
+    <vehicle id="24" filename="data/vehicles/trailers/fliegl/flieglDPW180.xml" isAbsolute="true" age="0" price="12000" propertyState="1" operatingTime="371.05296210861"  foldAnimTime="0" dirtAmount="0.029026441235167">
+        <component1 position="-601.41540527344 99.295204162598 912.64422607422" rotation="0.0011304961517453 0.65345364809036 -0.0013039519544691" />
+        <component2 position="-598.98559570313 100.2492980957 915.81579589844" rotation="0.0013412241823971 0.83289074897766 -0.00098904594779015" />
+        <component3 position="-597.85430908203 99.836036682129 916.84741210938" rotation="0.07130841165781 0.83287328481674 -0.00084362231427804" />
+        <configuration name="wheel" id="1" />
+        <boughtConfiguration name="wheel" id="1" />
+            <tensionBelt isActive="true" />
+            <tensionBelt isActive="true" />
+            <tensionBelt isActive="true" />
+            <tensionBelt isActive="true" />
+            <tensionBelt isActive="true" />
+            <tensionBelt isActive="true" />
+    </vehicle>
+    <vehicle id="25" filename="data/vehicles/steerable/jcb/jcb325T.xml" isAbsolute="true" age="0" price="64000" propertyState="1" operatingTime="155.24078676796"  fuelFillLevel="102.62306196202" cruiseControl="22"  attacherJointComboDir="-1" dirtAmount="0.011891503274413">
+        <component1 position="-517.73620605469 98.990234375 829.98681640625" rotation="-3.1374702453613 0.8706322312355 -3.0944910049438" />
+        <configuration name="motor" id="1" />
+        <configuration name="wheel" id="1" />
+        <boughtConfiguration name="motor" id="1" />
+        <boughtConfiguration name="wheel" id="1" />
+        <movingTool1 rotation="0.0055433671438915"/>
+        <movingTool2 rotation="0.29046884704568"/>
+    </vehicle>
+    <vehicle id="26" filename="data/vehicles/tools/jcb/jcbPalletFork.xml" isAbsolute="true" age="0" price="700" propertyState="1" operatingTime="135.40117606163"  dirtAmount="0.010936917718167">
+        <component1 position="-516.22235107422 99.037094116211 828.71069335938" rotation="-3.1140086650848 0.87063032388687 -3.0944995880127" />
+    </vehicle>
+    <vehicle id="27" filename="data/vehicles/trailers/joskin/joskinAquaTrans7300.xml" isAbsolute="true" age="0" price="9500" propertyState="1" operatingTime="30.045044557571"  fillTypes="unknown" fillLevels="0"  preferedTipReferencePointIndex="1" dirtAmount="0.0027204574629112">
+        <component1 position="-365.24588012695 73.03687286377 360.23782348633" rotation="-0.0048259873874485 -0.36899396777153 -0.018169058486819" />
+        <configuration name="wheel" id="1" />
+        <boughtConfiguration name="wheel" id="1" />
+    </vehicle>
+    <vehicle id="28" filename="data/vehicles/tools/poettinger/poettingerNovaCat301.xml" isAbsolute="true" age="1" price="11000" propertyState="1" operatingTime="55.514463195801"   lowerAnimTime="0" foldAnimTime="1" dirtAmount="0.0046341977159486">
+        <component1 position="-393.41302490234 73.312545776367 413.66854858398" rotation="-2.978120803833 -1.1586052179337 3.1172173023224" />
+        <component2 position="-393.74584960938 74.057373046875 413.51507568359" rotation="-2.978143453598 -1.1585988998413 3.1171107292175" />
+    </vehicle>
+    <vehicle id="29" filename="data/vehicles/tools/poettinger/poettingerNovaCatX8.xml" isAbsolute="true" age="0" price="42000" propertyState="1" operatingTime="80.264225704193"  foldAnimTime="1" dirtAmount="0.0068024861086739">
+        <component1 position="-392.25177001953 73.596328735352 410.18081665039" rotation="-0.064601197838783 1.0526827573776 0.031132305040956" />
+        <component2 position="-391.96643066406 76.399955749512 409.1770324707" rotation="1.0532404184341 0.032074648886919 1.6579881906509" />
+        <component3 position="-393.01080322266 76.368324279785 411.01028442383" rotation="-1.0535612106323 -0.032370246946812 -1.4841507673264" />
     </vehicle>
     <attachment id0="1" id1="2" inputJointDescIndex="1" jointIndex="6" moveDown="false"/>
     <attachment id0="12" id1="7" inputJointDescIndex="1" jointIndex="6" moveDown="false"/>
-    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml" position="-359.79992675781 72.915969848633 358.3561706543" rotation="0.0099870525300503 -0.47108894586563 0.0033000286202878" fillLevel="1000"/>
-    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="-356.82415771484 72.942283630371 359.45407104492" rotation="3.0914585590363 0.26625895500183 -3.0753338336945" fillLevel="1000"/>
-</careerVehicles>
+    <attachment id0="21" id1="22" inputJointDescIndex="1" jointIndex="6" moveDown="false"/>
+    <attachment id0="22" id1="23" inputJointDescIndex="1" jointIndex="1" moveDown="false"/>
+    <attachment id0="25" id1="26" inputJointDescIndex="1" jointIndex="1" moveDown="false"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml" position="-359.79956054688 72.915748596191 358.35632324219" rotation="0.0096918996423483 -0.47074380517006 0.0031428418587893" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="-600.40631103516 100.39771270752 914.35681152344" rotation="3.1399545669556 1.0051354169846 3.1381840705872" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="-602.85803222656 100.40602874756 910.47198486328" rotation="3.1400485038757 0.96864646673203 3.1383163928986" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="-602.10217285156 100.40332794189 911.86083984375" rotation="0.0010578340152279 -0.5873988866806 -0.0025816413108259" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="-599.29510498047 100.39434051514 915.64465332031" rotation="3.1403040885925 0.83456212282181 3.1386172771454" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="-356.82388305664 72.942306518555 359.45385742188" rotation="3.0914323329926 0.26620572805405 -3.0753462314606" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="-600.98596191406 100.40012359619 912.94348144531" rotation="3.140127658844 0.93243634700775 3.1384031772614" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="-604.21923828125 100.41018676758 908.87780761719" rotation="3.1371648311615 1.3635513782501 3.1352393627167" fillLevel="1000"/>
+    
+    </careerVehicles>
